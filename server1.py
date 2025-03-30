@@ -83,12 +83,15 @@ def upload_image():
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
     try:
+        # Save the uploaded image
         image_file.save(filepath)
         print(f"[INFO] Image saved: {filepath}")
+        
+        # Call the /detect endpoint after the image is saved
+        return detect_food(filename)  # Call the detection function with the saved image filename
+
     except Exception as e:
         return jsonify({'error': f'File save failed: {str(e)}'}), 500
-
-    return jsonify({'message': 'Image uploaded successfully!', 'file_path': filename}), 200
 
 @app.route('/detect/<filename>', methods=['GET'])
 def detect_food(filename):
@@ -99,8 +102,8 @@ def detect_food(filename):
         return jsonify({'error': 'Image not found'}), 404
 
     try:
-        image = Image.open(filepath)
-        results = model(image)
+        image = Image.open(filepath)  # Open the image using PIL
+        results = model(image)  # Run the YOLO detection on the image
 
         detections = []
         for result in results:
@@ -119,9 +122,15 @@ def detect_food(filename):
                 }
                 detections.append(detection_info)
 
-        return jsonify({'message': 'Object detection completed', 'detections': detections}), 200
+        return jsonify({
+            'message': 'Object detection completed',
+            'detections': detections
+        }), 200
+
     except Exception as e:
         return jsonify({'error': f'Failed to process image: {str(e)}'}), 500
+
+
 
 @app.route('/uploads/<filename>', methods=['GET'])
 def get_uploaded_image(filename):
