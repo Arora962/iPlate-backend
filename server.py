@@ -1,153 +1,147 @@
-# from flask import Flask, request, jsonify
-# import os
-# from PIL import Image
-# import io
-
-# app = Flask(__name__)
-
-# @app.route('/', methods=['GET'])
-# def home():
-#     return jsonify({'message': 'Welcome to the Flask Image Processing API!'})
-
-# @app.route('/process-image', methods=['POST'])
-# def process_image():
-#     if 'image' not in request.files:
-#         return jsonify({'error': 'No image file provided'}), 400
-
-#     image_file = request.files['image']
-
-#     try:
-#         image = Image.open(image_file)
-
-#         processed_image = image.convert("L")
-
-#         buffer = io.BytesIO()
-#         processed_image.save(buffer, format="JPEG")
-#         buffer.seek(0)
-
-#         return jsonify({'message': 'Image processed successfully!'}), 200
-
-#     except Exception as e:
-#         return jsonify({'error': f'Failed to process image: {str(e)}'}), 500
-
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', port=5001)
-
-
+# # Previous Code
 
 # from flask import Flask, request, jsonify, send_from_directory
 # import os
-# import torch
+# import pandas as pd
 # from PIL import Image
-# import io
 # from ultralytics import YOLO
 # from werkzeug.utils import secure_filename
+# import re
 
 # # Initialize Flask app
-# app = Flask(__name__)
+# app = Flask(__name__, static_folder='YOLO_images', static_url_path='/YOLO_images')
 
 # # Configure upload folder
 # UPLOAD_FOLDER = "uploads"
-# if not os.path.exists(UPLOAD_FOLDER):
-#     os.makedirs(UPLOAD_FOLDER)
-
+# os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-# # Load YOLOv8/YOLO11n model
-# model = YOLO("yolo11n.pt") 
+# # Allowed file extensions
+# ALLOWED_EXTENSIONS = {'pdf', 'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'webp'}
+
+# def allowed_file(filename):
+#     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+# # Load YOLO model
+# model = YOLO("yolo11n.pt")  # Replace with actual YOLOv11 weights
+
+# # Load food data from the uploaded Excel file
+# file_path = "Anuvaad_INDB_2024.11.xlsx"  # Path to uploaded file
+# try:
+#     food_data = pd.read_excel(file_path, sheet_name='Sheet1')
+#     if 'food_name' in food_data.columns:
+#         food_data['food_name'] = food_data['food_name'].astype(str).str.lower()
+#         food_data['normalized_food_name'] = food_data['food_name'].apply(lambda x: re.sub(r'[^a-zA-Z0-9\s]', '', x))
+#     else:
+#         raise KeyError("Column 'food_name' not found in Excel file.")
+# except FileNotFoundError:
+#     print(f"[ERROR] Excel file {file_path} not found.")
+#     food_data = pd.DataFrame()
+# except Exception as e:
+#     print(f"[ERROR] Failed to load Excel file: {str(e)}")
+#     food_data = pd.DataFrame()
+
+# def normalize_text(text):
+#     """Normalize text by converting to lowercase and removing special characters."""
+#     return re.sub(r'[^a-zA-Z0-9\s]', '', text.lower().strip())
+
+# def get_food_details(food_name):
+#     """Fetch food details by matching the detected object's name in the food_name column."""
+#     if food_data.empty:
+#         print("[ERROR] Food dataset is empty.")
+#         return None
+
+#     if 'food_name' not in food_data.columns:
+#         print("[ERROR] Column 'food_name' not found in the dataset.")
+#         return None
+
+#     normalized_food_name = normalize_text(food_name)
+#     match = food_data[food_data['normalized_food_name'] == normalized_food_name]
+
+#     if match.empty:
+#         match = food_data[food_data['normalized_food_name'].str.contains(normalized_food_name, na=False)]
+
+#     if not match.empty:
+#         print(f"[INFO] Found Match for '{food_name}': {match.iloc[0]['food_name']}")
+#         return match.iloc[0].to_dict()
+#     else:
+#         print(f"[WARNING] No match found for '{food_name}' in dataset.")
+#     return None
 
 # @app.route('/', methods=['GET'])
 # def home():
-#     return jsonify({'message': 'Welcome to the Flask YOLOv8/YOLO11n.'})
+#     return jsonify({'message': 'Welcome to the Flask YOLOv11 Food Detection API.'})
 
-# # Upload image and save to server
 # @app.route('/upload', methods=['POST'])
 # def upload_image():
 #     if 'image' not in request.files:
 #         return jsonify({'error': 'No image file provided'}), 400
-
+    
 #     image_file = request.files['image']
+#     if image_file.filename == '' or not allowed_file(image_file.filename):
+#         return jsonify({'error': 'Invalid file type'}), 400
+    
 #     filename = secure_filename(image_file.filename)
 #     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
 #     try:
+#         # Save the uploaded image
 #         image_file.save(filepath)
-#         return jsonify({'message': 'Image uploaded successfully!', 'file_path': filepath}), 200
-#     except Exception as e:
-#         return jsonify({'error': f'Failed to upload image: {str(e)}'}), 500
+#         print(f"[INFO] Image saved: {filepath}")
+        
+#         # Call the /detect endpoint after the image is saved
+#         return detect_food(filename)  # Call the detection function with the saved image filename
 
-# # Retrieve and scan uploaded image
-# @app.route('/scan/<filename>', methods=['GET'])
-# def scan_uploaded_image(filename):
+#     except Exception as e:
+#         return jsonify({'error': f'File save failed: {str(e)}'}), 500
+
+# @app.route('/detect/<filename>', methods=['GET'])
+# def detect_food(filename):
 #     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     
 #     if not os.path.exists(filepath):
+#         print(f"[ERROR] Image not found: {filepath}")
 #         return jsonify({'error': 'Image not found'}), 404
 
 #     try:
-#         # Open and process image with YOLOv8/YOLO11n
-#         image = Image.open(filepath)
-#         results = model(image)
+#         image = Image.open(filepath)  # Open the image using PIL
+#         results = model(image)  # Run the YOLO detection on the image
 
 #         detections = []
 #         for result in results:
 #             for box in result.boxes:
-#                 x1, y1, x2, y2 = box.xyxy[0].tolist()  # Bounding box coordinates
-#                 confidence = float(box.conf[0])  # Confidence score
-#                 class_id = int(box.cls[0])  # Class ID
-#                 class_name = model.names[class_id]  # Class name
+#                 class_id = int(box.cls[0])
+#                 class_name = model.names[class_id].strip()
+#                 print(f"[INFO] Detected Class: {class_name}")
+#                 food_details = get_food_details(class_name)
 
-#                 detections.append({
+#                 detection_info = {
 #                     "class_name": class_name,
 #                     "class_id": class_id,
-#                     "confidence": confidence,
-#                     "bbox": [x1, y1, x2, y2]
-#                 })
+#                     "confidence": float(box.conf[0]),
+#                     "bbox": box.xyxy[0].tolist(),
+#                     "food_details": food_details if food_details else "Not found in database"
+#                 }
+#                 detections.append(detection_info)
 
-#         return jsonify({'message': 'Object detection completed', 'detections': detections}), 200
-
-#     except Exception as e:
-#         return jsonify({'error': f'Failed to scan image: {str(e)}'}), 500
-
-# # Detect objects directly from uploaded image in request
-# @app.route('/detect', methods=['POST'])
-# def detect_objects():
-#     if 'image' not in request.files:
-#         return jsonify({'error': 'No image file provided'}), 400
-
-#     image_file = request.files['image']
-
-#     try:
-#         # Open image
-#         image = Image.open(image_file)
-
-#         # Run YOLOv8/YOLO11n object detection
-#         results = model(image)
-
-#         # Parse detection results
-#         detections = []
-#         for result in results:
-#             for box in result.boxes:
-#                 x1, y1, x2, y2 = box.xyxy[0].tolist()  # Bounding box coordinates
-#                 confidence = float(box.conf[0])  # Confidence score
-#                 class_id = int(box.cls[0])  # Class ID
-#                 class_name = model.names[class_id]  # Class name
-
-#                 detections.append({
-#                     "class_name": class_name,
-#                     "class_id": class_id,
-#                     "confidence": confidence,
-#                     "bbox": [x1, y1, x2, y2]
-#                 })
-
-#         return jsonify({'message': 'Object detection completed', 'detections': detections}), 200
+#         return jsonify({
+#             'message': 'Object detection completed',
+#             'detections': detections
+#         }), 200
 
 #     except Exception as e:
 #         return jsonify({'error': f'Failed to process image: {str(e)}'}), 500
 
-# # Serve uploaded images (optional)
+
+
 # @app.route('/uploads/<filename>', methods=['GET'])
 # def get_uploaded_image(filename):
+#     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+
+#     if not os.path.exists(filepath):
+#         print(f"[ERROR] Requested file not found: {filepath}")
+#         return jsonify({'error': f'File {filename} not found'}), 404
+
 #     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 # if __name__ == '__main__':
