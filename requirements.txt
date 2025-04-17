@@ -4,3 +4,5 @@ openpyxl==3.1.2
 Pillow==10.2.0
 ultralytics==8.1.28
 Werkzeug==3.0.1
+supabase-py @ git+https://github.com/supabase-community/supabase-py.git
+python-dotenv>=1.0.0

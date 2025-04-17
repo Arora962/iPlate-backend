@@ -1,0 +1,1015 @@
+﻿food_code,food_name,energy_kj,energy_kcal,carb_g,protein_g,fat_g,fibre_g
+ASC001,Hot tea (Garam Chai),68.16,16.14,2.58,0.39,0.53,0.00
+ASC002,Instant coffee,97.77,23.16,3.65,0.64,0.75,0.00
+ASC003,Espreso coffee,217.00,51.54,6.62,1.75,2.14,0.00
+ASC004,Iced tea,44.09,10.34,2.70,0.03,0.01,0.00
+ASC005,Raw mango drink (Aam panna),152.39,35.92,9.05,0.16,0.03,0.61
+ASC006,Fruit Punch (with fresh juices),153.89,36.12,9.38,0.14,0.03,0.06
+ASC007,Fruit Punch (with squashes),98.22,23.13,5.99,0.07,0.02,0.17
+ASC008,Lemonade,88.66,20.80,5.48,0.03,0.01,0.02
+ASC009,Lem-o-gin,91.63,21.52,5.55,0.08,0.03,0.13
+ASC010,Cumin infused water (Jeere/Zeere ka pani),38.23,9.09,1.86,0.17,0.11,0.46
+ASC011,Coco pine cooler,138.47,32.75,5.72,0.56,1.00,0.26
+ASC012,Summer cooler,95.22,22.43,5.43,0.37,0.04,0.20
+ASC014,Hot cocoa,378.24,90.10,9.23,3.36,4.56,0.00
+ASC015,Cold coffee with ice cream,286.61,67.85,11.24,1.57,2.11,0.01
+ASC016,Banana milkshake (Kele milkshake),274.33,65.31,9.15,1.84,2.37,0.26
+ASC017,Mango milkshake (Aam milkshake),239.13,56.90,7.23,1.73,2.35,0.26
+ASC018,Pineapple milkshake (Ananas milkshake),235.06,55.72,7.62,1.66,2.23,0.00
+ASC019,Orange milkshake (Narangi milkshake),241.50,57.42,7.11,1.86,2.52,0.00
+ASC020,Egg nog,407.68,97.14,8.15,4.78,5.11,0.02
+ASC021,Sweet Lassi (Meethi lassi),151.19,35.66,6.51,1.29,0.68,0.00
+ASC022,Lassi (salted),79.43,18.84,1.86,1.35,0.72,0.02
+ASC023,Cheese and chilli sandwich ,916.65,218.11,27.40,6.80,9.78,2.08
+ASC024,Egg sandwich (Ande ka sandwich),1198.25,285.96,29.16,8.69,15.80,1.88
+ASC025,Cucumber sandwich (Kheere ka sandwich),792.81,188.60,25.77,4.80,8.00,2.45
+ASC026,Cheese and pineapple sandwich (Cheese aur ananas ka sandwich),1080.78,257.71,29.10,8.20,12.80,2.33
+ASC027,Cheese and tomato sandwich (Cheese aur tamatar ke sandwich),1020.45,243.32,26.92,7.92,12.27,1.97
+ASC028,Chicken sandwich,1063.58,253.27,25.38,13.12,11.75,1.64
+ASC029,Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich),1223.06,291.43,28.54,9.53,16.14,4.03
+ASC030,Rainbow sandwich,1145.57,272.75,34.26,7.75,12.54,2.10
+ASC031,Club sandwich ,982.35,235.32,18.51,7.31,15.12,1.81
+ASC032,Vegetarian club sandwich,829.67,198.33,19.68,5.45,11.33,2.06
+ASC033,Pin wheel sandwich,1295.40,311.52,14.00,8.77,24.93,0.93
+ASC034,Carrot apple sandwich (Gajar aur seb ka sandwich),899.82,214.11,29.04,5.30,9.12,3.66
+ASC035,Salami sandwich,1068.35,255.59,21.54,8.70,15.51,1.97
+ASC036,Vegetable and mayonnaise sandwich,1020.23,244.26,23.20,4.47,15.40,2.35
+ASC037,Egg and tomato sandwich (Ande aur tamatar ka sandwich),933.23,222.11,25.90,7.66,10.51,1.77
+ASC038,Sweet open sandwich,1026.93,244.25,39.24,4.99,8.15,2.36
+ASC039,Mushroom and cheese sandwich (toasted),951.30,227.42,21.01,7.79,13.01,2.28
+ASC040,Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)),939.42,224.58,21.42,6.82,12.95,1.78
+ASC041,Pea potato sandwich (toasted) (Matar aloo ka sandwich),692.60,164.90,25.17,4.60,5.43,2.89
+ASC042,Paneer pea sandwich (toasted) (Paneer matar ka sandwich),1046.81,249.56,24.05,12.40,11.98,2.12
+ASC043,Chicken sandwich (toasted),705.58,167.37,18.82,12.08,5.32,1.64
+ASC044,Pea keema sandwich (toasted) (Matar aur keema ka sandwich),723.50,171.78,20.26,11.06,5.61,2.45
+ASC045,Classic club sandwich,840.30,200.83,18.49,6.74,11.56,1.62
+ASC046,Sesame toast,2042.69,495.19,11.15,1.90,49.38,1.32
+ASC047,Cracked wheat porridge (Meetha daliya),341.09,81.57,8.87,2.64,4.08,0.62
+ASC048,Semolina porridge (Suji/Rava daliya),423.06,100.89,12.39,3.75,4.08,0.70
+ASC050,Oatmeal Porridge,306.46,72.85,8.77,2.60,3.22,0.39
+ASC051,Cornflakes with milk,493.71,117.33,14.95,3.59,5.12,0.78
+ASC052,Rice flakes (Chiwda/Aval),471.37,112.44,15.57,3.62,3.99,0.37
+ASC053,Wheat flakes,471.37,112.44,15.57,3.62,3.99,0.37
+ASC054,Murmura (Puffed rice),475.04,113.32,15.67,3.62,4.04,0.28
+ASC055,Puffed wheat (Murmure/Moori),475.04,113.32,15.67,3.62,4.04,0.28
+ASC056,Boiled egg (Ubla anda),189.77,45.35,0.12,4.43,3.04,0.11
+ASC057,Fried Egg ,928.19,223.67,0.31,11.59,19.62,0.29
+ASC058,Poached egg,518.05,123.87,0.37,11.98,8.19,0.30
+ASC059,Scrambled egg (Ande ki bhurji),649.51,155.97,1.35,10.29,12.21,0.24
+ASC060,Baked egg ,916.63,218.85,15.42,11.88,12.65,1.03
+ASC061,Plain omelette/omlet,1127.43,272.41,0.64,9.66,25.74,0.12
+ASC062,Stuffed egg omelette/omlet,843.31,203.51,2.30,8.60,17.77,0.75
+ASC063,Pancake,846.21,203.36,20.49,5.68,10.82,0.65
+ASC064,Keema pancake,733.07,176.27,9.56,9.01,11.25,0.84
+ASC065,Vegetable pancake,520.55,125.18,12.24,3.87,6.57,2.48
+ASC066,Jam and fruit pancake,675.43,162.02,20.73,3.79,7.01,1.21
+ASC067,Khoa and coconut pancake,1138.78,271.98,27.32,6.98,15.29,1.65
+ASC068,Brown stock,89.24,21.32,0.25,1.95,1.38,0.09
+ASC069,Vegetable stock,72.84,17.60,0.96,0.30,1.38,0.38
+ASC070,Chicken stock,125.02,29.88,0.37,3.69,1.51,0.10
+ASC079,Clear tomato soup (Tamatar ka soup),330.90,80.07,3.45,4.79,12.22,1.96
+ASC080,Lentil soup,129.85,31.17,3.94,9.65,11.68,2.57
+ASC081,Chicken consomme (Clear chicken soup),199.24,47.94,1.19,11.47,12.02,1.57
+ASC082,Cream of tomato soup,404.60,97.81,3.93,4.61,13.12,1.38
+ASC083,Cream of green peas soup,529.63,127.84,6.75,7.13,14.78,2.95
+ASC084,Cream of spinach soup,416.01,100.54,3.45,5.21,13.31,1.74
+ASC085,Cream of mixed vegetable soup,248.42,59.65,4.93,6.84,9.05,2.14
+ASC086,Cream of mushroom soup,484.63,117.28,3.74,6.64,15.50,1.34
+ASC087,Chicken sweet corn soup,119.03,28.32,1.63,14.48,12.59,0.47
+ASC088,Minestrone soup,178.39,42.66,3.71,9.30,11.09,1.92
+ASC089,Egg drop soup,110.83,26.64,1.10,12.93,13.52,0.81
+ASC090,Chinese cabbage and meat ball soup,1992.37,484.31,1.43,5.21,56.57,0.57
+ASC091,French onion soup,230.90,55.61,4.28,11.41,14.39,1.01
+ASC092,Hot and sour soup,132.17,31.51,1.78,3.12,1.31,0.60
+ASC093,Talaumein soup,149.32,35.63,4.17,10.12,12.78,1.94
+ASC094,Cold cucumber soup (Thanda kheere ka soup),201.43,48.03,4.58,2.99,1.99,0.88
+ASC095,Cold summer garden soup,203.38,49.19,2.65,8.57,14.08,1.86
+ASC096,Chapati/Roti,844.75,202.31,35.65,5.88,3.56,6.31
+ASC097,Plain parantha/paratha,1237.55,298.30,30.69,5.06,16.86,5.43
+ASC098,Potato parantha/paratha (Aloo ka parantha/paratha),851.61,205.04,23.92,3.70,10.22,4.18
+ASC099,Radish parantha/paratha (Mooli ka parantha/paratha),762.00,183.52,20.54,3.30,9.53,4.32
+ASC100,Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha),739.29,178.07,18.84,3.73,9.47,4.68
+ASC101,Dal parantha/paratha,1114.69,268.24,30.03,6.78,13.05,6.46
+ASC102,Sprouted moong parantha/paratha,948.71,228.59,24.31,4.29,12.43,4.49
+ASC103,Pea parantha/paratha (Matar ka parantha/paratha),792.61,190.73,21.51,5.59,8.80,5.61
+ASC104,Keema parantha/paratha,989.27,238.09,18.36,9.41,13.91,3.44
+ASC105,Paneer parantha/paratha,1093.35,262.97,24.33,7.98,14.62,4.00
+ASC106,Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha),901.21,216.49,21.39,5.54,12.09,4.39
+ASC107,Poori,3035.59,737.63,8.22,1.35,77.61,1.46
+ASC108,Spinach poori (Palak poori),2816.04,684.25,7.76,1.42,71.86,1.55
+ASC109,Methi poori,2922.04,710.02,7.98,1.45,74.60,1.61
+ASC110,Dal stuffed poori,3231.84,785.16,10.14,2.08,81.69,1.96
+ASC111,Potato stuffed poori (Aloo ki poori),3196.78,776.74,9.40,1.52,81.35,1.64
+ASC112,Tandoori parantha/paratha,1225.73,295.37,30.74,5.08,16.51,5.44
+ASC113,Boiled rice (Uble chawal),490.33,117.19,25.72,2.60,0.18,1.25
+ASC114,Plain pulao,583.77,140.21,21.82,2.34,4.62,1.69
+ASC115,Mixed vegetable pulao,471.00,113.05,17.49,2.72,3.33,2.67
+ASC116,Mushroom pulao,517.56,124.29,19.02,2.52,4.03,1.88
+ASC117,Sprouted moong pulao,470.44,112.97,17.49,2.19,3.61,1.78
+ASC118,Paneer pulao,2396.20,581.91,8.76,1.98,59.81,0.62
+ASC119,Peanut pulao ,806.21,193.28,21.18,5.32,9.51,2.90
+ASC120,Navratan pulao,1090.19,261.71,36.98,6.20,9.45,3.82
+ASC121,Green chickpeas pulao (Choliya pulao/Hare chane ka pulao),722.95,173.43,27.57,4.88,4.82,3.15
+ASC122,Mutton biryani/biriyani,795.74,190.76,22.50,7.38,7.72,2.42
+ASC123,Vegetable biryani/biriyani,724.76,174.61,18.56,3.16,9.51,3.31
+ASC124,"Lemon rice (Pulihora, Elumichai sadam, Chitranna)",734.93,176.30,21.62,4.26,7.88,2.52
+ASC125,Sweet rice (Meethe chawal),906.12,215.41,42.59,2.10,4.57,1.13
+ASC126,Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam),818.47,195.74,32.93,5.75,4.32,2.13
+ASC127,Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna),1556.82,373.04,65.08,7.45,8.53,5.12
+ASC128,Spanish rice,686.24,164.24,31.10,4.19,2.23,2.78
+ASC129,Chinese fried rice,502.30,120.58,13.40,4.05,5.43,2.31
+ASC133,Macroni cheese pie,717.16,170.63,21.10,5.85,7.48,0.40
+ASC134,Vegetable chowmein,543.32,129.71,15.44,3.07,6.36,1.86
+ASC135,Chicken chowmein,632.98,151.33,13.30,6.33,8.23,1.64
+ASC136,Cheese noodle ring,561.07,133.67,13.96,6.22,6.12,1.27
+ASC137,Spaghetti and cheese balls in tomato sauce,2095.46,508.32,7.82,2.41,52.08,0.59
+ASC138,Penne platter,744.46,177.40,20.87,5.04,8.71,1.09
+ASC139,Pasta hot pot,524.24,125.17,11.60,5.84,6.47,0.80
+ASC140,Chicken lasagne,785.18,187.49,13.90,10.45,10.36,0.11
+ASC141,Fettuccine with spinach sauce,540.00,129.21,12.19,3.10,7.83,0.77
+ASC142,Naan,1197.80,286.45,51.75,8.05,4.99,1.91
+ASC143,Bhatura,3265.00,793.20,10.73,1.63,82.56,0.38
+ASC144,Idli,575.46,137.54,28.18,4.64,0.33,2.31
+ASC146,Masala dosa,683.80,164.58,19.57,3.29,7.84,2.52
+ASC147,Semolina dosa (Suji/Rava dosa),947.56,227.05,32.84,7.30,7.12,4.04
+ASC148,Onion tomato uttapam,1903.54,462.02,11.32,1.91,45.30,1.26
+ASC149,Paneer kaathi roll,1186.30,285.94,20.10,6.92,19.55,2.40
+ASC150,Makki ki roti,1094.52,263.97,24.19,3.49,16.85,5.19
+ASC151,Washed moong dal (Dhuli moong ki dal),208.28,50.00,5.91,2.68,1.68,1.17
+ASC152,Washed urad dal (Dhuli urad ki dal),254.82,61.32,5.84,2.51,2.98,1.53
+ASC153,Split bengal gram with bottle gourd (Channa dal with ghiya/lauki),304.63,73.25,7.10,2.79,3.60,2.72
+ASC154,Dry washed urad,520.00,124.71,15.66,6.85,3.50,4.06
+ASC155,Mixed dal,257.36,61.93,5.79,2.51,3.10,1.62
+ASC156,Whole moong (Moong ki dal),223.16,53.70,5.22,2.25,2.56,2.02
+ASC157,Whole masoor (Masoor ki dal),224.65,54.05,5.37,2.28,2.52,1.98
+ASC158,Whole moth (Moth ki dal),228.59,55.00,5.74,2.01,2.62,1.85
+ASC159,Whole urad (Urad ki dal),223.55,53.80,5.05,2.21,2.62,2.32
+ASC160,Moti mahal dal (Urad rajmah mix dal),428.47,103.13,8.74,3.93,5.66,3.38
+ASC161,Black channa curry/Bengal gram curry (Kale chane ki curry),585.35,140.68,14.11,5.67,6.61,7.99
+ASC162,Chickpeas curry (Safed channa curry),680.17,163.43,19.98,6.10,6.84,4.73
+ASC163,Lobia curry,620.13,148.99,17.88,6.06,5.62,4.57
+ASC164,Soyabean curry,679.92,163.28,6.76,10.43,10.19,7.34
+ASC165,Kidney bean curry (Rajmah curry),598.11,143.73,16.38,5.95,5.77,5.83
+ASC167,Sambar,404.50,96.92,10.57,3.35,4.38,3.52
+ASC168,Besan kadhi with pakodies,1661.22,403.35,3.56,1.64,42.59,0.81
+ASC169,Khatta channa,841.56,202.57,21.14,6.30,10.56,5.26
+ASC170,Sprouted moong dal chat,135.79,32.47,6.01,1.35,0.32,1.35
+ASC171,Potato cauliflower (Aloo gobhi),439.24,106.18,5.99,1.90,8.13,3.02
+ASC172,Potato capsicum (Shimla mirch aloo),519.38,125.53,8.72,1.41,9.33,2.02
+ASC173,Cabbage and peas (Pattagobhi aur matar),265.74,63.88,6.24,3.24,2.64,3.99
+ASC174,Carrot and fenugreek leaves (Gajar methi),257.01,61.92,4.17,2.10,3.81,4.43
+ASC175,Potato fenugreek (Aloo methi),559.22,135.15,8.47,2.25,10.04,2.93
+ASC177,Brinjal bhartha (Baingan ka bhartha),269.75,65.12,4.40,1.38,4.48,3.27
+ASC178,Dry potato (Sookhe aloo),429.12,103.15,14.38,1.62,4.18,1.88
+ASC179,Beans with coconut (Nariyal aur sem/phali; Beans thoran),547.25,131.63,4.39,2.62,11.39,5.59
+ASC180,Cauliflower with coconut (Nariyal ke saath phoolgobhi),549.26,132.11,3.99,2.64,11.56,5.27
+ASC181,Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar),443.45,106.61,4.99,1.82,8.62,4.52
+ASC182,Raw turnip with coconut ,550.60,132.15,5.78,1.80,11.47,2.79
+ASC183,Raw papaya with coconut (Papaya thoran),551.94,132.75,5.58,1.54,11.42,4.31
+ASC184,Stuffed okra (Bharwa bhindi),390.01,94.34,3.85,2.08,7.66,4.15
+ASC185,Stuffed round gourd (Bharwa tinde),301.04,72.80,4.02,1.10,5.75,2.10
+ASC186,Stuffed capsicum (Bharwa shimla mirch),376.99,90.94,8.26,1.34,5.70,2.01
+ASC187,Stuffed brinjal (Bharwa baingan),384.41,93.00,3.96,1.53,7.73,4.09
+ASC189,Stuffed tomatoes (Bharwa tamatar),387.69,93.35,6.19,3.28,6.06,2.20
+ASC190,Pea potato curry (Aloo matar),419.09,100.92,9.74,3.48,5.13,3.61
+ASC191,Pea paneer curry (Matar paneer),560.98,134.83,9.29,6.61,7.75,3.30
+ASC192,Pea mushroom curry (Matar mushroom),387.18,93.30,7.41,3.87,5.16,3.86
+ASC193,Pea curry (Matar ki sabzi),427.75,102.99,9.20,4.51,5.11,4.44
+ASC194,Pea vadi curry,423.44,101.95,8.90,4.64,5.08,4.28
+ASC195,Paneer curry,734.21,176.52,8.40,7.80,12.38,1.40
+ASC196,Lotus stem curry (Kamal kakdi curry),457.31,110.34,9.24,1.53,7.25,3.14
+ASC197,Gravy for kofta,519.40,125.59,6.31,1.75,10.35,1.96
+ASC198,Pea kofta curry (Matar kofta curry),2451.23,595.66,4.17,2.01,63.39,1.70
+ASC199,Spinach kofta curry (Palak kofta curry),2353.02,571.78,3.56,1.09,61.49,0.92
+ASC200,Paneer kofta curry,2761.29,670.91,3.27,2.39,72.06,0.40
+ASC201,Lotus stem kofta curry (Kamal kakdi kofta curry),2607.51,633.56,5.01,0.96,67.76,1.01
+ASC202,Raw banana kofta curry (Kela kofta curry),2580.81,627.27,3.40,0.62,67.98,0.59
+ASC203,Cauliflower kofta curry (Phoolgobhi kofta curry),2637.44,641.10,2.62,1.04,69.62,1.00
+ASC204,Cabbage kofta curry (Pattagobhi kofta curry),2632.23,639.81,2.87,0.98,69.40,0.90
+ASC205,Ghiya/Lauki Kofta Curry,2627.60,638.71,2.71,0.89,69.40,0.83
+ASC206,Spinach paneer kofta curry (Palak paneer kofta curry),2493.70,606.03,2.94,1.43,65.41,0.75
+ASC207,Vegetarian egg kofta curry,2581.90,627.41,4.26,1.33,67.24,0.64
+ASC208,Baked vegetables,371.43,88.99,8.44,3.67,4.44,2.34
+ASC209,Cauliflower musallam (Phoolgobhi musallam),244.37,58.83,4.48,1.89,3.55,3.06
+ASC210,Baked vegetables with spinach ,324.45,77.79,6.93,3.22,4.03,2.33
+ASC211,Baked potato with skin ,563.80,135.77,11.11,3.43,8.50,1.20
+ASC212,Shepherd's pie (vegetarian),564.33,135.63,12.03,5.04,7.30,2.23
+ASC213,Baked brinjal in tomato sauce,161.02,38.63,4.13,1.58,1.62,2.34
+ASC214,Dum aloo,2806.84,682.33,3.33,0.70,74.01,0.68
+ASC215,Spinach paneer (Palak paneer),323.55,77.68,4.43,4.03,4.76,1.91
+ASC216,Methi chaman,1957.78,475.62,2.78,1.54,50.91,0.53
+ASC217,Sarson ka saag,364.17,87.84,5.33,3.00,5.86,3.69
+ASC218,Jackfruit sabzi (Kathal ki sabzi),2572.48,625.40,3.40,0.69,67.60,1.02
+ASC219,Avial,520.92,124.56,8.47,2.46,8.94,5.44
+ASC220,Al yakhani,610.80,147.54,4.65,2.86,13.14,1.27
+ASC221,Shahi paneer,649.74,156.50,6.64,5.06,12.34,1.40
+ASC222,Paneer in butter sauce,607.50,145.61,9.70,6.99,8.81,1.50
+ASC223,Methi malai paneer,810.16,194.98,8.15,7.34,14.76,1.47
+ASC224,Chilli paneer,3199.66,777.51,3.31,2.10,84.01,0.50
+ASC225,Paneer makhana korma,3194.04,775.82,4.63,3.24,82.76,0.21
+ASC226,Kadhai Paneer,449.91,107.99,7.34,4.33,6.81,2.07
+ASC227,Roghan josh,582.69,139.59,4.93,9.56,9.02,2.08
+ASC228,Spinach mutton (Palak mutton),335.43,80.32,3.45,5.74,4.71,2.23
+ASC229,Pea keema curry (Matar keema ki sabzi),553.15,133.00,6.24,8.43,8.14,2.96
+ASC230,Keema kofta curry,643.38,154.45,5.64,9.77,10.39,1.51
+ASC231,Kashmiri mutton koftas (Gushtaba),405.60,97.42,3.04,6.33,6.77,0.62
+ASC232,Mutton yakhni,434.62,104.13,0.84,8.27,7.70,0.67
+ASC233,Chicken yakhni,413.28,99.00,0.78,10.66,6.10,0.62
+ASC234,Mutton do piaza,762.28,183.30,4.14,9.39,14.41,1.93
+ASC236,Mutton chops,2732.12,663.64,1.48,4.03,71.31,0.17
+ASC237,Shammi kebab,2822.97,685.69,3.54,4.52,72.61,1.05
+ASC238,Scotch egg,2786.45,676.89,1.91,4.05,72.62,0.36
+ASC239,Shepherd's pie (with minced meat),593.85,142.78,8.06,7.45,8.88,1.05
+ASC240,Chicken curry,538.96,129.22,3.38,11.79,7.57,1.41
+ASC241,Tandoori chicken,607.17,145.20,2.34,16.26,7.93,0.50
+ASC242,Butter chicken,571.18,137.00,3.74,10.92,8.70,1.32
+ASC243,Chicken kebab,3001.14,729.41,1.11,3.71,78.89,0.21
+ASC244,Chilli chicken,823.97,198.83,2.86,9.57,16.56,0.99
+ASC245,Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath),521.48,125.03,2.51,11.48,7.61,1.13
+ASC246,Fish curry (Machli curry),461.62,111.13,3.77,8.76,6.69,1.89
+ASC247,Fried fish (Indian style) (Tali hui machli),2711.38,658.54,5.40,4.35,68.88,0.61
+ASC248,Fried fish and Chips (English Style) (Tali hui machli aur chips),2682.09,651.75,2.77,3.36,69.69,0.29
+ASC249,Tomato fish,2015.88,489.79,3.18,2.39,51.91,0.72
+ASC250,Baked fish with cheese sauce,475.32,113.96,4.06,8.64,7.02,0.08
+ASC251,Fish tikka,489.08,117.33,3.91,16.00,4.15,1.18
+ASC252,Tandoori fish,400.97,95.98,2.37,11.19,4.64,0.58
+ASC253,"Paneer, apple and pineapple salad",397.42,95.08,8.35,3.88,5.07,1.65
+ASC254,Russian salad,476.71,114.83,6.50,4.26,7.84,2.57
+ASC255,Pasta salad,792.54,190.36,12.70,4.15,13.92,0.96
+ASC256,Deviled egg,409.48,98.56,2.23,4.97,7.72,1.15
+ASC257,Hawain salad,733.88,175.23,14.35,4.27,11.37,3.93
+ASC258,Mixed pulse and vegetable salad,349.23,83.12,13.96,4.74,0.84,2.96
+ASC259,Sprouted moong salad ,158.65,37.81,5.48,2.29,0.74,0.95
+ASC260,Tossed salad,261.03,62.96,4.95,1.02,4.22,2.15
+ASC261,Mixed vegetable salad with curd sauce,252.12,60.28,7.03,4.23,1.50,3.79
+ASC262,Potato salad (Aloo ka salaad),374.93,89.91,11.19,1.40,4.40,1.32
+ASC263,Waldroff salad,588.94,141.75,11.02,1.47,10.05,1.87
+ASC264,Coleslaw,318.36,76.71,5.59,1.24,5.32,2.34
+ASC265,Fruit salad (Phalon ka salaad),328.70,78.14,15.96,0.91,1.22,1.58
+ASC269,Tomato onion raita (Tamatar aur pyaaz ka raita),248.26,59.00,7.08,3.74,1.84,0.97
+ASC270,Peanut raita (Mungfali ka raita),631.24,150.39,9.30,8.59,8.98,1.89
+ASC271,Sprouted moong raita ,256.20,60.89,6.13,4.62,2.19,0.16
+ASC272,Bottle gourd raita (Ghiya/Lauki ka raita),237.21,56.31,5.76,3.98,2.07,0.85
+ASC273,Cucumber raita (Kheere ka raita),249.00,59.13,6.35,4.04,2.08,0.86
+ASC274,Carrot and spinach raita (Gajar aur palak ka raita),239.15,56.83,5.83,4.00,1.99,1.39
+ASC275,Mint raita (Pudinay ka raita),326.97,77.59,7.65,5.64,2.96,0.34
+ASC276,Potato raita (Aloo ka raita),316.95,75.38,10.24,4.22,2.04,0.75
+ASC277,Boondi raita,2831.04,687.72,3.96,2.19,73.83,0.46
+ASC278,Sweet raita (Meetha raita),418.63,99.24,17.93,3.24,1.78,1.02
+ASC279,Dahi vadas/Dahi bhalla,2748.73,667.73,5.49,2.96,70.40,0.97
+ASC280,Gunjia,2747.77,667.34,5.68,2.98,70.28,1.13
+ASC281,Saunth/Sonth chutney with tamarind/imli,592.16,141.53,33.55,1.01,0.15,0.93
+ASC282,Rice kheer (Chawal ki kheer),315.33,75.03,10.05,2.30,2.97,0.17
+ASC283,Makhana kheer,452.85,107.85,12.88,3.31,5.00,0.11
+ASC285,Vermicelli kheer (Semiya/Seviyan ki kheer),504.28,120.07,15.87,3.35,5.00,0.50
+ASC286,Semolina kheer (Suji/Rava kheer),476.14,113.21,15.88,3.43,4.20,0.51
+ASC287,Paneer kheer,441.91,105.31,10.03,4.53,5.37,0.07
+ASC288,Cabbage kheer (Pattagobhi ki kheer),350.89,83.51,9.73,2.87,3.80,0.51
+ASC289,Carrot kheer (Gajar ki kheer),358.60,85.35,10.09,2.81,3.85,0.73
+ASC290,Cauliflower kheer (Phoolgobhi ki kheer),344.14,81.95,8.78,3.04,3.95,0.55
+ASC291,Moong dal kheer,324.23,77.16,9.89,2.95,2.97,0.40
+ASC292,Phirni,487.80,116.12,16.11,3.49,4.34,0.36
+ASC293,Semolina halwa (Suji ka halwa),940.23,225.65,24.67,2.16,13.38,1.86
+ASC294,Shahi suji halwa,1595.02,382.34,44.44,3.48,21.73,2.96
+ASC295,Carrot halwa (Gajar ka halwa),722.36,172.64,18.53,3.11,9.73,2.65
+ASC296,Egg halwa (Ande ka halwa),1262.47,299.74,39.59,7.85,13.41,0.49
+ASC297,Potato halwa (Aloo ka halwa),637.97,151.66,29.18,1.53,3.48,1.64
+ASC298,Pumpkin halwa (Kaddu ka halwa),800.80,190.27,27.60,1.33,8.81,2.97
+ASC299,Moong dal halwa,1461.34,349.80,40.23,8.35,17.68,2.65
+ASC300,Caramel custard (steamed),512.20,121.58,15.02,4.97,4.87,0.00
+ASC301,Baked custard,447.46,106.53,9.45,5.41,5.30,0.00
+ASC302,Soft Custard (stirred),459.08,109.18,11.19,5.01,5.07,0.00
+ASC304,Chocolate ice cream,743.06,177.70,15.41,4.47,11.25,0.00
+ASC305,Mango ice cream,525.33,125.69,11.14,3.40,7.62,0.52
+ASC307,Fruit Ice cream (Phalon ka Ice cream),717.81,171.46,16.05,4.37,10.38,0.33
+ASC308,Caramel ice cream,725.49,173.52,14.81,4.31,11.15,0.08
+ASC309,Lemon souffle,705.67,168.51,13.43,6.95,10.02,0.00
+ASC310,Orange souffle,704.69,168.28,14.20,6.80,9.73,0.22
+ASC311,Vanilla souffle,786.62,187.85,14.78,7.71,11.19,0.00
+ASC312,Chocolate souffle,792.69,189.32,14.74,7.88,11.36,0.00
+ASC313,Pineapple souffle ,821.36,196.14,15.52,8.06,11.72,0.00
+ASC314,Apple mousse,447.82,106.92,12.77,4.21,4.27,1.60
+ASC315,Rich chocolate mousse,785.94,188.26,10.84,7.96,12.19,0.00
+ASC316,Mango mousse,520.63,124.98,9.14,3.21,8.47,0.88
+ASC317,Orange and pineapple cream,422.92,101.18,11.96,1.44,5.43,1.03
+ASC318,Charlotte rousse,790.33,188.29,34.08,3.95,4.78,1.01
+ASC319,Triffle pudding,493.52,116.97,18.24,2.93,3.93,0.12
+ASC320,Snow flakes pudding,399.56,95.21,8.07,4.67,4.97,0.03
+ASC321,Kulfi,413.82,98.43,11.30,3.21,4.70,0.12
+ASC322,Steamed orange pudding,1163.99,278.03,41.53,2.34,12.04,0.58
+ASC323,Meringue and rice pudding,474.30,112.93,14.60,4.84,4.05,0.17
+ASC324,Cheese pudding,1190.38,285.01,19.27,11.29,18.37,0.05
+ASC325,Chocolate pudding,891.10,211.96,29.59,3.55,9.48,0.53
+ASC326,Bread and butter pudding ,705.95,167.94,19.63,5.59,7.88,0.98
+ASC327,Queen of pudding,558.58,132.92,16.35,5.51,5.38,0.27
+ASC328,Pineapple upside down pudding,1079.36,257.73,35.73,3.15,11.91,0.80
+ASC329,Date and nut pie,1348.65,322.42,46.86,3.93,13.31,4.13
+ASC330,Stewed apple with custard,392.17,92.87,18.36,1.27,1.82,1.01
+ASC331,Apple snowballs,428.91,101.51,24.58,0.86,0.31,1.25
+ASC332,Hot orange souffle,754.48,179.97,18.77,6.87,8.95,0.29
+ASC333,Hot chocolate souffle,948.77,226.09,26.21,6.70,11.10,0.12
+ASC334,Hot vanilla souffle,809.97,192.93,21.77,6.87,9.07,0.13
+ASC335,Plain burfi (Burfi),1705.52,408.32,30.88,9.82,27.96,0.17
+ASC336,Coconut burfi (Nariyal ki burfi),1956.59,467.64,32.15,8.81,34.63,3.50
+ASC337,Bottle gourd burfi (Ghiya/Lauki burfi),1153.35,275.96,24.51,5.86,17.68,0.73
+ASC338,Chocolate burfi,1425.19,339.33,33.15,13.00,17.86,0.00
+ASC339,Cashewnut burfi (Kaju burfi/Kaju katli),1763.94,421.74,37.92,5.48,28.46,1.12
+ASC340,Gram flour burfi (Besan burfi),1768.65,421.79,46.59,11.19,22.41,3.41
+ASC341,Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo ),1796.19,428.71,52.86,6.71,21.86,4.68
+ASC342,Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo ),1942.70,464.43,50.90,5.68,27.03,6.69
+ASC343,Gram flour ladoo (Besan ladoo),2001.49,476.91,62.61,8.93,22.76,4.43
+ASC344,Sesame ladoo (Til ke ladoo),1660.91,396.96,43.50,10.70,19.64,7.72
+ASC345,Chenna murki,1066.03,252.69,36.01,10.46,8.20,0.00
+ASC346,Milk cake,531.52,127.41,9.13,3.01,8.93,0.06
+ASC347,Ghujia/Lavang latika,3168.67,768.98,13.00,1.86,78.93,0.52
+ASC348,Gulab Jamun with khoya,2425.40,586.06,26.09,2.03,53.23,0.07
+ASC349,Mal pua,2339.17,566.68,17.56,1.71,54.64,0.62
+ASC350,Shahi tukre,806.27,189.81,41.46,2.76,2.54,0.51
+ASC351,Potato pakora/pakoda (Aloo pakoda),2788.18,677.19,6.04,1.90,71.84,1.03
+ASC352,Onion pakora/pakoda (Pyaaz ke pakode),2777.39,674.61,5.41,1.90,71.84,1.11
+ASC353,Cauliflower pakora/pakoda (Phoolgobhi ke pakode),2764.93,671.63,4.52,1.98,71.86,1.26
+ASC354,Mixed vegetable pakora/pakoda,2774.04,673.81,5.12,1.94,71.86,1.13
+ASC355,Spinach pakora/pakoda (Palak pakoda),2933.57,712.62,4.68,1.96,76.38,1.02
+ASC356,Methi pakora/pakoda (Methi ke pakode),2936.21,713.25,4.68,2.06,76.39,1.18
+ASC357,Egg pakora/pakoda (Ande ke pakode),2925.47,710.51,4.48,2.83,75.86,0.86
+ASC358,Bread pakora/pakoda,2929.73,710.99,8.87,2.57,74.20,1.11
+ASC359,Paneer pakora/pakoda,2957.51,718.12,5.52,3.27,76.05,0.89
+ASC360,Potato bonda (Aloo bonda),2604.02,632.84,4.53,1.09,67.80,0.83
+ASC361,Potato samosa (Aloo ka samosa),2377.14,577.39,9.21,1.71,59.19,1.19
+ASC362,Minced meat samosa (Keema ka samosa),2557.26,620.99,6.14,4.43,64.26,0.39
+ASC363,Paneer and pea samosa (Paneer matar ka samosa),2569.60,623.81,8.55,4.02,63.65,1.02
+ASC364,Mathri,3314.32,805.12,12.32,1.75,83.10,0.60
+ASC365,Khasta kachori,2934.90,712.73,12.81,2.51,72.27,0.97
+ASC366,Vegetable cutlet,2738.50,665.45,4.68,1.25,71.33,0.93
+ASC367,Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet),2888.94,701.71,7.39,1.76,73.89,0.86
+ASC368,Peanut cutlet (Mungfali ke cutlet),2878.02,698.77,5.68,2.63,74.00,1.21
+ASC369,Fish cutlet (Machli ka cutlet),2693.96,654.64,3.13,2.77,70.11,0.54
+ASC370,Paneer potato cutlet (Paneer aloo cutlet),2770.57,672.94,5.23,2.47,71.40,0.41
+ASC371,Spinach chickpeas cutlet (Palak channa dal cutlet),2831.18,688.03,4.93,1.44,73.60,0.93
+ASC372,Cheese toast,3233.23,785.37,5.49,1.98,84.11,0.31
+ASC375,Vegetable burger,2144.45,519.93,13.69,3.26,50.63,1.70
+ASC376,Cheese pizza,1047.50,249.50,30.62,5.79,12.43,1.95
+ASC377,Vegetable seekh kebab,2843.04,690.73,5.32,1.57,73.72,0.59
+ASC378,Masala vada,3397.89,826.02,4.06,1.69,89.15,1.07
+ASC379,Peanut sago vada (Sabudana mungfali vada),3087.61,749.89,7.14,1.01,79.82,0.62
+ASC380,Vegeterian scotch egg,2805.97,681.67,4.64,2.16,72.77,0.58
+ASC381,Paneer shaslik/tikka,392.27,93.85,7.98,5.11,4.49,1.23
+ASC382,Peanut brittle (Moongfali ki chikki),1340.21,320.46,47.46,6.94,11.13,2.63
+ASC383,Spring roll,2568.38,623.87,8.56,1.81,64.63,0.67
+ASC384,Dry mango chutney (Sookhe aam ki chutney),1247.30,298.13,69.17,2.43,0.70,3.74
+ASC385,Peanut chutney (Mungfali ki chutney),1081.16,258.37,9.87,11.80,19.06,5.73
+ASC386,Coconut chutney (Nariyal ki chutney),1110.19,265.92,8.29,3.59,25.00,6.73
+ASC387,Mint and coriander chutney (Pudinay aur dhaniye ki chutney),430.47,102.60,21.18,2.81,0.51,4.33
+ASC395,Custard tart,940.77,225.60,28.66,3.72,10.73,0.91
+ASC396,Lemon tart,1262.30,303.35,30.68,6.12,17.45,0.81
+ASC397,Jam tart,1498.57,360.72,46.18,4.42,17.35,1.14
+ASC398,Orange cream tart,822.52,197.16,27.43,2.58,8.72,0.64
+ASC399,Pineapple tart,817.46,195.40,28.62,2.29,8.21,0.87
+ASC400,Cheese and mushroom tart,1022.00,246.10,21.43,5.51,15.28,1.18
+ASC401,Cottage cheese pie,992.89,238.98,20.66,7.45,13.83,2.21
+ASC402,Minced meat pie,919.66,221.55,18.11,7.38,13.04,2.33
+ASC403,Apple cinnamon pie,1077.36,258.73,33.68,3.35,12.21,1.77
+ASC404,Lemon meringue pie,941.79,224.43,35.11,3.88,8.16,0.44
+ASC405,Chocolate meringue pie,899.79,214.76,28.80,4.98,9.17,0.37
+ASC407,Cream puffs,919.45,221.33,16.00,4.70,15.48,0.38
+ASC408,Chocolate eclairs,1000.02,239.42,26.22,4.24,13.50,0.33
+ASC409,Cheese balls,2803.78,681.28,4.81,2.21,72.57,0.18
+ASC411,Minced meat patties,1101.40,265.72,15.25,6.88,19.57,0.77
+ASC412,Cheese patties,1343.40,324.01,22.23,7.38,22.67,1.24
+ASC413,Hot cheese souffle,736.62,177.10,5.41,9.18,13.23,0.12
+ASC414,Hot potato souffle,523.33,125.64,8.56,5.51,7.64,0.66
+ASC415,Hot fish souffle,595.64,142.92,3.69,11.23,9.24,0.10
+ASC416,Hot spinach souffle,434.01,104.25,4.19,5.43,7.24,0.99
+ASC417,Plain cream cake,1480.86,353.94,47.18,6.18,16.17,0.71
+ASC418,Apple cake (Seb ka cake),1213.67,290.08,39.48,4.94,12.87,1.22
+ASC419,Marble cake,1481.48,354.11,46.88,6.30,16.27,0.71
+ASC420,Chocolate cake,1404.77,335.61,45.14,6.01,15.18,0.64
+ASC421,Orange cake,1496.24,357.61,48.28,6.10,16.21,0.83
+ASC422,Fruit Loaf ,1354.76,324.19,46.49,5.36,13.31,0.87
+ASC423,Banana cake (Kele ka cake),1623.40,389.51,40.00,5.77,23.31,1.14
+ASC424,Chocolate chiffon cake,1305.28,311.71,37.87,5.76,15.80,0.70
+ASC425,Christmas cake,1560.80,372.95,48.29,5.49,16.88,1.49
+ASC426,Strawberry and vanilla cake with butter icing,1547.86,370.54,44.25,3.89,20.39,0.79
+ASC427,Eggless cake,1333.75,318.08,46.14,8.12,11.75,0.68
+ASC429,Swiss roll,1062.09,251.87,48.34,7.30,3.77,0.55
+ASC430,Pineapple pastry ,874.13,208.21,29.04,6.06,7.87,0.72
+ASC431,Black forest pastry,979.99,233.55,34.48,6.09,8.46,0.54
+ASC432,Coconut finger,1155.88,274.86,42.56,7.09,8.86,1.87
+ASC433,Pineapple cake ,819.06,195.57,23.51,5.01,9.34,0.76
+ASC439,Chocolate walnut cookies (Chocolate aur akhrot ke cookies),1773.46,424.80,47.10,6.56,23.62,1.54
+ASC440,Chocolate chip cookies,1776.75,425.29,57.98,5.79,19.38,1.05
+ASC441,Sweet plain biscuit,1588.86,380.76,50.29,5.86,17.67,1.07
+ASC442,Chocolate biscuit,1586.49,379.76,51.56,5.88,17.09,1.01
+ASC443,Coconut biscuit (Nariyal ke biscuit),1816.48,434.98,42.90,5.78,27.16,3.64
+ASC444,Sweet and salty biscuit (Meethay aur namkeen biscuit),1694.69,407.96,45.09,6.15,22.39,1.68
+ASC445,Peanut biscuit,1676.08,401.05,46.72,8.45,20.41,2.48
+ASC446,Pin wheel biscuit,1688.63,404.60,54.56,5.40,18.66,1.16
+ASC447,Saffron biscuit (Kesar biscuit),1913.03,458.61,59.70,6.05,22.01,1.90
+ASC448,Masala biscuit,1636.01,393.64,45.18,6.06,20.75,2.14
+ASC449,Ice box cookies,1565.29,374.24,56.09,5.70,14.44,1.28
+ASC450,Ginger bread man,1526.89,365.00,60.26,6.61,11.01,1.60
+ASC451,Danish cookies,1979.40,475.33,58.00,5.33,24.92,1.37
+ASC452,Short bread cookies,1849.61,443.09,64.82,6.03,17.98,1.57
+ASC453,Coffee biscuit,1740.91,416.57,46.55,6.90,23.00,1.59
+ASC454,Melting moments,1828.79,437.91,55.84,5.71,21.78,1.88
+ASC455,Ginger biscuit (Adarak ke biscuit),1746.31,417.91,58.44,5.98,18.31,1.49
+ASC456,Soyabean muthias,3453.32,839.33,3.70,2.46,90.45,1.47
+ASC457,Soyabean tikki,2874.50,698.17,4.39,3.53,74.02,2.20
+ASC458,Soyabean namak paras,3450.04,838.46,4.65,2.65,89.83,1.41
+ASC459,Peanut burfi (Moongfali ki burfi),2303.87,550.99,48.14,9.31,36.84,4.09
+ASC460,Spinach peanut namak paras (Palak moongfali namak paras),3046.16,740.16,6.62,1.65,78.51,0.81
+ASC461,Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela),3124.11,758.89,7.63,2.08,80.04,1.39
+ASC462,Rice moong dal cheela (Chawal aur moong dal ka cheela),3286.07,798.26,11.13,2.74,82.44,1.18
+ASC463,Split bengal gram sweet rice (Channa dal sweet rice),795.86,190.21,41.07,4.15,0.64,2.23
+ASC464,Sweet poori (Meethi poori),3224.23,782.75,14.26,2.12,79.63,1.54
+ASC465,Wheat flour and moong dal burfi (Atta aur moong dal ki burfi),1845.57,441.08,60.00,9.84,18.41,6.02
+ASC466,Spinach burfi (Palak burfi),508.27,121.17,12.76,2.71,6.81,1.17
+ASC467,Sweet split chickpea roti (Sweet channa dal roti/Puranpoli),1529.88,366.59,62.66,9.51,7.93,8.16
+ASC468,Sprouted moong daliya ,463.89,111.56,14.77,2.81,4.71,3.12
+ASC469,Sprouted moong poha ,804.44,192.60,26.60,5.59,6.89,3.13
+ASC470,Pearl millet ladoo (Bajra ladoo),1337.47,319.66,50.98,9.61,8.06,6.00
+ASC471,Paushtik ladoo,2035.29,485.87,60.34,7.65,24.98,4.57
+ASC472,Paushtik roti,627.76,149.26,26.59,7.17,1.51,5.74
+ASC473,Semolina carrot vada (Suji gajar vada),2878.86,699.53,6.52,1.56,74.07,1.07
+ASC474,Dhokla,915.99,216.49,30.68,13.45,5.28,4.95
+BFP007,Kashmiri tea (Kehwa),105.73,24.90,5.23,0.17,0.51,0.16
+BFP008,Steeped hot coffee,67.40,15.91,3.01,0.39,0.33,0.00
+BFP011,Hot chocolate,377.68,90.01,9.02,3.43,4.61,0.00
+BFP013,Cold coffee (with cream),348.62,82.76,11.98,1.93,3.29,0.00
+BFP015,Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath),321.43,76.45,11.15,2.01,2.77,0.27
+BFP019,Flavoured milkshake,281.05,66.78,8.65,2.06,2.83,0.00
+BFP024,Jal jeera,127.66,30.24,6.70,0.44,0.26,0.95
+BFP026,Gingo,204.12,48.02,12.42,0.14,0.06,0.17
+BFP027,Mintade,171.36,40.32,10.59,0.03,0.02,0.03
+BFP029,Canjee,27.67,6.61,0.44,0.24,0.42,0.36
+BFP030,Cauliflower canjee (Phoolgobhi ki canjee),28.86,6.90,0.35,0.39,0.42,0.49
+BFP031,Potato canjee (Aloo canjee),68.05,16.26,2.69,0.44,0.39,0.43
+BFP036,Vermicelli porridge (Semiya/Seviyan porridge),329.06,78.40,10.56,2.50,2.98,0.48
+BFP039,Semolina upma (Suji/Rava upma),614.18,147.89,16.31,3.30,7.49,3.24
+BFP040,Vermicelli upma (Semiya/Seviyan upma),619.26,149.11,16.88,3.11,7.45,3.21
+BFP041,Rice upma,628.30,151.27,17.96,2.63,7.46,2.12
+BFP042,Bread upma,540.40,129.51,12.60,2.80,7.75,1.96
+BFP043,Vegetable upma,610.06,146.47,16.46,4.73,6.63,4.19
+BFP044,Poha,1226.35,294.53,35.05,6.09,14.14,3.72
+BFP045,Vegetable poha,751.96,180.52,21.52,4.89,8.07,3.76
+BFP046,Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla),645.18,154.89,19.42,6.97,5.11,4.25
+BFP047,Paneer stuffed cheela/chilla,855.46,205.19,19.16,11.44,8.89,4.03
+BFP052,Indian style egg bhujia (Anda bhujia (Indian style)),428.19,102.83,3.76,6.10,7.02,1.53
+BFP054,French omelette/omlet,875.07,211.04,0.41,10.03,18.86,0.38
+BFP055,Puffy omelette/omlet,780.16,188.15,0.08,8.82,16.84,0.00
+BFP056,Orange omelette/omlet,807.80,194.66,1.68,8.93,16.84,0.00
+BFP057,Cheese and mushroom omelette/omlet,852.34,205.63,1.68,9.69,17.82,0.93
+BFP058,Spanish omelette/omlet,653.68,157.45,5.10,8.25,11.44,2.54
+BFP059,Mixed stock,104.56,25.19,0.33,2.06,1.71,0.15
+BFP060,Meat stock,101.55,24.48,0.00,2.10,1.78,0.00
+BFP062,White stock,28.88,6.99,0.40,0.07,0.56,0.17
+BFP065,Meat consomme (with mutton),124.54,29.76,0.51,14.86,13.68,0.71
+BFP066,Consomme au julienne,116.16,27.76,1.49,12.49,10.66,1.38
+BFP067,Consomme au vermicelli,125.29,29.94,1.30,15.23,12.98,0.81
+BFP072,Green pea soup (Matar ka soup),165.85,39.81,3.63,11.06,12.90,2.49
+BFP073,Spinach soup (Palak ka soup),135.79,32.59,3.03,10.54,14.26,1.98
+BFP074,Mixed vegetable soup,148.51,35.71,2.95,8.22,11.66,1.64
+BFP075,Cheese soup,170.54,41.13,1.87,12.39,17.07,1.80
+BFP076,Mulligatawny soup,226.95,54.42,8.24,11.26,13.28,2.60
+BFP079,Cream of carrot soup,248.48,59.77,5.69,8.27,12.35,1.98
+BFP080,Cream of broccoli soup,233.85,56.14,3.72,8.97,12.75,1.89
+BFP082,Cream of potato soup,250.34,60.20,6.14,8.10,12.05,1.51
+BFP087,Almond soup (Badam ka soup),327.75,78.65,3.68,10.13,13.80,0.91
+BFP088,Cold cucumber cream soup ,49.57,11.88,1.76,0.34,0.34,0.73
+BFP089,Cold tomato soup,69.74,16.90,0.59,0.11,1.56,0.16
+BFP090,Chicken stew,529.28,127.55,4.44,7.19,8.91,1.82
+BFP091,Veg paneer stew,606.74,145.55,10.22,6.98,8.41,3.08
+BFP108,Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha),796.03,191.27,26.37,4.37,7.27,5.16
+BFP110,Methi parantha/paratha,618.37,148.36,22.19,4.27,4.34,5.09
+BFP114,Bathua poori,2466.82,598.79,13.85,2.35,59.14,1.87
+BFP115,Gram flour poori (Besan poori),2873.78,697.66,10.93,2.59,71.51,1.94
+BFP116,Beetroot poori (Chukandar ki poori),2173.70,527.66,12.29,1.91,52.18,1.40
+BFP117,Peas poori (Matar ki poori),2442.79,592.83,14.92,3.04,57.69,2.25
+BFP118,Peas kachori (Matar kachori),2408.81,584.68,13.25,3.21,57.51,2.03
+BFP122,Pizza,609.95,146.77,9.94,6.85,8.72,1.71
+BFP124,Bacon and mushroom pancake,654.37,157.67,8.47,6.82,10.60,1.59
+BFP125,Cheese and tomato pancake,612.56,147.39,10.66,5.15,9.28,1.06
+BFP127,Minced meat pancake (with chicken),483.97,116.04,8.18,12.01,10.48,0.70
+BFP132,Eggplant/Brinjal rice (Vangi bhat),772.30,184.80,31.74,5.28,3.67,4.44
+BFP133,Kashmiri 'tahar',410.14,98.21,19.11,1.95,1.37,0.98
+BFP134,Cumin pulao (Jeera/Zeera pulao),563.93,135.24,23.61,2.47,3.20,1.40
+BFP136,Peas pulao (Matar pulao),454.41,108.87,18.42,3.89,1.90,3.21
+BFP137,Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao),486.37,116.53,19.72,3.60,2.30,3.16
+BFP138,Black channa pulao/ Bengal gram pulao (Kale chane ka pulao),523.84,125.51,21.55,3.44,2.58,2.69
+BFP141,Mutton pulao,544.13,130.77,11.26,6.52,10.78,1.65
+BFP142,Chicken pulao,450.53,108.24,11.17,6.07,8.48,1.64
+BFP143,Mexican rice,502.28,120.57,14.21,4.62,4.88,1.64
+BFP144,Plain khitchdi (Plain khichri/khichdi),238.08,57.03,10.04,1.72,1.01,0.85
+BFP147,Instant idli (with semolina),1034.13,247.29,43.40,9.16,3.61,7.13
+BFP148,Plain dosa,1588.71,380.91,64.08,10.34,8.43,5.23
+BFP150,Masala dosa mixed vegetable fillings,602.95,144.53,23.02,4.84,3.26,4.31
+BFP151,Masala dosa paneer fillings,1014.71,243.12,29.76,10.31,8.84,3.11
+BFP152,Uttapam,1065.34,255.95,36.28,6.18,9.03,4.40
+BFP153,Appam,1120.32,267.70,13.28,3.12,22.63,6.19
+BFP154,Beans and macaroni,569.73,136.08,14.24,4.58,7.01,2.05
+BFP155,Spaghetti bolognese,408.45,97.43,10.04,9.35,9.51,1.08
+BFP157,Meat and macaroni casserole,676.14,161.55,16.12,9.15,10.17,1.19
+BFP158,Spaghetti with meat balls and tomato sauce,658.93,158.13,10.46,5.61,10.64,1.11
+BFP159,Spaghetti with paneer balls and tomato sauce,660.93,158.54,12.72,3.95,10.44,1.25
+BFP161,Lasagne with meat sauce,265.00,63.38,5.38,2.90,3.43,0.47
+BFP162,Lasagne with vegetables,206.40,49.23,5.90,1.71,2.16,0.66
+BFP165,Home made egg noodles,1005.75,240.84,42.92,6.55,4.37,1.60
+BFP170,Sour lentils (Khatti dal),145.56,34.79,6.04,2.22,0.12,1.22
+BFP171,Urad special dehusked,289.35,69.43,8.86,3.14,2.17,2.50
+BFP172,Arhar with spinach (Arhar dal aur palak),219.53,52.84,4.77,2.05,2.76,1.30
+BFP174,Moong dal with vadi,99.51,24.08,1.00,0.40,2.05,0.39
+BFP176,Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru),111.55,26.74,3.37,1.13,0.88,1.60
+BFP177,Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru),101.82,24.41,2.85,1.11,0.87,1.54
+BFP178,Green gram whole with baghar (Sabut moong dal with tadka),264.04,63.43,6.80,3.23,2.48,3.02
+BFP179,Urad sabut special,329.11,79.39,5.03,2.33,5.46,2.15
+BFP185,Kabuli channa curry,287.29,68.57,7.63,2.92,3.06,1.12
+BFP187,Besan gatte curry,791.86,189.38,16.26,7.75,10.72,3.25
+BFP190,Dry masala chops,563.44,135.07,3.30,9.08,9.54,0.86
+BFP194,Mutton korma,481.74,115.64,2.53,7.09,8.54,0.78
+BFP196,Shahi keema kofta curry,1722.07,418.13,1.73,4.14,43.83,0.91
+BFP197,Minced meat ball curry,456.26,109.79,2.86,6.82,7.85,1.49
+BFP198,Boti kebab,554.28,132.86,3.06,9.22,9.27,0.76
+BFP199,Mutton seekh kebab,560.46,133.94,3.11,11.25,8.43,1.88
+BFP201,Indian lamb and egg curry (Nargisi kofta),1383.64,335.75,2.07,3.84,34.70,0.60
+BFP203,Soya chunks sweet and sour (Nutrinugget sweet and sour),2061.90,500.94,3.27,2.85,55.99,0.86
+BFP204,Soya chunks korma (Nutrinugget korma),546.59,131.43,7.67,3.86,9.50,2.57
+BFP205,Mushroom matar,293.62,70.77,5.33,2.79,4.11,3.13
+BFP206,Soya chunks and peas (Nutrinugget matar),342.63,82.62,5.82,3.03,5.11,2.86
+BFP207,Vegetable yakhni,1672.03,406.06,1.94,1.18,43.80,0.61
+BFP208,Spinach mushroom (Palak mushroom),197.65,47.63,2.95,1.94,2.96,2.27
+BFP210,Vegetarian nargisi kofta curry,1369.48,332.15,6.58,2.29,32.94,0.86
+BFP212,Roast chicken,833.38,199.90,0.10,20.49,13.06,0.03
+BFP214,Shahi chicken masala,680.74,163.70,4.07,9.82,12.02,0.96
+BFP216,Tomato chicken,465.81,111.68,2.13,10.57,6.71,1.42
+BFP217,Creamy chicken,637.49,152.87,3.13,13.52,9.57,0.69
+BFP218,Broccoli chicken ala king,500.33,119.56,5.34,7.97,7.57,1.92
+BFP220,Ginger chicken,538.19,129.17,5.60,8.24,8.24,1.21
+BFP221,Chicken sweet and sour,1834.35,445.09,2.67,6.92,47.59,0.58
+BFP222,Chicken korma,616.78,147.96,5.43,9.83,9.67,1.82
+BFP223,Bengal fish curry (Bengali machli curry),458.08,109.43,4.42,7.26,7.03,1.93
+BFP226,Fish finger,2236.49,542.90,4.47,5.66,55.82,0.34
+BFP229,Fish in coconut milk (Nariyal ke doodh ke saath machli),359.89,86.21,2.73,8.66,4.43,1.52
+BFP230,Prawn curry (with coconut) (Jhinga curry),456.07,109.55,3.10,8.54,6.93,1.56
+BFP231,Baked stuffed fish,510.13,121.96,2.12,16.14,5.43,0.38
+BFP232,Fish pie,504.07,120.90,7.74,9.25,5.77,0.76
+BFP233,Crispy baked fish,579.51,138.40,9.59,10.95,6.41,1.21
+BFP234,Fish souffle,582.36,139.71,5.14,10.51,8.55,0.19
+BFP239,Potato curry (Aloo ki sabzi),372.12,89.56,10.42,1.52,4.47,2.42
+BFP240,Egg curry (Anda curry),488.28,117.52,4.03,5.38,8.81,2.09
+BFP241,Vegetable curry with coconut ,346.17,83.07,7.19,2.77,4.66,3.35
+BFP242,Curd with potatoes (Dahi aloo),249.60,59.90,7.15,1.56,2.72,1.19
+BFP246,Potato kofta curry (Aloo kofta curry),1873.55,455.40,2.78,0.56,49.08,0.56
+BFP249,Yam kofta curry (Zimikand/Suran kofta curry),1328.95,322.88,3.75,0.71,33.84,1.04
+BFP250,Jackfruit kofta curry (Kathal ka kofta curry),1321.43,321.08,3.17,0.80,33.83,0.96
+BFP257,Spinach and potato (Palak aloo),237.65,57.17,5.91,1.63,2.82,2.04
+BFP258,Mooli bhujia,381.68,91.20,4.74,1.69,7.25,2.36
+BFP259,Bathua bhujia,380.42,90.90,3.63,2.26,7.29,3.80
+BFP261,Cabbage rolls (dry) ((Pattagobhi rolls) (dry)),592.14,142.48,6.09,8.21,9.36,1.84
+BFP262,Cabbage rolls (curry) ((Pattagobhi rolls)(curry)),518.75,124.63,7.03,5.76,8.17,2.35
+BFP263,Dry arbi (Sookhi arbi),558.91,134.95,11.11,2.12,8.97,2.47
+BFP264,Masala arbi,768.05,185.38,16.16,3.01,11.90,3.10
+BFP266,Peas brinjal bhartha (Matar baingan bhartha),350.00,84.55,5.02,2.05,6.05,3.63
+BFP269,Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji),457.73,110.81,4.50,1.83,9.27,3.57
+BFP270,Crispy okra/Crispy lady's fingers (Karare bhindi),2707.49,657.76,4.35,1.91,70.40,1.75
+BFP272,Beans foogath,435.99,105.06,3.26,2.03,9.22,4.15
+BFP273,Stuffed bittergourd (wet) (Bharwa karele),669.50,162.36,4.68,1.36,15.24,2.86
+BFP274,Jackfruit/Kathal (dry),2012.05,488.97,4.56,0.93,51.78,1.33
+BFP275,Yam fried (Zimikand/Suran fried),2023.72,491.76,5.47,0.79,51.79,1.44
+BFP276,"Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia)",396.86,95.67,8.23,2.75,5.54,3.26
+BFP277,Vegetable jalfrezi,283.89,68.48,5.43,1.40,4.38,2.97
+BFP278,Vegetables stir fry ,128.24,30.78,3.19,1.04,1.47,1.37
+BFP279,Broccoli delight,172.18,40.70,2.34,2.49,2.48,2.83
+BFP280,Dhansak (vegetarian),344.57,82.80,7.28,3.32,4.18,4.17
+BFP282,Cauliflower basket,378.52,90.95,3.97,5.21,5.88,2.40
+BFP284,Stuffed bottle gourd (Stuffed ghiya/lauki),388.48,93.19,4.36,5.84,5.80,1.18
+BFP286,Ducheese potato,583.32,140.54,10.94,3.60,9.01,1.29
+BFP287,Roast potatoes ,363.95,87.32,14.52,1.53,2.35,1.71
+BFP288,Stuffed baked potatoes ,417.77,100.20,11.03,3.82,4.39,1.31
+BFP289,Potato nests,465.24,111.62,11.05,5.71,4.77,2.49
+BFP290,Parsley potato,496.08,119.51,13.81,1.49,6.28,1.59
+BFP291,Creamed spinach and mushroom,1727.58,419.62,3.17,2.28,44.14,1.02
+BFP292,Fricassee of Mushroom,444.43,106.66,8.13,3.65,6.63,1.23
+BFP293,Cauliflower au gratin,607.02,145.90,9.13,4.45,10.20,1.44
+BFP294,Vegetable and cheese pie,527.01,126.88,8.76,4.03,8.28,1.91
+BFP296,Spinach souffle ,624.03,150.18,6.27,7.36,10.52,1.44
+BFP299,Beetroot and egg salad (Chukandar aur ande ka salad),352.91,84.92,3.40,3.36,6.45,0.55
+BFP300,Sour cream potato salad,505.89,121.90,9.05,2.89,8.13,1.21
+BFP301,Tossed green salad,207.56,49.88,3.82,1.33,3.24,1.33
+BFP302,Spring basket salad,668.29,160.46,11.61,3.36,11.30,3.09
+BFP303,Cucumber and yogurt salad (Kheere aur dahi ka salad),151.79,36.13,4.72,2.09,0.93,1.66
+BFP305,Chicken and tomato towers,418.09,100.55,2.36,6.90,6.99,1.14
+BFP306,Jellied sunshine fruit salad,206.04,48.86,4.21,5.85,0.85,1.80
+BFP307,Tomato aspic,212.86,50.37,5.02,6.87,0.26,1.58
+BFP308,Frozen frosty fruit salad (Phalon ka salaad),436.01,103.51,15.61,1.68,4.17,0.26
+BFP310,French dressing,3018.61,733.77,3.68,0.32,79.65,0.22
+BFP312,Mayonnaise without eggs,1356.58,329.05,3.98,2.13,33.84,0.04
+BFP313,Curd dressing ,332.04,78.80,8.03,5.59,2.90,0.22
+BFP316,Carrot raita (Gajar ka raita),272.64,64.78,7.19,4.14,2.19,1.69
+BFP318,Pumpkin raita (Kaddu ka raita),234.09,55.60,6.02,3.74,1.88,1.04
+BFP320,Mint and peanut raita (Pudinay aur moongfali ka raita),468.81,112.05,7.31,7.05,6.19,1.79
+BFP321,Spinach raita (Palak ka raita),221.94,52.75,5.06,3.95,1.86,1.39
+BFP322,Bathua raita,228.83,54.40,5.31,4.13,1.76,2.19
+BFP325,Pineapple raita (Ananas ka raita),284.98,67.74,8.62,3.90,2.02,1.39
+BFP326,Banana raita (Kele ka raita),374.07,89.03,13.51,4.13,2.07,1.00
+BFP327,Mango raita (Aam ka raita),283.41,67.37,8.23,3.90,2.14,0.89
+BFP328,Guava raita (Amarood ka raita),270.82,64.36,7.27,4.19,2.07,3.00
+BFP329,Grapes raita (Angoor ka raita),305.29,72.59,9.66,3.98,2.07,0.71
+BFP334,Bottle gourd kheer (Ghiya/Lauki kheer),353.53,84.07,10.00,2.70,3.86,0.55
+BFP336,Pumpkin kheer (Kaddu ki kheer),363.06,86.35,10.44,2.76,3.86,0.63
+BFP338,Apple kheer (Seb ki kheer),342.04,81.30,11.34,2.14,3.18,0.51
+BFP345,Caramel custard (baked),516.85,122.70,14.95,5.11,5.01,0.00
+BFP346,Vanilla ice cream without egg,949.69,228.67,14.21,2.69,18.15,0.00
+BFP347,Vanilla ice cream with egg,892.60,214.85,11.71,4.16,17.02,0.00
+BFP348,Strawberry ice cream,895.98,215.61,12.26,4.15,16.96,0.00
+BFP350,Chocochip ice cream,1004.91,241.45,16.75,4.23,17.93,0.00
+BFP351,Choconut ice cream,1144.40,273.96,23.13,5.04,18.49,0.51
+BFP352,Pear chocholate sunday,764.31,183.49,15.02,2.08,13.11,0.07
+BFP353,Chocolate sauce,1108.00,263.20,43.21,1.91,10.39,0.00
+BFP354,Coffee ice cream,633.02,150.62,14.09,3.15,9.43,0.00
+BFP355,Coffee pear alaska,851.25,203.99,19.36,2.88,13.22,0.15
+BFP356,Crunchy butterscotch,1153.63,277.32,19.92,3.11,20.99,0.47
+BFP358,Peach melba ice cream,834.73,200.85,16.31,2.06,14.51,0.06
+BFP359,Vanilla ice cream with apples in hot cherry sauce,818.69,196.32,22.75,1.73,11.45,0.26
+BFP361,Grape and orange whip,238.51,57.39,6.72,1.41,2.62,0.97
+BFP362,Honey banana cream,523.14,125.49,13.64,2.78,6.68,0.70
+BFP363,Raspberry bavarian cream,628.33,150.10,17.82,3.34,7.88,2.19
+BFP364,Fruit delight,446.81,107.09,9.11,2.09,7.09,0.09
+BFP365,Creamy chocolate mousse,957.52,230.52,9.53,6.85,18.16,0.00
+BFP366,Cold lemon souffle,711.96,169.87,15.62,5.89,9.78,0.00
+BFP367,Cold orange souffle,725.84,173.19,16.27,5.94,9.82,0.11
+BFP368,Cold pineapple souffle,759.70,181.22,16.85,6.23,10.39,0.00
+BFP369,Cold vanilla souffle,752.42,179.54,16.29,6.22,10.32,0.00
+BFP370,Cold chocolate souffle,785.84,187.53,17.22,6.37,10.86,0.00
+BFP371,Stewed fruit (with pear),314.90,74.32,18.22,0.25,0.32,2.84
+BFP372,Apricot fool,1004.77,240.79,33.64,1.54,11.35,1.00
+BFP373,Pavlova,838.74,200.60,21.84,1.84,12.29,0.06
+BFP379,Apple crumb pudding,926.97,220.85,35.17,1.54,8.87,1.33
+BFP380,Steamed cake with chocolate sauce,1258.71,301.91,29.06,4.49,19.01,0.29
+BFP382,Hot lemon souffle,650.28,155.25,16.31,5.29,7.93,0.14
+BFP386,Gulab jamun with milk powder,1953.29,471.15,28.24,0.85,40.15,0.05
+BFP388,Chum chum,551.69,130.05,28.27,1.52,1.92,0.02
+BFP389,Dil bahar,551.69,130.05,28.27,1.52,1.92,0.02
+BFP390,Rasbhari,551.69,130.05,28.27,1.52,1.92,0.02
+BFP391,Rajbogh,566.87,133.70,28.16,1.71,2.28,0.11
+BFP392,Rasgulla,503.26,118.64,25.79,1.38,1.75,0.01
+BFP393,Rasmalai,574.94,135.55,29.17,1.61,2.11,0.07
+BFP396,Khoa coconut burfi,1729.94,411.45,36.55,9.98,26.01,4.07
+BFP397,Danedar burfi,431.87,102.68,12.33,3.24,4.72,0.09
+BFP401,Semolina burfi (Suji/Rava burfi),1457.24,348.67,47.10,3.47,16.86,2.80
+BFP403,Pumpkin coconut burfi (Kaddu aur nariyal ki burfi),781.62,186.18,17.02,1.75,12.66,4.29
+BFP404,Khoa ladoo,1664.44,396.02,34.43,12.21,24.09,3.08
+BFP406,Wheat and gram flour ladoo (Atta besan ladoo),2093.53,501.70,50.50,9.38,29.86,6.01
+BFP407,Semolina ladoo with nuts (Suji/Rava ladoo with nuts),1839.11,441.84,48.02,5.44,25.45,4.27
+BFP412,Sesame chickpeas brittle (Til aur channe ki chikki),1183.00,282.74,50.49,8.50,4.66,5.54
+BFP413,Murmura chikki,1062.00,253.82,59.59,2.12,0.32,0.37
+BFP415,Masala onion pakora/pakoda (Pyaaz ke pakode),2272.16,551.64,6.48,2.05,57.61,1.44
+BFP416,Masala green chilli pakora/pakoda (Hari mirch kay pakode),2753.79,668.76,5.55,2.22,71.01,1.34
+BFP420,Chicken pakora/pakoda,2431.97,590.09,4.55,6.03,60.98,0.96
+BFP421,Fish pakora/pakoda,2377.29,577.03,4.55,5.97,59.52,0.96
+BFP424,Paneer cutlet,2770.44,672.20,7.62,4.59,69.38,0.39
+BFP425,Sago cutlet/vadas (Sabudana cutlet/vadas),2302.72,558.76,11.23,0.56,56.97,0.54
+BFP427,Poshtik cutlet,2045.08,496.45,7.39,2.00,50.94,1.35
+BFP428,Egg cutlet (Anda cutlet),2367.91,575.02,5.77,2.45,60.25,0.58
+BFP430,Minced meat cutlet,2192.59,531.86,5.61,5.10,54.47,0.40
+BFP431,Vegetable samosa,1826.47,443.11,13.22,2.21,42.22,1.52
+BFP436,Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada),3069.41,745.50,9.70,4.39,76.32,2.27
+BFP437,Masala urad dal vada,2898.74,703.78,9.93,4.32,71.62,2.71
+BFP439,Khaman (dhokla),228.09,54.73,5.36,1.92,2.80,1.49
+BFP440,Instant dhokla,869.35,207.11,24.11,7.66,9.37,3.57
+BFP442,Tomato ginger chutney (Tamatar adarak ki chutney),187.09,44.66,9.11,1.05,0.32,2.14
+BFP443,Mint tomato chutney (Pudinay aur tamatar ki chutney),182.85,43.65,8.22,1.53,0.36,2.63
+BFP444,Coriander chutney (Hare dhaniye ki chutney),179.55,42.86,8.16,1.38,0.37,2.47
+BFP445,Gooseberry chutney (Amla chutney),179.98,43.02,8.83,1.44,0.62,4.58
+BFP446,Walnut chutney (Akhrot ki chutney),1550.66,370.43,8.91,9.44,33.46,3.04
+BFP447,Saunth/Sonth chutney with ginger,354.01,84.22,20.62,0.28,0.11,0.31
+BFP448,Gun powder chutney,1306.86,312.34,47.65,21.55,2.67,13.95
+BFP450,Dessicated coconut chutney (Sookhe kase nariyal ki chutney) ,1447.20,346.36,36.72,12.88,15.88,13.16
+BFP451,Curd mint dip ,320.89,76.13,9.11,4.82,2.44,0.77
+BFP452,Curd vegetable dip,236.81,56.21,6.04,3.88,1.94,0.63
+BFP453,Mayonnaise vegetable dip,996.69,241.27,4.80,3.01,23.44,0.41
+BFP455,Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich),633.31,150.68,20.51,4.03,6.31,2.10
+BFP456,Tomato sandwich (grilled),796.46,189.92,21.29,6.26,9.39,1.91
+BFP457,French sandwich (toasted),780.59,186.75,14.82,6.82,11.51,1.37
+BFP458,Peanut butter cucumber sandwich,1022.44,243.33,29.76,9.04,10.56,3.35
+BFP459,Mint and peanut sandwich,1149.34,273.59,31.83,7.18,13.88,3.67
+BFP460,Spicy chutney sandwich,1050.80,249.58,34.03,8.74,9.58,3.73
+BFP461,Chicken walnut sandwich (Chicken aur akhrot ke sandwich),1196.23,285.78,22.62,12.58,16.77,1.53
+BFP463,Rolled sandwich,1229.14,293.07,34.69,6.45,15.29,2.07
+BFP466,Ribbon sandwich,1001.35,239.26,24.76,6.26,13.37,2.92
+BFP467,Checker board sandwich,1451.90,348.37,25.94,7.37,24.65,2.22
+BFP468,Submarine sandwich,899.78,216.92,13.60,6.09,15.32,1.24
+BFP470,Cheese open sandwich,1149.18,274.07,28.42,9.84,14.24,1.74
+BFP471,Sunset and sunrise open sandwich,1008.85,241.31,18.89,8.58,15.14,1.39
+BFP472,Danish luncheon sandwich,812.59,193.82,17.77,9.03,10.10,1.52
+BFP473,Chicken and corn open sandwich,789.41,188.16,19.21,8.63,8.83,1.67
+BFP476,Chocolate sponge cake,1011.33,239.86,39.54,9.13,5.51,0.52
+BFP478,Chocolate swiss roll,1275.42,306.08,26.97,6.01,19.76,0.29
+BFP479,Lemon curd filling,945.72,225.62,26.41,3.43,12.58,0.00
+BFP480,Jam filling,772.43,184.62,46.15,0.00,0.00,0.00
+BFP482,Chocolate pastry,1022.02,243.37,32.24,7.05,10.12,0.32
+BFP483,Assorted pastry,968.81,230.74,31.99,6.78,8.91,0.43
+BFP484,Orange gateau,748.22,178.05,27.01,4.78,6.02,0.68
+BFP485,Black forest gateau,915.48,217.82,30.57,5.94,8.58,0.28
+BFP489,Lemon cake,1560.33,373.85,43.10,5.29,20.63,0.62
+BFP491,Dundee cake,1656.16,396.62,41.40,7.78,22.70,1.81
+BFP492,Victorian sandwich cake,1557.31,373.09,44.74,5.18,19.83,0.59
+BFP495,Chocolate eggless cake,1308.40,312.01,43.45,6.66,13.19,0.32
+BFP496,Orange eggless cake,1491.28,355.62,52.65,7.16,13.82,0.56
+BFP498,Chocolate glace icing,1832.75,436.29,62.43,3.22,20.80,0.00
+BFP499,Butter icing,2099.69,500.72,71.64,0.19,25.37,0.00
+BFP500,Chocolate butter icing,1967.95,469.59,61.72,3.21,24.77,0.00
+BFP502,Almond biscuit (Badam ke biscuit),1702.04,407.74,52.14,6.25,19.70,1.50
+BFP505,Orange biscuit,1488.94,354.78,62.11,3.63,11.01,0.75
+BFP506,Gingerman biscuit,1495.83,357.43,55.24,6.26,12.73,2.00
+BFP507,Coffee drops,1850.76,443.07,43.06,7.57,27.16,1.88
+BFP508,Christmas biscuit,1697.50,406.07,60.97,5.67,15.88,2.17
+BFP509,Christmas wreath biscuit,1613.81,386.05,58.07,5.43,15.01,2.28
+BFP510,Christmas bell biscuit,1692.40,404.85,60.79,5.66,15.84,2.33
+BFP511,Christmas star biscuit,1652.38,392.03,74.54,3.54,10.04,1.47
+BFP512,Christmas tree biscuit,1612.10,385.63,58.41,5.43,15.00,2.65
+BFP513,Chocolate cream shells,1786.52,427.17,59.26,5.10,19.34,0.90
+BFP516,Jelly biscuit,1695.15,404.61,55.24,4.23,19.33,2.02
+BFP517,Cherry and walnut cookies,1772.21,422.60,59.35,5.63,18.75,1.30
+BFP518,Cheese straws,1586.28,382.00,30.61,9.83,24.28,1.29
+BFP519,Butterfly biscuit,1418.18,341.45,25.33,9.98,22.11,1.02
+BFP521,Flan pastry,1851.27,445.80,47.84,6.72,25.04,1.58
+BFP522,Fruit flan,1087.80,261.35,34.71,3.30,12.48,0.71
+BFP523,Orange cream flan,1173.35,280.28,36.16,4.73,13.59,0.63
+BFP527,Fruit puree tart,1190.17,286.50,30.42,3.35,16.83,1.31
+BFP529,Apple banana pie,1017.17,243.99,32.12,3.13,11.39,1.89
+BFP531,Lemon chiffon pie,1079.99,259.31,27.63,4.88,14.52,0.66
+BFP532,Orange chiffon pie,864.81,207.57,23.14,3.89,11.16,0.70
+BFP534,Cream buns,895.95,215.74,14.16,4.45,15.81,0.31
+BFP535,Savoury puffs,793.43,190.79,10.80,9.51,15.24,0.33
+BFP536,Choux swans,898.83,216.34,14.92,4.35,15.60,0.35
+BFP539,Potato aigrettes,2182.95,530.03,8.01,2.35,54.24,0.45
+BFP541,Cream horns,1687.81,408.23,23.12,3.42,33.55,0.60
+BFP542,Savoury cheese horns,1224.10,295.15,21.38,5.66,20.71,0.73
+BFP544,Paneer patties,1403.85,338.58,22.79,7.60,23.96,1.18
+BFP545,Vegetable patties ,1084.76,261.92,20.98,4.01,17.74,2.62
+BFP546,Pearl millet infant food (Bajra shishu aahaar),1516.50,362.44,62.10,11.98,6.62,7.84
+BFP547,Sajina,1444.60,345.26,66.87,10.81,3.03,7.62
+BFP548,Cereal mix ,505.48,120.81,21.84,3.32,2.02,2.03
+BFP549,Pulse mix,348.50,83.29,16.00,3.16,0.54,2.25
+BFP550,Shishu ahar,391.70,93.37,17.42,2.61,1.43,1.02
+BFP552,Cereal pulse mix with amylase rice flour,637.02,151.57,27.80,4.27,2.74,3.47
+BFP553,Banana groundnut paste/puree,892.00,213.19,36.15,4.27,5.45,1.70
+BFP554,Rice dal porridge (Chawal dal ki khichdi/khichri),1603.90,383.33,65.04,10.80,8.33,4.51
+BFP555,Lentils and semolina porridge (Dal suji porridge/daliya),490.75,117.29,23.19,3.26,1.06,1.44
+BFP556,Spinach khichri (Palak khichri/khichdi),426.44,102.18,17.35,3.43,1.91,1.56
+BFP557,Vegetable mix,729.40,174.21,36.02,4.70,0.94,1.93
+BFP558,Lentils and wheat porridge (Dal wheat porridge/daliya ),219.82,52.54,8.36,2.71,0.94,1.28
+BFP559,Maize porridge,373.81,89.57,15.64,2.14,1.89,1.68
+BFP560,Spinach peanut burfi (Palak aur mungfali ki burfi),444.17,105.37,13.59,3.36,4.39,2.07
+BFP561,Split bengal gram burfi/fudge (Channa dal burfi),1215.63,287.36,54.63,4.65,7.09,2.06
+BFP563,Chickpea flour cookies (Sweet besan rounds/cookies),867.72,207.01,39.64,4.29,3.42,2.56
+BFP564,Pearl millet mathri (Bajra mathri),3231.65,785.08,7.42,1.82,83.12,1.36
+BFP565,Sesame biscuit (Til ke biscuit),1767.18,424.03,53.65,8.27,19.34,6.83
+BFP566,Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada),2707.74,657.57,8.68,4.05,67.19,2.65
+BFP568,Poshtik namak paras,2534.41,613.39,19.52,6.49,56.58,4.55
+BFP569,Soya chikki,1764.45,423.70,62.89,7.18,15.51,3.55
+BFP570,Besan bathua chilla/cheela,1560.66,373.82,40.65,11.48,18.57,7.79
+BFP571,Wheat flour and nuts ladoos (Atta nuts ladoos),1633.28,391.90,44.31,9.46,19.19,7.30
+BFP573,Gram flour and semolina dhokla (Besan suji dhokla),834.64,198.91,25.92,8.52,7.10,4.59
+BFP574,Atta dal burfi ,1250.23,298.80,40.64,6.66,12.47,4.08
+BFP575,Soya roti,1183.77,283.96,40.03,9.18,9.23,8.71
+BFP576,Poshtik khichdi/khichri,390.17,93.37,15.64,3.04,1.88,2.00
+BFP577,Namkeen daliya,1230.10,295.11,49.32,8.29,7.99,8.57
+BFP578,Sprouts upma ,1318.50,316.25,44.96,9.50,10.44,7.16
+BFP579,Semolina idli (Suji/Rava idli),864.39,206.39,33.67,9.34,3.47,5.85
+BFP580,Poshtik chilla/cheela,665.91,159.53,27.47,4.85,3.04,4.91
+BFP604,Stuffed bittergourd (dry) (Bharwa karela),896.16,217.65,2.49,1.29,22.38,3.00
+BFP605,Cauliflower potato canjee,70.25,16.79,2.63,0.57,0.39,0.69
+BFP606,Creamed spinach,403.43,96.91,4.44,5.18,6.39,1.33
+BFP607,Mango milkshake with ice cream (Aam milkshake ice cream ke saath),287.54,68.35,9.18,1.93,2.80,0.23
+BFP608,Pineapple milkshake with ice cream (Ananas milkshake ice cream ke saath),288.13,68.49,9.33,1.93,2.75,0.42
+BFP609,Orange milkshake with ice cream (Narangi milkshake ice cream ke saath),285.31,67.82,9.15,1.95,2.75,0.16
+OSR001,Woodapple juice (Bel ka sharbat),144.50,34.18,6.51,0.63,0.70,1.03
+OSR002,Sattu drink,98.99,23.38,5.16,0.56,0.14,0.40
+OSR004,Apple and honey sorbet (Seb aur shehad ka sharbat),515.02,121.30,30.74,0.15,0.29,1.13
+OSR005,Thandai,424.55,101.18,9.13,3.59,5.89,0.80
+OSR006,Cucumber sharbat (Kheere ka sharbat),115.77,27.28,6.64,0.26,0.06,0.78
+OSR007,Apple oats chia seed smoothie,361.61,85.64,13.07,3.49,2.48,1.44
+OSR008,Nannari sharbat,378.57,88.79,23.62,0.01,0.01,0.00
+OSR009,Semolina milk drink (Thari kanji),185.09,44.16,6.93,0.98,1.36,0.72
+OSR010,Saffron milk (Kesariya doodh),429.93,102.18,12.64,3.17,4.57,0.14
+OSR011,Black rice kheer (Chak-hao kheer),621.50,147.94,22.93,4.37,4.91,0.76
+OSR012,Coconut kheer (Nariyal ki kheer),683.01,162.61,14.42,3.40,10.55,1.53
+OSR013,Apple sago payasam (Seb aur sabudana ki kheer),571.98,136.50,14.40,3.13,7.66,0.38
+OSR014,Kesari bath,1022.15,244.57,31.38,2.40,12.59,1.65
+OSR015,Putharekulu,1334.19,318.30,59.61,3.66,7.55,1.75
+OSR016,Mango malpua,1381.80,334.64,12.84,1.65,30.67,2.08
+OSR017,Mango vanilla custard,620.73,147.63,18.41,3.43,7.04,0.99
+OSR018,Kiwi granola pudding,1182.49,280.99,32.33,5.60,15.36,3.71
+OSR019,Oats burfi,1793.80,425.19,62.47,8.89,17.27,4.96
+OSR020,Lotus seed halwa (Kamal gattay ka halwa),1542.20,370.55,39.56,7.79,20.69,0.42
+OSR021,Amaranth ladoo (Rajgira ladoo),1891.64,454.15,51.33,10.12,22.70,5.11
+OSR022,Chhena poda,1447.91,344.57,33.64,13.68,17.94,1.40
+OSR023,Sweet couscous dessert,827.12,196.20,29.69,3.81,7.69,2.18
+OSR024,Sweetened yogurt (Shrikhand),453.48,107.18,16.02,5.27,2.89,0.08
+OSR025,Thickened sweetened milk (Rabri),431.75,102.79,10.55,3.52,5.35,0.19
+OSR026,Gram flour halwa (Besan halwa),1156.72,276.79,25.78,5.88,17.30,1.82
+OSR027,Prawn sandwich,708.60,169.65,11.89,10.36,9.27,1.55
+OSR028,Watercress sandwich,962.39,229.42,28.03,5.17,11.47,2.26
+OSR029,Fish sandwich ,627.64,150.20,10.09,4.72,10.37,1.23
+OSR030,Kidney bean sandwich with cottage cheese,739.56,176.64,18.86,9.85,6.84,3.66
+OSR031,Finger millet biscuit (Ragi biscuit),1907.85,458.56,52.69,4.03,25.79,5.97
+OSR032,Buttermilk biscuit,1339.64,322.54,34.93,5.76,17.50,1.18
+OSR033,Lemon cookies,1643.42,394.48,42.19,5.63,23.02,0.78
+OSR034,Sweet potato biscuit (Shakarkand ke biscuit),1232.25,296.40,38.13,5.14,13.31,2.27
+OSR035,Raspberry shortbread cookies,1842.71,441.12,61.25,3.00,21.25,0.75
+OSR036,Pumpkin cookies ,920.79,218.40,44.69,2.51,3.93,1.06
+OSR037,Greenpea cookies,666.90,159.42,23.07,6.53,4.24,5.32
+OSR038,Sunflower cookies,2178.56,520.62,40.06,9.49,36.28,3.95
+OSR039,Cardamom cookies (Elaichi cookies),1675.99,400.49,53.99,5.10,19.12,2.79
+OSR040,Hazelnut cookies,2049.20,493.32,39.44,6.25,34.97,2.45
+OSR041,Milk cookies,1911.43,459.43,48.43,10.49,24.96,0.99
+OSR042,Cranberry cookies,1138.18,272.48,36.39,3.92,12.66,1.13
+OSR043,Olive biscuit,1829.90,438.29,55.01,3.20,23.75,0.82
+OSR045,Tutti fruitti biscuit,1749.34,420.78,53.12,5.21,17.90,5.43
+OSR046,Peach blueberry preserves,754.71,177.38,45.76,0.53,0.20,1.14
+OSR047,Pear preserves (Naashpati ka murabba),429.63,101.24,25.67,0.25,0.19,3.06
+OSR048,Starfruit preserves ,549.14,128.93,33.62,0.24,0.12,0.78
+OSR049,Gooseberry pickle (Amla ka achaar),1165.95,278.58,7.61,1.55,27.61,3.70
+OSR050,Lotus stem pickle (Kamal kakdi ka achar),429.02,102.69,20.07,1.44,1.60,8.58
+OSR051,Date pickle (Khajoor ka achaar),760.31,182.29,34.66,1.68,4.21,5.20
+OSR052,Garlic pickle (Lahasun ka achar),1705.32,413.62,9.75,3.72,39.88,5.13
+OSR053,Fermented bamboo shoot pickle (Mesu pickle),250.40,59.83,1.73,1.58,5.59,2.24
+OSR054,Sweet peach pickle (Aadoo ka achaar),614.94,144.64,37.01,0.46,0.20,1.32
+OSR055,Pickled mustard greens ,54.90,13.12,1.05,1.51,0.22,1.70
+OSR056,Small onion pickle ,72.36,16.86,2.76,1.65,0.64,1.09
+OSR057,Green tomato pickle (Haray tamatar ka achaar),796.26,193.26,2.87,1.23,19.67,1.74
+OSR058,Pickled cabbage ,57.58,13.69,2.56,0.39,0.14,0.61
+OSR059,Coconut pickle (Nariyal ka aachar),2138.84,517.26,11.53,3.02,51.71,6.35
+OSR060,Potato pickle (Aloo ka achaar),1522.11,369.14,7.87,2.07,36.46,2.21
+OSR061,Mango murabba candy,1249.53,293.35,77.32,0.27,0.05,0.95
+OSR062,Afghani chicken,633.34,151.51,1.95,15.66,9.07,0.31
+OSR063,Fish orly,2321.86,563.70,4.27,5.87,58.18,0.33
+OSR064,Hariyali Fish Tikka,625.11,150.24,2.21,14.01,9.41,0.99
+OSR065,Chicken manchurian,592.26,142.34,6.06,9.53,11.96,0.41
+OSR066,Handi chicken,694.87,166.02,1.49,12.32,12.46,0.67
+OSR067,Lemon chicken,709.57,169.79,0.55,20.20,9.66,0.16
+OSR068,Lemon butter fish,666.72,160.25,0.75,16.38,10.26,0.36
+OSR069,Baked eggs in tomato sauce,335.90,80.05,3.78,4.92,5.22,0.01
+OSR070,Egg in a pepper,538.83,128.78,0.17,12.64,8.68,0.17
+OSR071,Spinach mushroom scrambled egg (Palak mushroom bhurji),663.88,158.85,0.59,13.28,11.51,0.39
+OSR072,Corn omelette/omlet,695.24,166.93,1.57,11.37,12.89,0.02
+OSR073,Cajun chicken,768.11,184.94,1.94,12.69,13.99,0.89
+OSR074,Paaner do pyaza,529.49,127.70,3.41,4.22,10.87,0.84
+OSR075,Cabbage manchurian (Pattagobhi manchurian),924.16,224.26,4.85,0.64,22.48,0.37
+OSR076,Gobi 65,1145.98,278.29,3.59,0.56,29.11,0.57
+OSR077,Paneer lababdar,437.87,105.48,3.37,3.98,8.46,1.16
+OSR078,Roasted cauliflower steak,325.09,78.68,2.02,2.05,6.70,3.53
+OSR079,Sauteed radishes with green beans,392.94,94.32,6.04,2.41,6.61,3.52
+OSR080,Garlic chutney/Poondu chutney (Lahasun ki chutney),1059.37,255.51,20.44,3.34,17.55,5.15
+OSR081,Schezwan chutney,849.31,205.19,10.79,3.33,17.72,5.72
+OSR083,Onion chutney (Pyaaz ki chutney/Vengaya chutney),597.26,143.94,13.52,2.97,8.38,4.60
+OSR085,Dates chutney (Khajoor ki chutney),432.86,103.57,21.69,1.07,1.12,3.41
+OSR086,Chicken salad,1404.73,338.19,1.30,15.33,30.26,2.00
+OSR087,Macaroni salad,1095.94,262.19,21.63,5.02,17.78,0.56
+OSR088,Cabbage raita (Pattagobhi raita),355.76,84.84,5.25,3.24,5.76,0.93
+OSR089,Pomegranate raita (Anaar ka raita),304.99,72.64,7.15,4.05,3.24,0.60
+OSR090,Onion raita (Pyaaz ka raita),301.33,71.56,7.86,4.86,2.43,0.65
+OSR091,Green chilli raita (Hari mirch ka raita),325.06,77.13,7.66,5.58,2.92,0.26
+OSR092,Kale salad,737.53,177.71,5.01,4.86,15.33,1.36
+OSR093,Spinach and paneer souffle ,779.43,186.19,9.64,7.56,13.49,1.07
+OSR094,Masala souffle ,514.23,123.51,8.02,6.38,7.37,1.24
+OSR095,Chicken and cheese souffle,758.11,182.35,3.47,9.07,14.74,0.26
+OSR096,Tamarind chutney (Chintapandu pachadi/Puli chutney),456.54,109.15,25.07,0.88,0.48,1.65
+OSR097,Pav bhaji masala,964.64,230.47,29.15,9.13,10.96,24.30
+OSR098,Green chutney,332.29,79.42,10.01,5.42,1.60,5.84
+OSR099,Sago khitchdi/khichri (Sabudana khitchdi/khichri),785.65,187.16,22.41,2.72,10.10,1.82
+OSR100,Gram flour chilla/cheela (Besan chilla/cheela),575.24,135.93,21.03,7.80,2.85,4.25
+OSR101,Vegetable namkeen jave,468.29,112.23,18.98,2.93,2.51,2.86
+OSR102,Khakhra,743.92,178.50,27.66,4.78,5.32,5.43
+OSR103,Moong bean dosa (Pesarattu),1190.04,285.96,31.91,12.32,11.67,6.04
+OSR104,Methi thepla,1442.66,346.16,41.34,8.98,15.95,7.56
+OSR105,Rice puttu (Ari puttu),342.97,81.98,11.82,1.26,3.13,0.76
+OSR106,Buckwheat pancake (Khura),1090.92,263.30,27.28,2.91,16.43,0.56
+OSR107,Quinoa khichdi/khichri,267.19,64.01,8.83,3.18,1.59,2.58
+OSR108,Khakhra chaat,1484.32,358.66,16.64,4.52,30.65,3.04
+OSR110,Banana appam,1938.60,469.81,20.06,1.17,42.53,0.67
+OSR111,Veg manchurian,2411.09,585.64,6.82,0.89,61.65,1.16
+OSR112,Pav bhaji,401.63,96.53,11.99,2.66,4.32,1.98
+OSR113,Rice murukku,2454.31,593.99,33.29,5.41,48.22,2.18
+OSR114,Bhel puri ,2104.69,509.89,16.47,3.52,47.91,2.24
+OSR115,Semolina dhokla (Suji/Rava dhokla),814.09,194.91,30.86,5.44,5.20,5.12
+OSR116,Spicy corn chaat ,1982.01,479.80,11.45,4.61,46.55,2.17
+OSR118,Jackfruit fritters (Ponsa mulik/Kathal ka pakora),2467.55,597.79,24.00,2.34,54.41,1.50
+OSR119,Banana chips (Kele ke chips),2739.08,665.67,7.32,0.37,70.46,0.65
+OSR120,Wheat cake,1314.90,314.63,41.13,4.79,14.95,2.76
+OSR121,Mango cheesecake,518.58,152.46,20.06,2.39,7.30,1.14
+OSR122,Carrot cake (Gajar ka cake),1070.74,255.59,35.98,5.60,10.27,2.93
+OSR123,Semolina cake (Suji/Rava cake),1564.42,374.14,31.32,6.58,25.18,5.37
+OSR124,Finger millet cake (Ragi cake),1169.77,279.46,38.93,3.96,12.27,2.35
+OSR125,Honey cake,1395.88,333.59,49.04,3.08,14.70,0.51
+OSR126,Almond cardamom cake (Badam elaichi cake),1488.45,356.35,34.53,7.18,21.36,2.35
+OSR127,Tutti frutti cake,1454.10,347.72,52.94,4.49,12.68,0.85
+OSR128,Ham and Bean soup,401.91,96.04,4.18,10.61,4.15,0.54
+OSR129,Whey soup,287.40,68.91,6.26,3.45,3.34,0.84
+OSR130,Bottle gourd soup (Ghiya/Lauki soup),95.36,23.05,1.16,0.45,1.79,0.96
+OSR131,Baked potato soup,611.18,147.05,5.85,5.73,11.21,0.30
+OSR132,Pumpkin soup,165.55,40.05,2.08,0.47,3.20,1.19
+OSR133,Sweet corn soup,135.27,32.25,3.56,0.99,1.63,0.31
+OSR134,Paneer soup,200.03,47.85,2.42,3.22,2.80,0.28
+OSR135,Curried Cauliflower soup,155.50,37.32,3.12,6.72,9.77,2.34
+OSR136,Millet soup,234.39,55.99,8.22,11.26,12.57,2.82
+OSR137,Lemon coriander soup,450.32,108.06,10.32,2.27,6.26,6.77
+OSR138,Garlic soup,805.19,194.86,6.99,2.38,17.62,1.66
+OSR139,Dal makhani,291.37,74.04,7.96,3.32,3.06,2.27
+OSR141,Dalma,500.97,118.93,15.04,4.91,4.58,2.16
+OSR142,Split bengal gram dal (Channa dal),415.08,99.67,9.99,4.15,4.62,3.72
+OSR143,Horsegram dal (Kulthi dal) ,232.25,55.65,8.21,2.91,1.13,1.52
+OSR144,Panchmel dal,462.35,111.22,10.71,4.63,5.36,3.20
+OSR145,Dal dhokli,287.33,68.74,8.55,2.96,2.47,1.86
+OSR146,Gujarati handvo ,865.12,207.09,31.86,8.24,4.80,4.95
+OSR147,Sev (Omapodi/Karapusa),2514.83,609.14,12.87,5.12,60.08,2.35
+OSR148,Papdi,2919.20,708.96,12.89,1.83,72.11,0.56
+OSR151,Jowar dosa,1225.40,294.35,40.53,8.50,10.28,5.56
+OSR152,Bread roll,1800.12,435.46,16.12,2.85,40.25,1.45
+OSR153,Soya seekh kebab,478.89,115.05,10.00,5.40,5.88,2.24
+OSR154,Classic seasoned black beans,120.37,28.78,7.66,8.01,8.28,3.51
+OSR155,Maa chaane ki dal,1438.25,344.67,43.11,19.80,9.50,13.45
+OSR156,Garlic chickpea soup (Lahasun aur chane ka shoraba),373.81,89.53,13.92,4.45,2.01,2.84
+ASC071,White sauce (thin),479.08,115.17,6.58,3.31,8.41,0.07
+ASC072,White sauce (medium),627.76,151.27,7.98,3.36,11.76,0.14
+ASC073,White sauce (thick),868.33,209.69,10.24,3.43,17.19,0.24
+ASC074,Cheese sauce,808.68,194.76,7.08,7.68,15.12,0.12
+ASC075,Egg sauce,610.63,146.85,5.88,5.97,11.08,0.12
+ASC076,Mushroom sauce,570.97,137.56,7.31,3.39,10.51,0.47
+ASC077,Mustard sauce,658.30,158.58,8.29,3.98,12.17,0.13
+ASC078,Brown sauce,450.70,109.18,5.38,11.92,23.67,1.69
+ASC130,Classic italian pasta,175.25,42.12,4.40,0.57,2.45,1.36
+ASC131,Pasta spinach sauce,353.28,85.46,1.76,1.76,7.90,0.86
+ASC132,Pasta cheese sauce,621.76,149.26,9.00,4.33,10.84,0.14
+ASC266,Mayonnaise,3188.90,774.86,1.65,1.86,84.52,0.11
+ASC267,Low calorie quick mayonnaise,1002.22,242.89,4.71,1.41,24.35,0.06
+ASC268,Thousand island dressing,1681.31,407.87,4.49,1.37,42.87,0.46
+ASC388,Curd dip,336.83,79.95,7.95,5.04,3.36,0.10
+ASC394,Short crust pastry,1751.27,422.10,44.72,6.11,23.98,1.58
+ASC406,Choux pastry,922.56,222.37,16.20,5.55,14.96,0.56
+ASC410,Flaky pastry,1836.74,443.94,33.61,4.69,31.99,1.25
+ASC428,Sponge cake ,1070.15,253.77,44.63,9.18,4.74,0.69
+ASC434,Glace icing,1381.27,323.51,86.31,0.01,0.01,0.00
+ASC436,Royal icing,1419.25,332.58,86.53,1.74,0.02,0.00
+ASC437,American frosting,1097.93,257.57,67.48,1.05,0.01,0.00
+ASC438,Gum icing,951.87,223.07,53.19,5.94,0.00,0.00
+ASC475,Channa murmura premix,1418.79,339.09,72.59,10.59,3.28,8.21
+ASC476,Cracked wheat and green gram dal premix (Dalia moong dal premix),1515.28,362.16,64.75,15.89,5.11,11.66
+ASC477,Rice flakes and roasted channa ,1394.99,333.40,71.94,10.57,2.94,8.84
+ASC479,Spinach soup in milk ,237.33,56.72,3.98,2.89,3.20,0.79
+ASC480,Vegetable soup,230.14,55.21,7.60,2.22,1.55,3.01
+ASC481,Mashed banana with milk,400.32,95.43,14.62,2.51,2.99,0.71
+ASC484,Poha with curd (Poha aur dahi),725.41,173.32,26.72,6.01,4.65,1.09
+ASC485,Potato with curd,307.17,73.18,12.01,3.19,1.33,1.02
+ASC486,Sweet wheat porridge (Sweet dalia),588.54,140.66,23.77,5.11,2.79,2.37
+ASC487,Vegetable khichdi/khichri,597.93,143.17,19.57,5.61,4.53,2.45
+ASC489,Moong dal mixture,671.92,158.84,33.93,4.62,1.00,1.90
+ASC490,Cracked wheat khichri/khichdi (Dalia khichri/khichdi),699.30,167.45,22.35,7.56,5.52,3.74
+ASC492,Stewed apple,389.14,91.93,22.49,0.17,0.37,1.48
+ASC493,Lemon squash (Nimbu ka squash),786.83,184.56,48.88,0.15,0.06,0.00
+ASC494,Orange squash (Santre ka squash),823.13,193.26,50.88,0.22,0.04,0.40
+ASC495,Lichi squash,844.36,198.33,51.96,0.30,0.08,0.41
+ASC496,Mango squash (Aam ka squash),828.98,194.66,50.96,0.17,0.17,0.58
+ASC497,Pineapple squash (Ananas ka squash),830.51,195.02,51.34,0.16,0.05,1.06
+ASC498,Lemon and ginger squash (Nimbu aur adrak ka squash),725.38,170.34,44.06,0.54,0.21,1.07
+ASC499,Apple jam (Seb ka murabba),802.50,188.79,48.56,0.14,0.32,1.29
+ASC500,Plum jam (Aloo bukhara jam),760.58,178.89,46.20,0.31,0.19,1.00
+ASC501,Pineapple jam ,633.68,149.18,38.27,0.32,0.15,2.20
+ASC502,Guava jelly (Amrood ki jelly),491.54,115.74,28.18,1.11,0.25,6.61
+ASC503,Orange marmalade (Santray ka murabba),441.80,104.17,25.94,0.66,0.13,1.97
+ASC504,Carrot murabba (Gajar ka murabba),746.33,175.24,45.60,0.32,0.16,1.39
+ASC505,Gooseberry marmalade (Amla murabba),523.98,123.16,32.34,0.14,0.03,0.00
+ASC506,Ginger candy (Adrak ki candy),833.13,195.71,50.38,0.69,0.27,1.67
+ASC507,Mango pickle (Aam ka achaar),804.06,192.12,8.11,1.60,17.89,3.68
+ASC509,Mixed vegetable pickle (Sabziyoon ka achaar),884.18,211.20,7.48,1.90,19.68,2.76
+ASC511,Sweet lemon pickle (Neembu ka meetha achaar),295.30,69.54,16.87,1.22,0.21,2.13
+ASC512,Plum chutney (Aloo bukhara ki chutney),752.29,177.11,44.95,0.47,0.29,1.37
+ASC513,Raw mango chutney (Kachhe aam/Kairi ki chutney),821.22,193.13,49.94,0.51,0.16,2.17
+ASC514,Tomato sauce,144.77,34.33,7.23,0.81,0.27,1.79
+ASC515,Tomato puree,86.45,20.62,3.68,0.75,0.25,1.56
+BFP001,Garam masala,1063.66,254.21,26.20,9.89,10.97,35.56
+BFP002,Chat masala,931.92,222.58,23.87,8.19,9.91,18.62
+BFP003,Kashmiri masala,1630.04,389.02,23.16,8.26,31.03,12.12
+BFP004,Rasam powder (Rasam masala),1121.18,267.96,25.19,12.04,11.80,35.71
+BFP005,Sambar powder (Sambar masala),1241.41,297.46,23.38,12.50,15.58,34.56
+BFP095,Tartare sauce,2515.35,610.93,2.96,1.44,66.12,0.42
+BFP096,Barbeque sauce,512.72,121.93,20.46,0.96,4.51,0.69
+BFP097,Bread sauce,463.78,111.04,8.69,3.46,7.05,0.56
+BFP163,Green chilli sauce,192.65,46.06,7.36,1.25,0.27,1.77
+BFP164,Home made plain noodles,997.04,238.78,44.50,6.21,3.56,1.65
+BFP166,Dal moong,181.89,43.69,4.92,2.20,1.62,1.08
+BFP167,Cumin seeds baghar (Jeera baghar/tadka),3034.92,736.81,5.22,3.34,78.77,6.01
+BFP168,Onion tomato baghar (Pyaaz tamatar ka tadka),568.02,137.52,6.17,1.26,11.98,2.12
+BFP169,Mustard seeds baghar (Mustard seed tadka),2278.85,552.59,10.45,4.73,54.30,9.74
+BFP360,Hot cherry sauce,1064.62,252.74,67.95,0.13,0.07,0.00
+BFP583,Apple jelly (Seb ki jelly),647.00,152.13,39.37,0.10,0.21,0.86
+BFP585,Marmalade (Murabba),612.00,143.76,37.64,0.23,0.04,0.43
+BFP589,Plum squash (Aloo bukhara squash),899.28,211.17,55.51,0.16,0.10,0.52
+BFP595,Lemon green chilli pickle (Nimboo aur hari mirch ka achaar),59.11,14.07,2.14,0.85,0.24,1.07
+BFP597,Brinjal pickle (Baingan ka achaar),581.75,139.01,4.23,2.24,12.98,4.62
+BFP598,Sweet and sour tomato pickle (Khatta meetha tamatar ka achaar),255.43,60.88,6.55,1.26,3.24,2.20
+BFP599,Jhatpat achar with carrot (Jhatpat achaar gajar ke saath),381.70,91.21,6.32,1.98,6.55,5.08
+BFP601,Tomato chutney (Tamatar ki chutney),745.43,176.07,31.85,0.97,6.01,1.49
+BFP602,Tomato ketchup,139.02,33.07,6.48,0.91,0.30,1.90
+OSR082,Bengal 5 Spice Blend (Panch Phoran),1212.52,289.79,20.00,18.26,22.16,18.40

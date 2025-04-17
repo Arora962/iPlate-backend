@@ -1,3 +1,5 @@
+# Server with Postgres DB (Dataset - Anuvaad)
+
 from flask import Flask, request, jsonify, send_from_directory
 import os
 import pandas as pd
@@ -7,9 +9,13 @@ from werkzeug.utils import secure_filename
 import re
 import logging
 from datetime import datetime
+from supabase import create_client, Client
+from collections import OrderedDict
+from dotenv import load_dotenv
+load_dotenv()
 
 class FoodDetectionApp:
-    def __init__(self, model_weights="yolo11n.pt", upload_folder="uploads", excel_file="Anuvaad_INDB_2024.11.xlsx"):
+    def __init__(self, model_weights="yolo11n.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
         # Initialize Flask app
         self.app = Flask(__name__, static_folder='YOLO_images', static_url_path='/YOLO_images')
         
@@ -20,6 +26,9 @@ class FoodDetectionApp:
 
         self.allowed_extensions = {'pdf', 'png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'webp'}
         
+        # Set up Supabase connection
+        self.supabase: Client = create_client(supabase_url, supabase_key)
+
         # Load YOLO model
         try:
             self.model = YOLO(model_weights)
@@ -28,8 +37,8 @@ class FoodDetectionApp:
             logging.error(f"Error loading YOLO model: {str(e)}")
             raise e
 
-        # Load food data from Excel
-        self.food_data = self.load_food_data(excel_file)
+        # Load food data from Supabase
+        self.food_data = self.load_food_data()
 
         # Route Definitions
         self.app.add_url_rule('/', 'home', self.home, methods=['GET'])
@@ -40,25 +49,17 @@ class FoodDetectionApp:
         # Set up logging
         logging.basicConfig(level=logging.INFO)
 
-    def load_food_data(self, file_path):
-        """Load food data from Excel."""
+    def load_food_data(self):
+        """Load food data from Supabase."""
         try:
-            food_data = pd.read_excel(file_path, sheet_name='Sheet1')
-            if 'food_name' in food_data.columns:
-                food_data['food_name'] = food_data['food_name'].astype(str).str.lower()
-                food_data['normalized_food_name'] = food_data['food_name'].apply(lambda x: re.sub(r'[^a-zA-Z0-9\s]', '', x))
-            else:
-                raise KeyError("Column 'food_name' not found in Excel file.")
-            logging.info(f"Food data loaded successfully from {file_path}")
+            response = self.supabase.table('food_data').select('*').execute()
+            food_data = pd.DataFrame(response.data)
+            food_data['food_name'] = food_data['food_name'].astype(str).str.lower()
+            food_data['normalized_food_name'] = food_data['food_name'].apply(lambda x: re.sub(r'[^a-zA-Z0-9\s]', '', x))
+            logging.info(f"Food data loaded successfully from Supabase")
             return food_data
-        except FileNotFoundError:
-            logging.error(f"Excel file {file_path} not found.")
-            return pd.DataFrame()
-        except KeyError as e:
-            logging.error(f"Data error: {str(e)}")
-            return pd.DataFrame()
         except Exception as e:
-            logging.error(f"Failed to load Excel file: {str(e)}")
+            logging.error(f"Failed to load data from Supabase: {str(e)}")
             return pd.DataFrame()
 
     def allowed_file(self, filename):
@@ -87,10 +88,24 @@ class FoodDetectionApp:
 
         if not match.empty:
             logging.info(f"Found Match for '{food_name}': {match.iloc[0]['food_name']}")
-            return match.iloc[0].to_dict()
+
+            ordered_fields = [
+                'energy_kj', 'energy_kcal',
+                'carb_g', 'protein_g', 'fat_g', 'fibre_g'
+            ]
+
+            row_dict = match.iloc[0].to_dict()
+            ordered_dict = OrderedDict()
+            for key in ordered_fields:
+                if key in row_dict:
+                    ordered_dict[key] = row_dict[key]
+
+            return ordered_dict
+
         else:
             logging.warning(f"No match found for '{food_name}' in dataset.")
-        return None
+            return None
+
 
     def home(self):
         return jsonify({'message': 'Welcome to the Flask YOLOv11 Food Detection API.'})
@@ -154,9 +169,9 @@ class FoodDetectionApp:
 
                 detection_info = {
                     "class_name": class_name,
-                    "class_id": class_id,
-                    "confidence": float(box.conf[0]),
-                    "bbox": box.xyxy[0].tolist(),
+                    # "class_id": class_id,
+                    # "confidence": float(box.conf[0]),
+                    # "bbox": box.xyxy[0].tolist(),
                     "food_details": food_details if food_details else "Not found in database"
                 }
                 detections.append(detection_info)
@@ -184,5 +199,8 @@ class FoodDetectionApp:
 
 
 if __name__ == '__main__':
-    app_instance = FoodDetectionApp()
+    app_instance = FoodDetectionApp(
+        supabase_url=os.getenv("SUPABASE_URL"),
+        supabase_key=os.getenv("SUPABASE_KEY")
+    )
     app_instance.run()
