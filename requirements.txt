@@ -6,3 +6,4 @@ ultralytics==8.1.28
 Werkzeug==3.0.1
 supabase-py @ git+https://github.com/supabase-community/supabase-py.git
 python-dotenv>=1.0.0
+bcrypt>=4.0.1
