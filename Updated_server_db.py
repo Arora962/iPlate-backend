@@ -45,7 +45,7 @@ class FoodDetectionApp:
         self.app.add_url_rule('/meals', 'create_meal', self.create_meal, methods=['POST'])
         self.app.add_url_rule('/meals/<meal_id>/items', 'add_meal_item', self.add_meal_item, methods=['POST'])
         self.app.add_url_rule('/meals/<meal_id>/items', 'get_meal_items', self.get_meal_items, methods=['GET'])
-        self.app.add_url_rule('/upload_and_add_items', 'upload_and_add_items', self.upload_and_add_items, methods=['POST'])
+        self.app.add_url_rule('/upload', 'upload', self.upload, methods=['POST'])
 
     def hash_password(self, password):
         return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
@@ -142,6 +142,7 @@ class FoodDetectionApp:
             "meal_id": meal_id,
             "food_code": food_code,
             "quantity_grams": quantity_grams,
+            "energy":food["energy_kj"]*factor,
             "calories": food["energy_kcal"] * factor,
             "protein": food["protein_g"] * factor,
             "carbs": food["carb_g"] * factor,
@@ -158,6 +159,7 @@ class FoodDetectionApp:
             return jsonify({"message": "No items found for this meal", "items": [], "summary": {}})
 
         summary = {
+            "energy": sum(i.get("energy", 0) for i in items),
             "calories": sum(i.get("calories", 0) for i in items),
             "protein": sum(i.get("protein", 0) for i in items),
             "carbs": sum(i.get("carbs", 0) for i in items),
@@ -167,7 +169,7 @@ class FoodDetectionApp:
 
         return jsonify({"items": items, "summary": summary})
 
-    def upload_and_add_items(self):
+    def upload(self):
         if 'image' not in request.files:
             return jsonify({"error": "Image file is required"}), 400
 
@@ -175,17 +177,42 @@ class FoodDetectionApp:
         if image_file.filename == '' or not self.allowed_file(image_file.filename):
             return jsonify({"error": "Invalid image type"}), 400
 
-        user_id = request.form.get('user_id')
-        meal_type = request.form.get('meal_type')
-        weights_str = request.form.get('weights')  # JSON string
-
-        if not user_id or not meal_type or not weights_str:
-            return jsonify({"error": "Missing user_id, meal_type or weights"}), 400
+        weights_str = request.form.get('weights')
+        if not weights_str:
+            return jsonify({"error": "Missing weights"}), 400
 
         try:
             weights = json.loads(weights_str)
         except Exception:
             return jsonify({"error": "Invalid weights JSON format"}), 400
+
+        # Auto-infer meal_type from time
+        def infer_meal_type():
+            hour = datetime.utcnow().hour
+            if hour < 11:
+                return "breakfast"
+            elif hour < 16:
+                return "lunch"
+            else:
+                return "dinner"
+
+        meal_type = infer_meal_type()
+
+        # Auto-select user_id from Supabase
+        try:
+            auth_header = request.headers.get('Authorization')
+            if not auth_header or not auth_header.startswith('Bearer '):
+                return jsonify({"error": "Missing or invalid Authorization header"}), 401
+
+            token = auth_header.split(" ")[1]
+            user_res = self.supabase.table("users").select("id").eq("session_token", token).execute()
+            if not user_res.data:
+                return jsonify({"error": "Invalid session token"}), 401
+
+            user_id = user_res.data[0]['id']
+
+        except Exception as e:
+            return jsonify({"error": f"Failed to fetch user_id: {str(e)}"}), 500
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"{timestamp}_{secure_filename(image_file.filename)}"
@@ -225,6 +252,7 @@ class FoodDetectionApp:
                         "meal_id": meal_id,
                         "food_code": food['food_code'],
                         "quantity_grams": grams,
+                        "energy": food["energy_kj"]*factor,
                         "calories": food["energy_kcal"] * factor,
                         "protein": food["protein_g"] * factor,
                         "carbs": food["carb_g"] * factor,
@@ -237,14 +265,13 @@ class FoodDetectionApp:
                     self.supabase.table("meal_items").insert({k: v for k, v in item.items() if k != "class_name"}).execute()
 
                     # Add class_name only to the returned data (not DB)
-                    item["class_name"] = class_name
                     detections.append(item)
-
 
         if not detections:
             return jsonify({"message": "No food items matched with given weights", "items": [], "summary": {}})
 
         summary = {
+            "energy": sum(i["energy"] for i in detections),
             "calories": sum(i["calories"] for i in detections),
             "protein": sum(i["protein"] for i in detections),
             "carbs": sum(i["carbs"] for i in detections),
@@ -252,12 +279,11 @@ class FoodDetectionApp:
             "fiber": sum(i["fiber"] for i in detections)
         }
 
-
         summary_items = [
-        {
-            "food": item["class_name"],
-            "quantity_grams": item["quantity_grams"]
-        }
+            {
+                "food": item["class_name"],
+                "quantity_grams": item["quantity_grams"]
+            }
             for item in detections
         ]
 
