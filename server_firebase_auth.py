@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify
 import os
 import pandas as pd
 from PIL import Image
@@ -9,7 +9,6 @@ import logging
 from datetime import datetime
 from supabase import create_client, Client
 from dotenv import load_dotenv
-import bcrypt
 import uuid
 import json
 
@@ -19,7 +18,7 @@ from firebase_admin import credentials, auth as firebase_auth
 
 load_dotenv()
 
-# Firebase Admin Initialization
+# Initialize Firebase Admin
 cred = credentials.Certificate(os.getenv("FIREBASE_CREDENTIALS"))
 firebase_admin.initialize_app(cred)
 
@@ -42,9 +41,8 @@ class FoodDetectionApp:
         self.food_data = self.load_food_data()
         logging.basicConfig(level=logging.INFO)
 
+        # Routes
         self.app.add_url_rule('/', 'home', self.home, methods=['GET'])
-        self.app.add_url_rule('/signup', 'signup', self.signup, methods=['POST'])
-        self.app.add_url_rule('/login', 'login', self.login, methods=['POST'])
         self.app.add_url_rule('/meals', 'create_meal', self.create_meal, methods=['POST'])
         self.app.add_url_rule('/meals/<meal_id>/items', 'add_meal_item', self.add_meal_item, methods=['POST'])
         self.app.add_url_rule('/meals/<meal_id>/items', 'get_meal_items', self.get_meal_items, methods=['GET'])
@@ -57,12 +55,6 @@ class FoodDetectionApp:
         except Exception as e:
             logging.warning(f"Firebase token verification failed: {e}")
             return None
-
-    def hash_password(self, password):
-        return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
-
-    def verify_password(self, password, hashed):
-        return bcrypt.checkpw(password.encode(), hashed.encode())
 
     def allowed_file(self, filename):
         return '.' in filename and filename.rsplit('.', 1)[1].lower() in self.allowed_extensions
@@ -83,45 +75,6 @@ class FoodDetectionApp:
 
     def home(self):
         return jsonify({"message": "Welcome to the Flask YOLOv11 Food Detection API."})
-
-    def signup(self):
-        data = request.get_json()
-        email = data.get('email')
-        password = data.get('password')
-        if not email or not password:
-            return jsonify({'error': 'Missing email or password'}), 400
-
-        existing = self.supabase.table("users").select("*").eq("email", email).execute()
-        if existing.data:
-            return jsonify({'error': 'User already exists'}), 409
-
-        hashed = self.hash_password(password)
-        token = str(uuid.uuid4())
-
-        self.supabase.table("users").insert({
-            "email": email,
-            "password_hash": hashed,
-            "session_token": token
-        }).execute()
-
-        return jsonify({"message": "User created", "session_token": token}), 201
-
-    def login(self):
-        data = request.get_json()
-        email = data.get('email')
-        password = data.get('password')
-
-        user = self.supabase.table("users").select("*").eq("email", email).execute().data
-        if not user:
-            return jsonify({'error': 'User not found'}), 404
-
-        user = user[0]
-        if not self.verify_password(password, user['password_hash']):
-            return jsonify({'error': 'Invalid credentials'}), 401
-
-        token = str(uuid.uuid4())
-        self.supabase.table("users").update({"session_token": token}).eq("id", user["id"]).execute()
-        return jsonify({"message": "Login successful", "user_id": user["id"], "session_token": token})
 
     def create_meal(self):
         data = request.get_json()
@@ -197,7 +150,6 @@ class FoodDetectionApp:
         except Exception:
             return jsonify({"error": "Invalid weights JSON format"}), 400
 
-        # Auth: Firebase Token instead of session_token
         auth_header = request.headers.get('Authorization')
         if not auth_header or not auth_header.startswith('Bearer '):
             return jsonify({"error": "Missing or invalid Authorization header"}), 401
@@ -220,7 +172,7 @@ class FoodDetectionApp:
         else:
             user_id = user_res.data[0]["id"]
 
-        # Meal type based on time
+        # Meal type based on time of day
         def infer_meal_type():
             hour = datetime.utcnow().hour
             if hour < 11:
