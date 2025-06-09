@@ -7,3 +7,6 @@ Werkzeug==3.0.1
 supabase-py @ git+https://github.com/supabase-community/supabase-py.git
 python-dotenv>=1.0.0
 bcrypt>=4.0.1
+firebase-admin==6.4.0
+google-auth>=2.0.0
+requests>=2.28.0
