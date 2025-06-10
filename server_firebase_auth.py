@@ -11,6 +11,7 @@ from supabase import create_client, Client
 from dotenv import load_dotenv
 import uuid
 import json
+import torch
 
 # Firebase Admin SDK
 import firebase_admin
@@ -32,11 +33,16 @@ class FoodDetectionApp:
         self.supabase: Client = create_client(supabase_url, supabase_key)
 
         try:
-            self.model = YOLO(model_weights)
+            from ultralytics.nn.tasks import DetectionModel
+
+            with torch.serialization.safe_globals({'ultralytics.nn.tasks.DetectionModel': DetectionModel}):
+                self.model = YOLO(model_weights)
+
             logging.info(f"YOLO model loaded from {model_weights}")
         except Exception as e:
             logging.error(f"Error loading YOLO model: {str(e)}")
             raise e
+
 
         self.food_data = self.load_food_data()
         logging.basicConfig(level=logging.INFO)
