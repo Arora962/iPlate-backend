@@ -156,17 +156,27 @@ class FoodDetectionApp:
         except Exception:
             return jsonify({"error": "Invalid weights JSON format"}), 400
 
+        # Unified Firebase Auth check
+        firebase_uid = None
         auth_header = request.headers.get('Authorization')
-        if not auth_header or not auth_header.startswith('Bearer '):
-            return jsonify({"error": "Missing or invalid Authorization header"}), 401
+        if auth_header and auth_header.startswith('Bearer '):
+            id_token = auth_header.split(" ")[1]
+            try:
+                decoded = self.verify_firebase_token(id_token)
+                firebase_uid = decoded["uid"]
+            except Exception as e:
+                logging.warning(f"ID token verification failed: {e}")
+                return jsonify({"error": "Invalid Firebase token"}), 401
 
-        id_token = auth_header.split(" ")[1]
-        decoded = self.verify_firebase_token(id_token)
-        if not decoded:
-            return jsonify({"error": "Invalid Firebase token"}), 401
+        # Development-mode fallback using X-Firebase-UID
+        elif os.getenv("FLASK_ENV") == "development":
+            firebase_uid = request.headers.get("X-Firebase-UID")
+            if not firebase_uid:
+                return jsonify({"error": "Missing Firebase UID (X-Firebase-UID)"}), 401
+        else:
+            return jsonify({"error": "Authorization required"}), 401
 
-        firebase_uid = decoded["uid"]
-        email = decoded.get("email", None)
+        email = decoded.get("email") if auth_header else None
 
         user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
         if not user_res.data:
@@ -178,7 +188,6 @@ class FoodDetectionApp:
         else:
             user_id = user_res.data[0]["id"]
 
-        # Meal type based on time of day
         def infer_meal_type():
             hour = datetime.utcnow().hour
             if hour < 11:
