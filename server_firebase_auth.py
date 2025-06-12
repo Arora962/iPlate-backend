@@ -7,7 +7,6 @@ from werkzeug.utils import secure_filename
 import re
 import logging
 from datetime import datetime
-from collections import defaultdict
 from supabase import create_client, Client
 from dotenv import load_dotenv
 import uuid
@@ -55,7 +54,6 @@ class FoodDetectionApp:
         self.app.add_url_rule('/meals/<meal_id>/items', 'get_meal_items', self.get_meal_items, methods=['GET'])
         self.app.add_url_rule('/upload', 'upload', self.upload, methods=['POST'])
         self.app.add_url_rule('/meals/previous', 'get_previous_meal', self.get_previous_meal, methods=['GET'])
-        self.app.add_url_rule('/meals/grouped', 'get_grouped_meals', self.get_grouped_meals, methods=['GET'])
 
     def verify_firebase_token(self, id_token):
         try:
