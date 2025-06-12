@@ -1,12 +1,12 @@
-Flask==2.3.3
-pandas==2.2.1
-openpyxl==3.1.2
-Pillow==10.2.0
-ultralytics==8.1.28
-Werkzeug==3.0.1
+Flask
+pandas
+openpyxl
+Pillow
+ultralytics
+Werkzeug
 supabase-py @ git+https://github.com/supabase-community/supabase-py.git
-python-dotenv>=1.0.0
-bcrypt>=4.0.1
-firebase-admin==6.4.0
-google-auth>=2.0.0
-requests>=2.28.0
+python-dotenv
+bcrypt
+firebase-admin
+google-auth
+requests

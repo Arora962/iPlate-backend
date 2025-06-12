@@ -7,6 +7,7 @@ from werkzeug.utils import secure_filename
 import re
 import logging
 from datetime import datetime
+from collections import defaultdict
 from supabase import create_client, Client
 from dotenv import load_dotenv
 import uuid
@@ -53,6 +54,8 @@ class FoodDetectionApp:
         self.app.add_url_rule('/meals/<meal_id>/items', 'add_meal_item', self.add_meal_item, methods=['POST'])
         self.app.add_url_rule('/meals/<meal_id>/items', 'get_meal_items', self.get_meal_items, methods=['GET'])
         self.app.add_url_rule('/upload', 'upload', self.upload, methods=['POST'])
+        self.app.add_url_rule('/meals/previous', 'get_previous_meal', self.get_previous_meal, methods=['GET'])
+        self.app.add_url_rule('/meals/grouped', 'get_grouped_meals', self.get_grouped_meals, methods=['GET'])
 
     def verify_firebase_token(self, id_token):
         try:
@@ -147,14 +150,14 @@ class FoodDetectionApp:
         if image_file.filename == '' or not self.allowed_file(image_file.filename):
             return jsonify({"error": "Invalid image type"}), 400
 
-        weights_str = request.form.get('weights')
-        if not weights_str:
-            return jsonify({"error": "Missing weights"}), 400
+        weight_input = request.form.get("weights")
+        if not weight_input:
+            return jsonify({"error": "Missing weight input"}), 400
 
         try:
-            weights = json.loads(weights_str)
-        except Exception:
-            return jsonify({"error": "Invalid weights JSON format"}), 400
+            weight_values = [float(w.strip()) for w in weight_input.split(",")]
+        except ValueError:
+            return jsonify({"error": "Invalid weight format."}), 400
 
         # Unified Firebase Auth check
         firebase_uid = None
@@ -167,7 +170,7 @@ class FoodDetectionApp:
             except Exception as e:
                 logging.warning(f"ID token verification failed: {e}")
                 return jsonify({"error": "Invalid Firebase token"}), 401
-
+            
         # Development-mode fallback using X-Firebase-UID
         elif os.getenv("FLASK_ENV") == "development":
             firebase_uid = request.headers.get("X-Firebase-UID")
@@ -178,6 +181,7 @@ class FoodDetectionApp:
 
         email = decoded.get("email") if auth_header else None
 
+        # Get or create user in Supabase
         user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
         if not user_res.data:
             insert_res = self.supabase.table("users").insert({
@@ -204,6 +208,7 @@ class FoodDetectionApp:
         filepath = os.path.join(self.app.config['UPLOAD_FOLDER'], filename)
         image_file.save(filepath)
 
+        # Create meal
         meal_res = self.supabase.table("meals").insert({
             "user_id": user_id,
             "meal_type": meal_type,
@@ -211,13 +216,15 @@ class FoodDetectionApp:
         }).execute()
         meal_id = meal_res.data[0]['id']
 
+        # Run YOLO detection
         try:
             image = Image.open(filepath)
             results = self.model(image)
         except Exception as e:
             return jsonify({"error": f"Detection failed: {str(e)}"}), 500
 
-        detections = []
+        all_detections = []
+
         for result in results:
             for box in result.boxes:
                 class_name = self.model.names[int(box.cls[0])].strip()
@@ -226,29 +233,43 @@ class FoodDetectionApp:
 
                 if not match.empty:
                     food = match.iloc[0]
-                    grams = weights.get(normalized_name)
-                    if not grams:
-                        continue
+                    all_detections.append((food, class_name, normalized_name))
 
-                    factor = grams / 100.0
-                    item = {
-                        "meal_id": meal_id,
-                        "food_code": food['food_code'],
-                        "quantity_grams": grams,
-                        "energy": food["energy_kj"] * factor,
-                        "calories": food["energy_kcal"] * factor,
-                        "protein": food["protein_g"] * factor,
-                        "carbs": food["carb_g"] * factor,
-                        "fat": food["fat_g"] * factor,
-                        "fiber": food["fibre_g"] * factor,
-                        "class_name": class_name
-                    }
+        if not all_detections:
+            return jsonify({"message": "No food items matched", "items": [], "summary": {}})
 
-                    self.supabase.table("meal_items").insert({k: v for k, v in item.items() if k != "class_name"}).execute()
-                    detections.append(item)
+        if len(weight_values) == 1:
+            if len(all_detections) != 1:
+                return jsonify({
+                    "error": "Single weight value provided but multiple food items detected. Provide one weight per item."
+                }), 400
+            weight_list = weight_values
+        elif len(weight_values) == len(all_detections):
+            weight_list = weight_values
+        else:
+            return jsonify({
+                "error": f"Mismatch between weights ({len(weight_values)}) and detected items ({len(all_detections)})."
+            }), 400
 
-        if not detections:
-            return jsonify({"message": "No food items matched with given weights", "items": [], "summary": {}})
+        # Insert meal items
+        detections = []
+        for (food, class_name, _), grams in zip(all_detections, weight_list):
+            factor = grams / 100.0
+            item = {
+                "meal_id": meal_id,
+                "food_code": food['food_code'],
+                "quantity_grams": grams,
+                "energy": food["energy_kj"] * factor,
+                "calories": food["energy_kcal"] * factor,
+                "protein": food["protein_g"] * factor,
+                "carbs": food["carb_g"] * factor,
+                "fat": food["fat_g"] * factor,
+                "fiber": food["fibre_g"] * factor,
+                "class_name": class_name
+            }
+
+            self.supabase.table("meal_items").insert({k: v for k, v in item.items() if k != "class_name"}).execute()
+            detections.append(item)
 
         summary = {
             "energy": sum(i["energy"] for i in detections),
@@ -273,6 +294,56 @@ class FoodDetectionApp:
             "foods": summary_items,
             "summary": summary
         })
+    
+    def get_previous_meal(self):
+        firebase_uid = request.headers.get("X-Firebase-UID") if os.getenv("FLASK_ENV") == "development" else None
+        if not firebase_uid:
+            return jsonify({"error": "Missing Firebase UID"}), 401
+
+        user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
+        if not user_res.data:
+            return jsonify({"error": "User not found"}), 404
+
+        user_id = user_res.data[0]["id"]
+
+        # Get most recent meal
+        meal_res = self.supabase.table("meals") \
+            .select("*") \
+            .eq("user_id", user_id) \
+            .order("created_at", desc=True) \
+            .limit(1) \
+            .execute()
+
+        if not meal_res.data:
+            return jsonify({"message": "No meals found"}), 404
+
+        meal = meal_res.data[0]
+        meal_id = meal["id"]
+
+        items = self.supabase.table("meal_items").select("*").eq("meal_id", meal_id).execute().data
+
+        summary = {
+            "energy": sum(i.get("energy", 0) for i in items),
+            "calories": sum(i.get("calories", 0) for i in items),
+            "protein": sum(i.get("protein", 0) for i in items),
+            "carbs": sum(i.get("carbs", 0) for i in items),
+            "fat": sum(i.get("fat", 0) for i in items),
+            "fiber": sum(i.get("fiber", 0) for i in items)
+        }
+
+        weights = [
+            {
+                "food_code": i.get("food_code"),
+                "quantity_grams": i.get("quantity_grams")
+            }
+            for i in items
+        ]
+
+        return jsonify({
+            "summary": summary,
+            "weights": weights
+        })
+
 
     def run(self):
         self.app.run(debug=True, host='0.0.0.0', port=5001)
