@@ -6,6 +6,7 @@ from ultralytics import YOLO
 from werkzeug.utils import secure_filename
 import re
 import logging
+from collections import defaultdict
 from datetime import datetime
 from supabase import create_client, Client
 from dotenv import load_dotenv
@@ -54,6 +55,7 @@ class FoodDetectionApp:
         self.app.add_url_rule('/meals/<meal_id>/items', 'get_meal_items', self.get_meal_items, methods=['GET'])
         self.app.add_url_rule('/upload', 'upload', self.upload, methods=['POST'])
         self.app.add_url_rule('/meals/previous', 'get_previous_meal', self.get_previous_meal, methods=['GET'])
+        self.app.add_url_rule('/meals/grouped', 'get_grouped_meals', self.get_grouped_meals, methods=['GET'])
 
     def verify_firebase_token(self, id_token):
         try:
@@ -329,19 +331,90 @@ class FoodDetectionApp:
             "fiber": sum(i.get("fiber", 0) for i in items)
         }
 
-        weights = [
-            {
-                "food_code": i.get("food_code"),
-                "quantity_grams": i.get("quantity_grams")
-            }
-            for i in items
-        ]
+        quantity_total = sum(i.get("quantity_grams", 0) for i in items)
 
         return jsonify({
-            "summary": summary,
-            "weights": weights
+            "meal_id": meal_id,
+            "quantity_total": quantity_total,
+            "summary": summary
         })
 
+    def get_grouped_meals(self):
+        firebase_uid = request.headers.get("X-Firebase-UID") if os.getenv("FLASK_ENV") == "development" else None
+        if not firebase_uid:
+            return jsonify({"error": "Missing Firebase UID"}), 401
+
+        user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
+        if not user_res.data:
+            return jsonify({"error": "User not found"}), 404
+
+        user_id = user_res.data[0]["id"]
+
+        # Use created_at, not date, for real chronological grouping
+        meals_res = self.supabase.table("meals") \
+            .select("*") \
+            .eq("user_id", user_id) \
+            .order("created_at", desc=True) \
+            .limit(1000) \
+            .execute()
+
+        meals = meals_res.data
+
+        # Group by formatted created_at date
+        grouped_by_date = defaultdict(lambda: {"breakfast": [], "lunch": [], "dinner": []})
+
+        for meal in meals:
+            created_at_str = meal.get("created_at")
+            if not created_at_str:
+                continue # skipping invalid entry
+
+            created_at = datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
+            date_str = created_at.strftime("%d-%m-%Y") # dd-mm-yyyy format
+
+            meal_type = meal.get("meal_type", "").strip().lower()
+            if meal_type not in ("breakfast", "lunch", "dinner"):
+                continue # skipping unknown types
+
+            meal_id = meal["id"]
+            items = self.supabase.table("meal_items").select("*").eq("meal_id", meal_id).execute().data
+
+            summary = {
+                "energy": sum(i.get("energy", 0) for i in items),
+                "calories": sum(i.get("calories", 0) for i in items),
+                "protein": sum(i.get("protein", 0) for i in items),
+                "carbs": sum(i.get("carbs", 0) for i in items),
+                "fat": sum(i.get("fat", 0) for i in items),
+                "fiber": sum(i.get("fiber", 0) for i in items)
+            }
+
+            quantity_total = sum(i.get("quantity_grams", 0) for i in items)
+
+            grouped_by_date[date_str][meal_type].append({
+                "meal_id": meal_id,
+                "quantity_total": quantity_total,
+                "summary": summary
+            })
+
+        # Final ordered list for output (latest date first)
+        sorted_dates = sorted(
+            grouped_by_date.keys(),
+            key=lambda d: datetime.strptime(d, "%d-%m-%Y"),
+            reverse=True
+        )
+
+        ordered_output = []
+        for date in sorted_dates:
+            meals_by_type = grouped_by_date[date]
+            ordered_output.append({
+                "date": date,
+                "meals": {
+                    "breakfast": meals_by_type["breakfast"],
+                    "lunch": meals_by_type["lunch"],
+                    "dinner": meals_by_type["dinner"]
+                }
+            })
+
+        return jsonify(ordered_output)
 
     def run(self):
         self.app.run(debug=True, host='0.0.0.0', port=5001)
