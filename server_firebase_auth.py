@@ -258,14 +258,14 @@ class FoodDetectionApp:
             item = {
                 "meal_id": meal_id,
                 "food_code": food['food_code'],
+                "food_name": class_name,
                 "quantity_grams": grams,
                 "energy": food["energy_kj"] * factor,
                 "calories": food["energy_kcal"] * factor,
                 "protein": food["protein_g"] * factor,
                 "carbs": food["carb_g"] * factor,
                 "fat": food["fat_g"] * factor,
-                "fiber": food["fibre_g"] * factor,
-                "class_name": class_name
+                "fiber": food["fibre_g"] * factor
             }
 
             self.supabase.table("meal_items").insert({k: v for k, v in item.items() if k != "class_name"}).execute()
@@ -282,7 +282,7 @@ class FoodDetectionApp:
 
         summary_items = [
             {
-                "food": item["class_name"],
+                "food": item["food_name"],
                 "quantity_grams": item["quantity_grams"]
             }
             for item in detections
@@ -328,7 +328,14 @@ class FoodDetectionApp:
             "protein": sum(i.get("protein", 0) for i in items),
             "carbs": sum(i.get("carbs", 0) for i in items),
             "fat": sum(i.get("fat", 0) for i in items),
-            "fiber": sum(i.get("fiber", 0) for i in items)
+            "fiber": sum(i.get("fiber", 0) for i in items),
+            "foods": [
+                {
+                    "food_name": i.get("food_name"),
+                    "quantity_grams": i.get("quantity_grams", 0)
+                }
+                for i in items
+            ]
         }
 
         quantity_total = sum(i.get("quantity_grams", 0) for i in items)
@@ -384,7 +391,14 @@ class FoodDetectionApp:
                 "protein": sum(i.get("protein", 0) for i in items),
                 "carbs": sum(i.get("carbs", 0) for i in items),
                 "fat": sum(i.get("fat", 0) for i in items),
-                "fiber": sum(i.get("fiber", 0) for i in items)
+                "fiber": sum(i.get("fiber", 0) for i in items),
+                "foods": [
+                    {
+                        "food_name": i.get("food_name"),
+                        "quantity_grams": i.get("quantity_grams", 0)
+                    }
+                    for i in items
+                ]
             }
 
             quantity_total = sum(i.get("quantity_grams", 0) for i in items)
