@@ -229,7 +229,7 @@ class FoodDetectionApp:
             for box in result.boxes:
                 class_name = self.model.names[int(box.cls[0])].strip()
                 normalized_name = self.normalize_text(class_name)
-                match = self.food_data[self.food_data['normalized_food_name'].str.contains(normalized_name, na=False)]
+                match = self.food_data[self.food_data['normalized_food_name'] == normalized_name]
 
                 if not match.empty:
                     food = match.iloc[0]
