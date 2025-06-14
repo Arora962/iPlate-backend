@@ -14,6 +14,8 @@ import uuid
 import json
 import torch
 import requests
+from io import BytesIO
+from ultralytics.nn.tasks import DetectionModel
 
 # Firebase Admin SDK
 import firebase_admin
@@ -35,8 +37,6 @@ class FoodDetectionApp:
         self.supabase: Client = create_client(supabase_url, supabase_key)
 
         try:
-            from ultralytics.nn.tasks import DetectionModel
-
             with torch.serialization.safe_globals({'ultralytics.nn.tasks.DetectionModel': DetectionModel}):
                 self.model = YOLO(model_weights)
 
@@ -161,7 +161,7 @@ class FoodDetectionApp:
         except ValueError:
             return jsonify({"error": "Invalid weight format."}), 400
 
-        # Unified Firebase Auth check
+        # Firebase Authentication
         firebase_uid = None
         auth_header = request.headers.get('Authorization')
         if auth_header and auth_header.startswith('Bearer '):
@@ -172,8 +172,6 @@ class FoodDetectionApp:
             except Exception as e:
                 logging.warning(f"ID token verification failed: {e}")
                 return jsonify({"error": "Invalid Firebase token"}), 401
-            
-        # Development-mode fallback using X-Firebase-UID
         elif os.getenv("FLASK_ENV") == "development":
             firebase_uid = request.headers.get("X-Firebase-UID")
             if not firebase_uid:
@@ -205,22 +203,12 @@ class FoodDetectionApp:
 
         meal_type = infer_meal_type()
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{timestamp}_{secure_filename(image_file.filename)}"
-        filepath = os.path.join(self.app.config['UPLOAD_FOLDER'], filename)
-        image_file.save(filepath)
-
-        # Create meal
-        meal_res = self.supabase.table("meals").insert({
-            "user_id": user_id,
-            "meal_type": meal_type,
-            "date": datetime.utcnow().date().isoformat()
-        }).execute()
-        meal_id = meal_res.data[0]['id']
+        # Load image into memory
+        image_stream = BytesIO(image_file.read())
+        image = Image.open(image_stream)
 
         # Run YOLO detection
         try:
-            image = Image.open(filepath)
             results = self.model(image)
         except Exception as e:
             return jsonify({"error": f"Detection failed: {str(e)}"}), 500
@@ -231,14 +219,30 @@ class FoodDetectionApp:
             for box in result.boxes:
                 class_name = self.model.names[int(box.cls[0])].strip()
                 normalized_name = self.normalize_text(class_name)
+
+                # Exact match
                 match = self.food_data[self.food_data['normalized_food_name'] == normalized_name]
+
+                # # Optional partial match (Comment out when needed to identify the food item accurately)
+                # if match.empty:
+                #     partial_matches = self.food_data[self.food_data['normalized_food_name'].str.contains(normalized_name, case=False, na=False)]
+                #     if not partial_matches.empty:
+                #         match = partial_matches.head(1)
 
                 if not match.empty:
                     food = match.iloc[0]
                     all_detections.append((food, class_name, normalized_name))
 
         if not all_detections:
-            return jsonify({"message": "No food items matched", "items": [], "summary": {}})
+            return jsonify({"message": "No food items matched", "items": [], "summary": {}}), 200
+
+        # Create meal only after match is present
+        meal_res = self.supabase.table("meals").insert({
+            "user_id": user_id,
+            "meal_type": meal_type,
+            "date": datetime.utcnow().date().isoformat()
+        }).execute()
+        meal_id = meal_res.data[0]['id']
 
         if len(weight_values) == 1:
             if len(all_detections) != 1:
@@ -253,7 +257,7 @@ class FoodDetectionApp:
                 "error": f"Mismatch between weights ({len(weight_values)}) and detected items ({len(all_detections)})."
             }), 400
 
-        # Insert meal items
+        # Insertion of meal items
         detections = []
         for (food, class_name, _), grams in zip(all_detections, weight_list):
             factor = grams / 100.0
@@ -270,8 +274,16 @@ class FoodDetectionApp:
                 "fiber": food["fibre_g"] * factor
             }
 
-            self.supabase.table("meal_items").insert({k: v for k, v in item.items() if k != "class_name"}).execute()
+            self.supabase.table("meal_items").insert(item).execute()
             detections.append(item)
+
+        # Save image only after successful DB insertion
+        image_stream.seek(0)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{timestamp}_{secure_filename(image_file.filename)}"
+        filepath = os.path.join(self.app.config['UPLOAD_FOLDER'], filename)
+        with open(filepath, 'wb') as f:
+            f.write(image_stream.read())
 
         summary = {
             "energy": sum(i["energy"] for i in detections),
@@ -284,7 +296,7 @@ class FoodDetectionApp:
 
         summary_items = [
             {
-                "food": item["food_name"],
+                "food": item["food_name"], 
                 "quantity_grams": item["quantity_grams"]
             }
             for item in detections
