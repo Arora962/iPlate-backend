@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 import uuid
 import json
 import torch
+import requests
 
 # Firebase Admin SDK
 import firebase_admin
@@ -56,6 +57,7 @@ class FoodDetectionApp:
         self.app.add_url_rule('/upload', 'upload', self.upload, methods=['POST'])
         self.app.add_url_rule('/meals/previous', 'get_previous_meal', self.get_previous_meal, methods=['GET'])
         self.app.add_url_rule('/meals/grouped', 'get_grouped_meals', self.get_grouped_meals, methods=['GET'])
+        self.app.add_url_rule('/auth/forgot-password', 'send_password_reset', self.send_password_reset, methods=['POST'])
 
     def verify_firebase_token(self, id_token):
         try:
@@ -429,6 +431,36 @@ class FoodDetectionApp:
             })
 
         return jsonify(ordered_output)
+
+    def send_password_reset(self):
+        data = request.get_json()
+        email = data.get("email")
+
+        if not email:
+            return jsonify({"error": "Email is required"}), 400
+
+        try:
+            firebase_api_key = os.getenv("FIREBASE_WEB_API_KEY")
+            if not firebase_api_key:
+                raise ValueError("Missing FIREBASE_WEB_API_KEY in environment variables.")
+
+            reset_url = f"https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key={firebase_api_key}"
+
+            payload = {
+                "requestType": "PASSWORD_RESET",
+                "email": email
+            }
+
+            response = requests.post(reset_url, json=payload)
+
+            if response.status_code == 200:
+                return jsonify({"message": "Password reset email sent successfully."}), 200
+            else:
+                error_msg = response.json().get("error", {}).get("message", "Unknown error")
+                return jsonify({"error": f"Failed to send reset email: {error_msg}"}), 400
+
+        except Exception as e:
+            return jsonify({"error": f"Internal server error: {str(e)}"}), 500
 
     def run(self):
         self.app.run(debug=True, host='0.0.0.0', port=5001)
