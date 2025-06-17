@@ -27,6 +27,48 @@ load_dotenv()
 cred = credentials.Certificate(os.getenv("FIREBASE_CREDENTIALS"))
 firebase_admin.initialize_app(cred)
 
+from shapely.geometry import Point, Polygon
+
+def sort_detections_by_regions(detections, image_size):
+    """
+    Sorts the detections into regions based on a predefined layout.
+    Regions:
+        1 - bottom half
+        2 - top-left
+        3 - top-middle
+        4 - top-right
+    """
+    width, height = image_size
+    regions = {
+        1: Polygon([(0, height * 0.5), (width, height * 0.5), (width, height), (0, height)]),
+        2: Polygon([(0, 0), (width / 3, 0), (width / 3, height * 0.5), (0, height * 0.5)]),
+        3: Polygon([(width / 3, 0), (2 * width / 3, 0), (2 * width / 3, height * 0.5), (width / 3, height * 0.5)]),
+        4: Polygon([(2 * width / 3, 0), (width, 0), (width, height * 0.5), (2 * width / 3, height * 0.5)])
+    }
+
+    region_map = {1: [], 2: [], 3: [], 4: []}
+
+    for detection in detections:
+        box = detection["box"]
+        cx = (box[0] + box[2]) / 2
+        cy = (box[1] + box[3]) / 2
+        center = Point(cx, cy)
+
+        for region_id, polygon in regions.items():
+            if polygon.contains(center):
+                region_map[region_id].append((cx, detection))
+                break
+
+    sorted_detections = []
+    if region_map[1]:
+        sorted_detections.extend([det[1] for det in region_map[1]])  # First detection from region 1
+    for region_id in [2, 3, 4]:
+        sorted_items = sorted(region_map[region_id], key=lambda x: x[0])
+        sorted_detections.extend([det[1] for det in sorted_items])
+
+    return sorted_detections
+
+
 class FoodDetectionApp:
     def __init__(self, model_weights="yolo11n.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
         self.app = Flask(__name__)
@@ -145,12 +187,13 @@ class FoodDetectionApp:
         return jsonify({"items": items, "summary": summary})
 
     def upload(self):
-        if 'image' not in request.files:
-            return jsonify({"error": "Image file is required"}), 400
+        image_files = request.files.getlist("image")
+        if not image_files:
+            return jsonify({"error": "At least one image file is required"}), 400
 
-        image_file = request.files['image']
-        if image_file.filename == '' or not self.allowed_file(image_file.filename):
-            return jsonify({"error": "Invalid image type"}), 400
+        for file in image_files:
+            if file.filename == '' or not self.allowed_file(file.filename):
+                return jsonify({"error": f"Invalid file type: {file.filename}"}), 400
 
         weight_input = request.form.get("weights")
         if not weight_input:
@@ -170,7 +213,6 @@ class FoodDetectionApp:
                 decoded = self.verify_firebase_token(id_token)
                 firebase_uid = decoded["uid"]
             except Exception as e:
-                logging.warning(f"ID token verification failed: {e}")
                 return jsonify({"error": "Invalid Firebase token"}), 401
         elif os.getenv("FLASK_ENV") == "development":
             firebase_uid = request.headers.get("X-Firebase-UID")
@@ -194,62 +236,67 @@ class FoodDetectionApp:
 
         def infer_meal_type():
             hour = datetime.utcnow().hour
-            if hour < 11:
-                return "breakfast"
-            elif hour < 16:
-                return "lunch"
-            else:
-                return "dinner"
+            return "breakfast" if hour < 11 else "lunch" if hour < 16 else "dinner"
 
         meal_type = infer_meal_type()
 
-        # Load image into memory
-        image_stream = BytesIO(image_file.read())
-        image = Image.open(image_stream)
-
-        # Run YOLO detection
-        try:
-            results = self.model(image)
-        except Exception as e:
-            return jsonify({"error": f"Detection failed: {str(e)}"}), 500
-
         all_detections = []
+        image_metadata = []  # Stores image, stream, filename
 
-        for result in results:
-            for box in result.boxes:
-                class_name = self.model.names[int(box.cls[0])].strip()
-                normalized_name = self.normalize_text(class_name)
+        # Read all images into memory
+        for image_file in image_files:
+            image_stream = BytesIO(image_file.read())
+            image = Image.open(image_stream)
+            filename = secure_filename(image_file.filename)
+            image_metadata.append({
+                "image": image,
+                "stream": image_stream,
+                "filename": filename
+            })
 
-                # Exact match
-                match = self.food_data[self.food_data['normalized_food_name'] == normalized_name]
+        # Detect food in each image
+        for img_data in image_metadata:
+            image = img_data["image"]
+            filename = img_data["filename"]
 
-                # # Optional partial match (Comment out when needed to identify the food item accurately)
-                # if match.empty:
-                #     partial_matches = self.food_data[self.food_data['normalized_food_name'].str.contains(normalized_name, case=False, na=False)]
-                #     if not partial_matches.empty:
-                #         match = partial_matches.head(1)
+            try:
+                results = self.model(image)
+            except Exception as e:
+                return jsonify({"error": f"Detection failed on {filename}: {str(e)}"}), 500
 
-                if not match.empty:
-                    food = match.iloc[0]
-                    all_detections.append((food, class_name, normalized_name))
+            image_width, image_height = image.size
+            raw_detections = []
 
-        if not all_detections:
-            return jsonify({"message": "No food items matched", "items": [], "summary": {}}), 200
+            for result in results:
+                for box in result.boxes:
+                    class_name = self.model.names[int(box.cls[0])].strip()
+                    normalized_name = self.normalize_text(class_name)
+                    xyxy = box.xyxy[0].tolist()  # [x1, y1, x2, y2]
 
-        # Create meal only after match is present
-        meal_res = self.supabase.table("meals").insert({
-            "user_id": user_id,
-            "meal_type": meal_type,
-            "date": datetime.utcnow().date().isoformat()
-        }).execute()
-        meal_id = meal_res.data[0]['id']
+                    # Exact match
+                    match = self.food_data[self.food_data['normalized_food_name'] == normalized_name]
 
-        if len(weight_values) == 1:
-            if len(all_detections) != 1:
-                return jsonify({
-                    "error": "Single weight value provided but multiple food items detected. Provide one weight per item."
-                }), 400
-            weight_list = weight_values
+                    if match.empty:
+                        match = self.food_data[self.food_data['normalized_food_name'].str.contains(normalized_name, na=False)]
+
+                    if not match.empty:
+                        food = match.iloc[0]
+                        raw_detections.append({
+                            "food": food,
+                            "food_name": class_name,
+                            "normalized_name": normalized_name,
+                            "filename": filename,
+                            "stream": img_data["stream"],
+                            "box": xyxy
+                        })
+
+            # Sort detections based on plate layout
+            sorted_detections = sort_detections_by_regions(raw_detections, (image_width, image_height))
+            all_detections.extend(sorted_detections)
+
+        # Weight assignment validation
+        if len(weight_values) == 1 and len(all_detections) > 1:
+            weight_list = [weight_values[0]] * len(all_detections)
         elif len(weight_values) == len(all_detections):
             weight_list = weight_values
         else:
@@ -257,34 +304,62 @@ class FoodDetectionApp:
                 "error": f"Mismatch between weights ({len(weight_values)}) and detected items ({len(all_detections)})."
             }), 400
 
+        # Creation of meal record
+        try:
+            meal_res = self.supabase.table("meals").insert({
+                "user_id": user_id,
+                "meal_type": meal_type,
+                "date": datetime.utcnow().date().isoformat()
+            }).execute()
+            meal_id = meal_res.data[0]['id']
+        except Exception as e:
+            return jsonify({"error": f"Failed to create meal: {str(e)}"}), 500
+
         # Insertion of meal items
         detections = []
-        for (food, class_name, _), grams in zip(all_detections, weight_list):
-            factor = grams / 100.0
-            item = {
-                "meal_id": meal_id,
-                "food_code": food['food_code'],
-                "food_name": class_name,
-                "quantity_grams": grams,
-                "energy": food["energy_kj"] * factor,
-                "calories": food["energy_kcal"] * factor,
-                "protein": food["protein_g"] * factor,
-                "carbs": food["carb_g"] * factor,
-                "fat": food["fat_g"] * factor,
-                "fiber": food["fibre_g"] * factor
-            }
 
-            self.supabase.table("meal_items").insert(item).execute()
-            detections.append(item)
+        try:
+            for detection, grams in zip(all_detections, weight_list):
+                food = detection["food"]
+                class_name = detection["food_name"]
+                filename = detection["filename"]
 
-        # Save image only after successful DB insertion
-        image_stream.seek(0)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{timestamp}_{secure_filename(image_file.filename)}"
-        filepath = os.path.join(self.app.config['UPLOAD_FOLDER'], filename)
-        with open(filepath, 'wb') as f:
-            f.write(image_stream.read())
+                factor = grams / 100.0
+                item = {
+                    "meal_id": meal_id,
+                    "food_code": food.get("food_code"),
+                    "food_name": class_name,
+                    "quantity_grams": grams,
+                    "energy": (food.get("energy_kj") or 0) * factor,
+                    "calories": (food.get("energy_kcal") or 0) * factor,
+                    "protein": (food.get("protein_g") or 0) * factor,
+                    "carbs": (food.get("carb_g") or 0) * factor,
+                    "fat": (food.get("fat_g") or 0) * factor,
+                    "fiber": (food.get("fibre_g") or 0) * factor
+                }
 
+                self.supabase.table("meal_items").insert(item).execute()
+                detections.append(item)
+
+            # Save each image after successful insertion
+            for img_data in image_metadata:
+                stream = img_data["stream"]
+                stream.seek(0)
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = f"{timestamp}_{img_data['filename']}"
+                filepath = os.path.join(self.app.config['UPLOAD_FOLDER'], filename)
+
+                with open(filepath, 'wb') as f:
+                    f.write(stream.read())
+
+        except Exception as insert_err:
+            self.supabase.table("meals").delete().eq("id", meal_id).execute()
+            return jsonify({
+                "error": "Failed to insert meal items.",
+                "details": str(insert_err)
+            }), 500
+
+        # Building summary of data for food item(s)
         summary = {
             "energy": sum(i["energy"] for i in detections),
             "calories": sum(i["calories"] for i in detections),
@@ -296,8 +371,14 @@ class FoodDetectionApp:
 
         summary_items = [
             {
-                "food": item["food_name"], 
-                "quantity_grams": item["quantity_grams"]
+               "food": item["food_name"],
+                "quantity_grams": item["quantity_grams"],
+                "calories": item["calories"],
+                "protein": item["protein"],
+                "carbs": item["carbs"],
+                "fat": item["fat"],
+                "fiber": item["fiber"],
+                "energy": item["energy"]
             }
             for item in detections
         ]
@@ -343,22 +424,33 @@ class FoodDetectionApp:
             "carbs": sum(i.get("carbs", 0) for i in items),
             "fat": sum(i.get("fat", 0) for i in items),
             "fiber": sum(i.get("fiber", 0) for i in items),
-            "foods": [
-                {
-                    "food_name": i.get("food_name"),
-                    "quantity_grams": i.get("quantity_grams", 0)
-                }
-                for i in items
-            ]
         }
 
         quantity_total = sum(i.get("quantity_grams", 0) for i in items)
 
-        return jsonify({
+        food_breakdown = [
+            {
+                "food_name": i.get("food_name"),
+                "quantity_grams": i.get("quantity_grams", 0),
+                "calories": i.get("calories", 0),
+                "protein": i.get("protein", 0),
+                "carbs": i.get("carbs", 0),
+                "fat": i.get("fat", 0),
+                "fiber": i.get("fiber", 0)
+            }
+            for i in items
+        ]
+
+        response = {
             "meal_id": meal_id,
             "quantity_total": quantity_total,
             "summary": summary
-        })
+        }
+
+        if len(items) > 1:
+            response["Item List"] = food_breakdown
+
+        return jsonify(response)
 
     def get_grouped_meals(self):
         firebase_uid = request.headers.get("X-Firebase-UID") if os.getenv("FLASK_ENV") == "development" else None
@@ -405,24 +497,33 @@ class FoodDetectionApp:
                 "protein": sum(i.get("protein", 0) for i in items),
                 "carbs": sum(i.get("carbs", 0) for i in items),
                 "fat": sum(i.get("fat", 0) for i in items),
-                "fiber": sum(i.get("fiber", 0) for i in items),
-                "foods": [
-                    {
-                        "food_name": i.get("food_name"),
-                        "quantity_grams": i.get("quantity_grams", 0)
-                    }
-                    for i in items
-                ]
+                "fiber": sum(i.get("fiber", 0) for i in items)
             }
 
             quantity_total = sum(i.get("quantity_grams", 0) for i in items)
 
-            grouped_by_date[date_str][meal_type].append({
+            meal_data = {
                 "meal_id": meal_id,
                 "quantity_total": quantity_total,
                 "summary": summary
-            })
+            }
 
+            if len(items) > 1:
+                meal_data["Item List"] = [
+                    {
+                        "food_name": i.get("food_name"),
+                        "quantity_grams": i.get("quantity_grams", 0),
+                        "calories": i.get("calories", 0),
+                        "protein": i.get("protein", 0),
+                        "carbs": i.get("carbs", 0),
+                        "fat": i.get("fat", 0),
+                        "fiber": i.get("fiber", 0)
+                    }
+                    for i in items
+                ]
+
+            grouped_by_date[date_str][meal_type].append(meal_data)
+        
         # Final ordered list for output (latest date first)
         sorted_dates = sorted(
             grouped_by_date.keys(),
