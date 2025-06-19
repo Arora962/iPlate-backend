@@ -204,16 +204,20 @@ class FoodDetectionApp:
         except ValueError:
             return jsonify({"error": "Invalid weight format."}), 400
 
-        # Firebase Authentication
+       # Firebase Authentication
+        auth_header = request.headers.get("Authorization")
         firebase_uid = None
-        auth_header = request.headers.get('Authorization')
-        if auth_header and auth_header.startswith('Bearer '):
+        email = None
+        decoded = None
+
+        if auth_header and auth_header.startswith("Bearer "):
             id_token = auth_header.split(" ")[1]
-            try:
-                decoded = self.verify_firebase_token(id_token)
-                firebase_uid = decoded["uid"]
-            except Exception as e:
+            decoded = self.verify_firebase_token(id_token)
+            if not decoded:
                 return jsonify({"error": "Invalid Firebase token"}), 401
+            firebase_uid = decoded.get("uid")
+            email = decoded.get("email")
+
         elif os.getenv("FLASK_ENV") == "development":
             firebase_uid = request.headers.get("X-Firebase-UID")
             if not firebase_uid:
@@ -221,18 +225,16 @@ class FoodDetectionApp:
         else:
             return jsonify({"error": "Authorization required"}), 401
 
-        email = decoded.get("email") if auth_header else None
-
-        # Get or create user in Supabase
+        # Insert user into Supabase only if not already present
         user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
-        if not user_res.data:
+        if user_res.data:
+            user_id = user_res.data[0]["id"]
+        else:
             insert_res = self.supabase.table("users").insert({
                 "firebase_uid": firebase_uid,
                 "email": email
             }).execute()
             user_id = insert_res.data[0]["id"]
-        else:
-            user_id = user_res.data[0]["id"]
 
         def infer_meal_type():
             hour = datetime.utcnow().hour
