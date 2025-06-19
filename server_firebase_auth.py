@@ -70,7 +70,7 @@ def sort_detections_by_regions(detections, image_size):
 
 
 class FoodDetectionApp:
-    def __init__(self, model_weights="yolo11n.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
+    def __init__(self, model_weights="best.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
         self.app = Flask(__name__)
         self.upload_folder = upload_folder
         os.makedirs(self.upload_folder, exist_ok=True)
@@ -204,7 +204,7 @@ class FoodDetectionApp:
         except ValueError:
             return jsonify({"error": "Invalid weight format."}), 400
 
-       # Firebase Authentication
+        # Firebase Authentication
         auth_header = request.headers.get("Authorization")
         firebase_uid = None
         email = None
@@ -225,16 +225,18 @@ class FoodDetectionApp:
         else:
             return jsonify({"error": "Authorization required"}), 401
 
-        # Insert user into Supabase only if not already present
+        # Check if the user already exists in Supabase by Firebase UID
         user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
         if user_res.data:
+            # User exists, get the user_id
             user_id = user_res.data[0]["id"]
         else:
+            # User doesn't exist, insert the new user and get the user_id
             insert_res = self.supabase.table("users").insert({
                 "firebase_uid": firebase_uid,
                 "email": email
             }).execute()
-            user_id = insert_res.data[0]["id"]
+            user_id = insert_res.data[0]["id"]  # The newly created user_id
 
         def infer_meal_type():
             hour = datetime.utcnow().hour
