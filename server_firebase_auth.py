@@ -70,7 +70,7 @@ def sort_detections_by_regions(detections, image_size):
 
 
 class FoodDetectionApp:
-    def __init__(self, model_weights="best.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
+    def __init__(self, model_weights="yolo11n.pt", upload_folder="uploads", supabase_url="your-supabase-url", supabase_key="your-supabase-key"):
         self.app = Flask(__name__)
         self.upload_folder = upload_folder
         os.makedirs(self.upload_folder, exist_ok=True)
@@ -220,32 +220,40 @@ class FoodDetectionApp:
 
         elif os.getenv("FLASK_ENV") == "development":
             firebase_uid = request.headers.get("X-Firebase-UID")
-            if not firebase_uid:
-                return jsonify({"error": "Missing Firebase UID (X-Firebase-UID)"}), 401
+            email = request.headers.get("X-Firebase-Email")
         else:
             return jsonify({"error": "Authorization required"}), 401
 
-        # Check if the user already exists in Supabase by Firebase UID
-        user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
-        if user_res.data:
-            # User exists, get the user_id
-            user_id = user_res.data[0]["id"]
-        else:
-            # User doesn't exist, insert the new user and get the user_id
-            insert_res = self.supabase.table("users").insert({
-                "firebase_uid": firebase_uid,
-                "email": email
-            }).execute()
-            user_id = insert_res.data[0]["id"]  # The newly created user_id
+        # Validate Firebase UID and Email
+        if not firebase_uid or not email:
+            return jsonify({"error": "Missing Firebase UID or email"}), 400
+
+        logging.info(f"Firebase UID: {firebase_uid}, Email: {email}")
+
+        # Check if the user already exists in Supabase
+        try:
+            user_res = self.supabase.table("users").select("id").eq("firebase_uid", firebase_uid).execute()
+            if user_res.data:
+                # User exists, get the user_id
+                user_id = user_res.data[0]["id"]
+            else:
+                # User doesn't exist, insert the new user and get the user_id
+                insert_res = self.supabase.table("users").insert({
+                    "firebase_uid": firebase_uid,
+                    "email": email
+                }).execute()
+                user_id = insert_res.data[0]["id"]
+        except Exception as e:
+            logging.error(f"User lookup or insert failed: {e}")
+            return jsonify({"error": "Failed to fetch or create user", "details": str(e)}), 500
 
         def infer_meal_type():
             hour = datetime.utcnow().hour
             return "breakfast" if hour < 11 else "lunch" if hour < 16 else "dinner"
 
         meal_type = infer_meal_type()
-
         all_detections = []
-        image_metadata = []  # Stores image, stream, filename
+        image_metadata = [] # Stores image, stream, filename
 
         # Read all images into memory
         for image_file in image_files:
@@ -262,7 +270,6 @@ class FoodDetectionApp:
         for img_data in image_metadata:
             image = img_data["image"]
             filename = img_data["filename"]
-
             try:
                 results = self.model(image)
             except Exception as e:
@@ -275,11 +282,9 @@ class FoodDetectionApp:
                 for box in result.boxes:
                     class_name = self.model.names[int(box.cls[0])].strip()
                     normalized_name = self.normalize_text(class_name)
-                    xyxy = box.xyxy[0].tolist()  # [x1, y1, x2, y2]
+                    xyxy = box.xyxy[0].tolist()
 
-                    # Exact match
                     match = self.food_data[self.food_data['normalized_food_name'] == normalized_name]
-
                     if match.empty:
                         match = self.food_data[self.food_data['normalized_food_name'].str.contains(normalized_name, na=False)]
 
@@ -297,7 +302,7 @@ class FoodDetectionApp:
             # Sort detections based on plate layout
             sorted_detections = sort_detections_by_regions(raw_detections, (image_width, image_height))
             all_detections.extend(sorted_detections)
-
+        
         # Weight assignment validation
         if len(weight_values) == 1 and len(all_detections) > 1:
             weight_list = [weight_values[0]] * len(all_detections)
@@ -321,13 +326,11 @@ class FoodDetectionApp:
 
         # Insertion of meal items
         detections = []
-
         try:
             for detection, grams in zip(all_detections, weight_list):
                 food = detection["food"]
                 class_name = detection["food_name"]
                 filename = detection["filename"]
-
                 factor = grams / 100.0
                 item = {
                     "meal_id": meal_id,
@@ -375,7 +378,7 @@ class FoodDetectionApp:
 
         summary_items = [
             {
-               "food": item["food_name"],
+                "food": item["food_name"],
                 "quantity_grams": item["quantity_grams"],
                 "calories": item["calories"],
                 "protein": item["protein"],
