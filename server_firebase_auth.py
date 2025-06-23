@@ -14,6 +14,9 @@ import uuid
 import json
 import torch
 import requests
+import pytz
+import random
+from datetime import datetime, time
 from io import BytesIO
 from ultralytics.nn.tasks import DetectionModel
 
@@ -100,6 +103,7 @@ class FoodDetectionApp:
         self.app.add_url_rule('/meals/previous', 'get_previous_meal', self.get_previous_meal, methods=['GET'])
         self.app.add_url_rule('/meals/grouped', 'get_grouped_meals', self.get_grouped_meals, methods=['GET'])
         self.app.add_url_rule('/auth/forgot-password', 'send_password_reset', self.send_password_reset, methods=['POST'])
+        self.app.add_url_rule('/mood/suggestions', 'get_mood_suggestions_with_input', self.get_mood_suggestions_with_input, methods=['POST'])
 
     def verify_firebase_token(self, id_token):
         try:
@@ -248,8 +252,25 @@ class FoodDetectionApp:
             return jsonify({"error": "Failed to fetch or create user", "details": str(e)}), 500
 
         def infer_meal_type():
-            hour = datetime.utcnow().hour
-            return "breakfast" if hour < 11 else "lunch" if hour < 16 else "dinner"
+            # Use local timezone (IST)
+            ist = pytz.timezone("Asia/Kolkata")
+            now = datetime.now(ist).time()
+
+            def in_range(start_hour, start_minute, end_hour, end_minute):
+                return time(start_hour, start_minute) <= now <= time(end_hour, end_minute)
+
+            if in_range(7, 0, 9, 30):
+                return "breakfast"
+            elif in_range(10, 0, 11, 0):
+                return "morning snack"
+            elif in_range(12, 0, 14, 0):
+                return "lunch"
+            elif in_range(16, 0, 17, 30):
+                return "evening snack"
+            elif in_range(19, 0, 22, 0):
+                return "dinner"
+            else:
+                return "other"
 
         meal_type = infer_meal_type()
         all_detections = []
@@ -481,7 +502,13 @@ class FoodDetectionApp:
         meals = meals_res.data
 
         # Group by formatted created_at date
-        grouped_by_date = defaultdict(lambda: {"breakfast": [], "lunch": [], "dinner": []})
+        grouped_by_date = defaultdict(lambda: {
+            "breakfast": [],
+            "morning snack": [],
+            "lunch": [],
+            "evening snack": [],
+            "dinner": []
+        })
 
         for meal in meals:
             created_at_str = meal.get("created_at")
@@ -492,7 +519,7 @@ class FoodDetectionApp:
             date_str = created_at.strftime("%d-%m-%Y") # dd-mm-yyyy format
 
             meal_type = meal.get("meal_type", "").strip().lower()
-            if meal_type not in ("breakfast", "lunch", "dinner"):
+            if meal_type not in ("breakfast", "morning snack", "lunch", "evening snack", "dinner"):
                 continue # skipping unknown types
 
             meal_id = meal["id"]
@@ -545,7 +572,9 @@ class FoodDetectionApp:
                 "date": date,
                 "meals": {
                     "breakfast": meals_by_type["breakfast"],
+                    "morning snack": meals_by_type["morning snack"],
                     "lunch": meals_by_type["lunch"],
+                    "evening snack": meals_by_type["evening snack"],
                     "dinner": meals_by_type["dinner"]
                 }
             })
@@ -581,6 +610,129 @@ class FoodDetectionApp:
 
         except Exception as e:
             return jsonify({"error": f"Internal server error: {str(e)}"}), 500
+        
+    def get_mood_suggestions_with_input(self):
+        try:
+            data = request.get_json()
+
+            # Parse input
+            diet_tags = data.get("diet_tags", "")
+            allergens = data.get("allergens", "")
+            current_mood = data.get("current_mood", "")
+
+            if not current_mood:
+                return jsonify({"error": "current_mood is required"}), 400
+
+            # Normalize input
+            input_diet_tags = set(tag.strip().lower() for tag in diet_tags.split(",") if tag.strip())
+            
+            def parse_allergen_string(allergen_str):
+                result = set()
+                for part in allergen_str.split(","):
+                    for subpart in part.split("/"):
+                        cleaned = subpart.strip().lower()
+                        if cleaned:
+                            result.add(cleaned)
+                return result
+
+            input_allergens = parse_allergen_string(allergens)
+
+            input_mood = current_mood.strip().lower()
+
+            # Determine current time (IST) → meal time
+            now = datetime.now(pytz.timezone("Asia/Kolkata")).time()
+
+            def in_range(start, end):
+                return start <= now <= end
+
+            if in_range(time(7, 0), time(9, 30)):
+                meal_time = "breakfast"
+            elif in_range(time(10, 0), time(11, 0)):
+                meal_time = "morning snack"
+            elif in_range(time(12, 0), time(15, 0)):
+                meal_time = "lunch"
+            elif in_range(time(16, 0), time(17, 30)):
+                meal_time = "evening snack"
+            elif in_range(time(19, 0), time(22, 0)):
+                meal_time = "dinner"
+            else:
+                meal_time = None
+
+            if not meal_time:
+                return jsonify({"message": "No suitable meal time for current hour."}), 200
+
+            # Save mood input
+            insert_res = self.supabase.table("mood_inputs").insert({
+                "diet_tags": diet_tags,
+                "allergens": allergens,
+                "current_mood": current_mood
+            }).execute()
+
+            # Fetch food entries from mood_table
+            mood_data = self.supabase.table("mood_table").select("*").execute().data
+            strict_matches = []
+            partial_matches = []
+
+            for food in mood_data:
+                food_name = food.get("food_name", "").strip()
+                description = food.get("description", "").strip()
+                best_time = (food.get("best_time_to_eat") or "").strip().lower()
+
+                food_diet_tags = set(tag.strip().lower() for tag in (food.get("diet_tags") or "").split(",") if tag.strip())
+                food_mood_tags = set(tag.strip().lower() for tag in (food.get("mood_tags") or "").split(",") if tag.strip())
+                food_allergens = set(tag.strip().lower() for tag in (food.get("allergens") or "").split(",") if tag.strip())
+
+                # Filter: allergens
+                if input_allergens & food_allergens:
+                    continue
+
+                # Filter: mood
+                if input_mood not in food_mood_tags:
+                    continue
+
+                # Filter: time
+                if best_time != "any" and meal_time not in best_time:
+                    continue
+
+                # Filter: diet tag logic
+                if len(input_diet_tags) == 1:
+                    single_tag = next(iter(input_diet_tags))
+                    if food_diet_tags == input_diet_tags:
+                        strict_matches.append({
+                            "food_name": food_name,
+                            "description": description
+                        })
+                    elif single_tag in food_diet_tags:
+                        partial_matches.append({
+                            "food_name": food_name,
+                            "description": description
+                        })
+                elif len(input_diet_tags) > 1:
+                    if input_diet_tags.issubset(food_diet_tags):
+                        strict_matches.append({
+                            "food_name": food_name,
+                            "description": description
+                        })
+                    elif input_diet_tags & food_diet_tags:
+                        partial_matches.append({
+                            "food_name": food_name,
+                            "description": description
+                        })
+
+            # Combine results
+            final_suggestions = strict_matches + partial_matches
+            random.shuffle(final_suggestions)
+
+            if not final_suggestions:
+                return jsonify({"message": "No suitable food suggestions found."}), 200
+
+            return jsonify({
+                "message": "Suggested foods based on your mood",
+                "suggestions": final_suggestions[:5]
+            }), 200
+
+        except Exception as e:
+            return jsonify({"error": f"Server error: {str(e)}"}), 500
 
     def run(self):
         self.app.run(debug=True, host='0.0.0.0', port=5001)

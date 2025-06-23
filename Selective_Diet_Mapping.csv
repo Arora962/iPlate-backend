@@ -1,0 +1,1015 @@
+﻿food_name,diet_tags,mood_tags,allergens,best_time_to_eat,description
+Hot tea (Garam Chai),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Hot tea (Garam Chai) is suitable for a general diet and supports energetic & calm.
+Instant coffee,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Instant coffee is suitable for a general diet and supports energetic & calm.
+Espreso coffee,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Espreso coffee is suitable for a general diet and supports energetic & calm.
+Iced tea,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Iced tea is suitable for a general diet and supports energetic & calm.
+Raw mango drink (Aam panna),Raw Food,"Energetic & Calm, Depressed Mood",None,Snack,"Raw mango drink (Aam panna) is suitable for a general diet and supports energetic & calm, depressed mood."
+Fruit Punch (with fresh juices),"Mediterranean, Vegan",Depressed Mood,None,Dinner,Fruit Punch (with fresh juices) is suitable for a vegan diet and supports depressed mood.
+Fruit Punch (with squashes),Vegan,Depressed Mood,None,Dinner,Fruit Punch (with squashes) is suitable for a vegan diet and supports depressed mood.
+Lemonade,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Lemonade is suitable for a general diet and supports energetic & calm.
+Lem-o-gin,"Vegan, Vegetarian",Stressed,None,Dinner,Lem-o-gin is suitable for a general diet and supports neutral mood.
+Cumin infused water (Jeere/Zeere ka pani),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Cumin infused water (Jeere/Zeere ka pani) is suitable for a general diet and supports neutral mood.
+Coco pine cooler,"Vegan, Vegetarian",Depressed Mood,None,Snack,Coco pine cooler is suitable for a general diet and supports neutral mood.
+Summer cooler,"Vegan, Vegetarian",Happy,None,Breakfast,Summer cooler is suitable for a general diet and supports neutral mood.
+Hot cocoa,"Vegan, Vegetarian",Craving,None,Snack,Hot cocoa is suitable for a general diet and supports neutral mood.
+Cold coffee with ice cream,"Keto, Vegan, Vegetarian","Happy, Energetic & Calm",None,"Breakfast, Snack","Cold coffee with ice cream is suitable for a general diet and supports happy, energetic & calm."
+Banana milkshake (Kele milkshake),Vegetarian,Tired & Anxious,Lactose / Dairy,Breakfast,Banana milkshake (Kele milkshake) is suitable for a vegetarian diet and supports tired & anxious.
+Mango milkshake (Aam milkshake),Vegetarian,"Tired & Anxious, Depressed Mood",Lactose / Dairy,Lunch,"Mango milkshake (Aam milkshake) is suitable for a vegetarian diet and supports tired & anxious, depressed mood."
+Pineapple milkshake (Ananas milkshake),Vegetarian,Tired & Anxious,Lactose / Dairy,Breakfast,Pineapple milkshake (Ananas milkshake) is suitable for a vegetarian diet and supports tired & anxious.
+Orange milkshake (Narangi milkshake),Vegetarian,Tired & Anxious,Lactose / Dairy,Snack,Orange milkshake (Narangi milkshake) is suitable for a vegetarian diet and supports tired & anxious.
+Egg nog,Keto,Stressed,Eggs,Lunch,Egg nog is suitable for a keto diet and supports neutral mood.
+Sweet Lassi (Meethi lassi),"Vegan, Vegetarian",Depressed Mood,Lactose / Dairy,Dinner,Sweet Lassi (Meethi lassi) is suitable for a general diet and supports depressed mood.
+Lassi (salted),"Vegan, Vegetarian",Depressed Mood,Lactose / Dairy,Snack,Lassi (salted) is suitable for a general diet and supports depressed mood.
+Cheese and chilli sandwich ,Vegetarian,Happy,Lactose / Dairy,Snack,Cheese and chilli sandwich  is suitable for a vegetarian diet and supports neutral mood.
+Egg sandwich (Ande ka sandwich),Keto,Energetic & Calm,Eggs,Lunch,Egg sandwich (Ande ka sandwich) is suitable for a keto diet and supports neutral mood.
+Cucumber sandwich (Kheere ka sandwich),"Vegan, Vegetarian",Happy,None,Lunch,Cucumber sandwich (Kheere ka sandwich) is suitable for a general diet and supports happy.
+Cheese and pineapple sandwich (Cheese aur ananas ka sandwich),Vegetarian,Craving,Lactose / Dairy,Dinner,Cheese and pineapple sandwich (Cheese aur ananas ka sandwich) is suitable for a vegetarian diet and supports neutral mood.
+Cheese and tomato sandwich (Cheese aur tamatar ke sandwich),Vegetarian,Happy,Lactose / Dairy,Lunch,Cheese and tomato sandwich (Cheese aur tamatar ke sandwich) is suitable for a vegetarian diet and supports neutral mood.
+Chicken sandwich,Keto,Depressed Mood,None,Breakfast,Chicken sandwich is suitable for a keto diet and supports neutral mood.
+Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich),"Vegan, Vegetarian",Energetic & Calm,Nuts,Lunch,Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich) is suitable for a general diet and supports neutral mood.
+Rainbow sandwich,"Vegan, Vegetarian",Stressed,None,Dinner,Rainbow sandwich is suitable for a general diet and supports neutral mood.
+Club sandwich ,"Vegan, Vegetarian",Stressed,None,Lunch,Club sandwich  is suitable for a general diet and supports neutral mood.
+Vegetarian club sandwich,Vegetarian,Energetic & Calm,None,Lunch,Vegetarian club sandwich is suitable for a general diet and supports neutral mood.
+Pin wheel sandwich,"Vegan, Vegetarian",Craving,None,Snack,Pin wheel sandwich is suitable for a general diet and supports neutral mood.
+Carrot apple sandwich (Gajar aur seb ka sandwich),"Vegan, Vegetarian",Craving,None,Dinner,Carrot apple sandwich (Gajar aur seb ka sandwich) is suitable for a general diet and supports neutral mood.
+Salami sandwich,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Salami sandwich is suitable for a general diet and supports neutral mood.
+Vegetable and mayonnaise sandwich,Vegan,Balanced Mood,None,Snack,Vegetable and mayonnaise sandwich is suitable for a vegan diet and supports balanced mood.
+Egg and tomato sandwich (Ande aur tamatar ka sandwich),Keto,Stressed,Eggs,Breakfast,Egg and tomato sandwich (Ande aur tamatar ka sandwich) is suitable for a keto diet and supports neutral mood.
+Sweet open sandwich,"Vegan, Vegetarian",Craving,None,Lunch,Sweet open sandwich is suitable for a general diet and supports neutral mood.
+Mushroom and cheese sandwich (toasted),Vegetarian,Depressed Mood,Lactose / Dairy,Dinner,Mushroom and cheese sandwich (toasted) is suitable for a vegetarian diet and supports neutral mood.
+Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)),Vegetarian,Stressed,Lactose / Dairy,Lunch,Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)) is suitable for a vegetarian diet and supports neutral mood.
+Pea potato sandwich (toasted) (Matar aloo ka sandwich),Vegetarian,Happy,None,Snack,Pea potato sandwich (toasted) (Matar aloo ka sandwich) is suitable for a vegetarian diet and supports neutral mood.
+Paneer pea sandwich (toasted) (Paneer matar ka sandwich),"Keto, Vegetarian",Craving,Lactose / Dairy,Breakfast,"Paneer pea sandwich (toasted) (Paneer matar ka sandwich) is suitable for a keto, vegetarian diet and supports neutral mood."
+Chicken sandwich (toasted),Keto,Craving,None,Breakfast,Chicken sandwich (toasted) is suitable for a keto diet and supports neutral mood.
+Pea keema sandwich (toasted) (Matar aur keema ka sandwich),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Pea keema sandwich (toasted) (Matar aur keema ka sandwich) is suitable for a general diet and supports neutral mood.
+Classic club sandwich,"Vegan, Vegetarian",Depressed Mood,Lactose / Dairy,Lunch,Classic club sandwich is suitable for a general diet and supports depressed mood.
+Sesame toast,"Vegan, Vegetarian",Stressed,None,Dinner,Sesame toast is suitable for a general diet and supports neutral mood.
+Cracked wheat porridge (Meetha daliya),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Cracked wheat porridge (Meetha daliya) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Semolina porridge (Suji/Rava daliya),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Semolina porridge (Suji/Rava daliya) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Oatmeal Porridge,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Oatmeal Porridge is suitable for a general diet and supports neutral mood.
+Cornflakes with milk,Vegetarian,Depressed Mood,Lactose / Dairy,Lunch,Cornflakes with milk is suitable for a vegetarian diet and supports neutral mood.
+Rice flakes (Chiwda/Aval),Vegan,Balanced Mood,None,Lunch,Rice flakes (Chiwda/Aval) is suitable for a vegan diet and supports balanced mood.
+Wheat flakes,"Vegan, Vegetarian",Energetic & Calm,Gluten,Breakfast,Wheat flakes is suitable for a general diet and supports neutral mood.
+Murmura (Puffed rice),Vegan,Balanced Mood,None,Lunch,Murmura (Puffed rice) is suitable for a vegan diet and supports balanced mood.
+Puffed wheat (Murmure/Moori),"Vegan, Vegetarian",Depressed Mood,Gluten,Dinner,Puffed wheat (Murmure/Moori) is suitable for a general diet and supports neutral mood.
+Boiled egg (Ubla anda),Keto,Happy,Eggs,Lunch,Boiled egg (Ubla anda) is suitable for a keto diet and supports neutral mood.
+Fried Egg ,Keto,Craving,Eggs,Snack,Fried Egg  is suitable for a keto diet and supports neutral mood.
+Poached egg,Keto,Craving,Eggs,Dinner,Poached egg is suitable for a keto diet and supports neutral mood.
+Scrambled egg (Ande ki bhurji),Keto,Stressed,Eggs,Lunch,Scrambled egg (Ande ki bhurji) is suitable for a keto diet and supports neutral mood.
+Baked egg ,Keto,Energetic & Calm,Eggs,Breakfast,Baked egg  is suitable for a keto diet and supports neutral mood.
+Plain omelette/omlet,"Vegan, Vegetarian",Happy,None,Breakfast,Plain omelette/omlet is suitable for a general diet and supports neutral mood.
+Stuffed egg omelette/omlet,Keto,Stressed,Eggs,Breakfast,Stuffed egg omelette/omlet is suitable for a keto diet and supports neutral mood.
+Pancake,"Vegan, Vegetarian",Craving,None,Dinner,Pancake is suitable for a general diet and supports neutral mood.
+Keema pancake,"Vegan, Vegetarian",Happy,None,Breakfast,Keema pancake is suitable for a general diet and supports neutral mood.
+Vegetable pancake,Vegan,Balanced Mood,None,Dinner,Vegetable pancake is suitable for a vegan diet and supports balanced mood.
+Jam and fruit pancake,Vegan,Depressed Mood,None,Breakfast,Jam and fruit pancake is suitable for a vegan diet and supports depressed mood.
+Khoa and coconut pancake,"Vegan, Vegetarian",Stressed,None,Snack,Khoa and coconut pancake is suitable for a general diet and supports neutral mood.
+Brown stock,"Vegan, Vegetarian",Depressed Mood,None,Snack,Brown stock is suitable for a general diet and supports neutral mood.
+Vegetable stock,Vegan,Balanced Mood,None,Lunch,Vegetable stock is suitable for a vegan diet and supports balanced mood.
+Chicken stock,Keto,Happy,None,Snack,Chicken stock is suitable for a keto diet and supports neutral mood.
+Clear tomato soup (Tamatar ka soup),"Vegan, Vegetarian",Happy,None,Dinner,Clear tomato soup (Tamatar ka soup) is suitable for a general diet and supports neutral mood.
+Lentil soup,"Vegan, Vegetarian",Happy,None,Lunch,Lentil soup is suitable for a general diet and supports neutral mood.
+Chicken consomme (Clear chicken soup),Keto,Craving,None,Lunch,Chicken consomme (Clear chicken soup) is suitable for a keto diet and supports neutral mood.
+Cream of tomato soup,"Keto, Vegan, Vegetarian",Craving,None,Breakfast,Cream of tomato soup is suitable for a general diet and supports neutral mood.
+Cream of green peas soup,"Keto, Vegan, Vegetarian",Craving,None,Breakfast,Cream of green peas soup is suitable for a general diet and supports neutral mood.
+Cream of spinach soup,"Keto, Vegan, Vegetarian",Depressed Mood,None,Snack,Cream of spinach soup is suitable for a general diet and supports neutral mood.
+Cream of mixed vegetable soup,Vegan,Balanced Mood,None,Dinner,Cream of mixed vegetable soup is suitable for a vegan diet and supports balanced mood.
+Cream of mushroom soup,"Keto, Vegan, Vegetarian",Stressed,None,Lunch,Cream of mushroom soup is suitable for a general diet and supports neutral mood.
+Chicken sweet corn soup,Keto,Craving,None,Lunch,Chicken sweet corn soup is suitable for a keto diet and supports neutral mood.
+Minestrone soup,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Minestrone soup is suitable for a general diet and supports neutral mood.
+Egg drop soup,Keto,Happy,Eggs,Snack,Egg drop soup is suitable for a keto diet and supports neutral mood.
+Chinese cabbage and meat ball soup,Paleo,Stressed,None,Breakfast,Chinese cabbage and meat ball soup is suitable for a general diet and supports neutral mood.
+French onion soup,"Vegan, Vegetarian",Craving,None,Dinner,French onion soup is suitable for a general diet and supports neutral mood.
+Hot and sour soup,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Hot and sour soup is suitable for a general diet and supports neutral mood.
+Talaumein soup,"Vegan, Vegetarian",Stressed,None,Snack,Talaumein soup is suitable for a general diet and supports neutral mood.
+Cold cucumber soup (Thanda kheere ka soup),"Vegan, Vegetarian",Happy,None,Dinner,Cold cucumber soup (Thanda kheere ka soup) is suitable for a general diet and supports happy.
+Cold summer garden soup,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Cold summer garden soup is suitable for a general diet and supports neutral mood.
+Chapati/Roti,"Vegan, Vegetarian","Balanced Mood, Craving",Gluten,"Lunch, Dinner","Chapati/Roti is suitable for a general diet and supports balanced mood, neutral mood."
+Plain parantha/paratha,"Vegan, Vegetarian",Craving,Gluten,Breakfast,Plain parantha/paratha is suitable for a general diet and supports neutral mood.
+Potato parantha/paratha (Aloo ka parantha/paratha),Vegetarian,Craving,Gluten,Breakfast,Potato parantha/paratha (Aloo ka parantha/paratha) is suitable for a vegetarian diet and supports neutral mood.
+Radish parantha/paratha (Mooli ka parantha/paratha),"Vegan, Vegetarian",Craving,Gluten,Breakfast,Radish parantha/paratha (Mooli ka parantha/paratha) is suitable for a general diet and supports neutral mood.
+Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha),"Vegan, Vegetarian",Happy,Gluten,Breakfast,Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha) is suitable for a general diet and supports neutral mood.
+Dal parantha/paratha,"Vegan, Vegetarian","Balanced Mood, Stressed",Gluten,"Breakfast, Lunch, Dinner","Dal parantha/paratha is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Sprouted moong parantha/paratha,"Vegan, Vegetarian",Happy,Gluten,Breakfast,Sprouted moong parantha/paratha is suitable for a general diet and supports neutral mood.
+Pea parantha/paratha (Matar ka parantha/paratha),"Vegan, Vegetarian",Energetic & Calm,Gluten,Breakfast,Pea parantha/paratha (Matar ka parantha/paratha) is suitable for a general diet and supports neutral mood.
+Keema parantha/paratha,"Vegan, Vegetarian",Craving,Gluten,Breakfast,Keema parantha/paratha is suitable for a general diet and supports neutral mood.
+Paneer parantha/paratha,"Keto, Vegetarian",Craving,"Gluten, Lactose / Dairy",Breakfast,"Paneer parantha/paratha is suitable for a keto, vegetarian diet and supports neutral mood."
+Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha),"Vegan, Vegetarian",Energetic & Calm,Gluten,Breakfast,Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha) is suitable for a general diet and supports neutral mood.
+Poori,"Vegan, Vegetarian",Stressed,None,Breakfast,Poori is suitable for a general diet and supports neutral mood.
+Spinach poori (Palak poori),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Spinach poori (Palak poori) is suitable for a general diet and supports neutral mood.
+Methi poori,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Methi poori is suitable for a general diet and supports neutral mood.
+Dal stuffed poori,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Dal stuffed poori is suitable for a vegan, vegetarian diet and supports balanced mood."
+Potato stuffed poori (Aloo ki poori),Vegetarian,Stressed,None,Breakfast,Potato stuffed poori (Aloo ki poori) is suitable for a vegetarian diet and supports neutral mood.
+Tandoori parantha/paratha,"Vegan, Vegetarian",Depressed Mood,Gluten,Breakfast,Tandoori parantha/paratha is suitable for a general diet and supports neutral mood.
+Boiled rice (Uble chawal),Vegan,Balanced Mood,None,Lunch,Boiled rice (Uble chawal) is suitable for a vegan diet and supports balanced mood.
+Plain pulao,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Plain pulao is suitable for a general diet and supports neutral mood.
+Mixed vegetable pulao,Vegan,Balanced Mood,None,Breakfast,Mixed vegetable pulao is suitable for a vegan diet and supports balanced mood.
+Mushroom pulao,"Vegan, Vegetarian",Stressed,None,Snack,Mushroom pulao is suitable for a general diet and supports neutral mood.
+Sprouted moong pulao,"Vegan, Vegetarian",Craving,None,Breakfast,Sprouted moong pulao is suitable for a general diet and supports neutral mood.
+Paneer pulao,"Keto, Vegetarian",Happy,Lactose / Dairy,Lunch,"Paneer pulao is suitable for a keto, vegetarian diet and supports neutral mood."
+Peanut pulao ,"Vegan, Vegetarian",Depressed Mood,Nuts,Breakfast,Peanut pulao  is suitable for a general diet and supports neutral mood.
+Navratan pulao,"Vegan, Vegetarian",Happy,None,Breakfast,Navratan pulao is suitable for a general diet and supports neutral mood.
+Green chickpeas pulao (Choliya pulao/Hare chane ka pulao),"Vegan, Vegetarian",Stressed,None,Snack,Green chickpeas pulao (Choliya pulao/Hare chane ka pulao) is suitable for a general diet and supports neutral mood.
+Mutton biryani/biriyani,Keto,Happy,None,Lunch,Mutton biryani/biriyani is suitable for a keto diet and supports neutral mood.
+Vegetable biryani/biriyani,Vegan,Balanced Mood,None,Lunch,Vegetable biryani/biriyani is suitable for a vegan diet and supports balanced mood.
+"Lemon rice (Pulihora, Elumichai sadam, Chitranna)",Vegan,"Energetic & Calm, Balanced Mood",None,Lunch,"Lemon rice (Pulihora, Elumichai sadam, Chitranna) is suitable for a vegan diet and supports energetic & calm, balanced mood."
+Sweet rice (Meethe chawal),Vegan,Balanced Mood,None,Lunch,Sweet rice (Meethe chawal) is suitable for a vegan diet and supports balanced mood.
+Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam),"Vegan, Vegetarian","Depressed Mood, Balanced Mood",Lactose / Dairy,Lunch,"Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam) is suitable for a vegan, vegetarian diet and supports depressed mood, balanced mood."
+Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna),Vegan,Balanced Mood,None,Lunch,Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna) is suitable for a vegan diet and supports balanced mood.
+Spanish rice,Vegan,Balanced Mood,None,Lunch,Spanish rice is suitable for a vegan diet and supports balanced mood.
+Chinese fried rice,Vegan,Balanced Mood,None,Lunch,Chinese fried rice is suitable for a vegan diet and supports balanced mood.
+Macroni cheese pie,Vegetarian,Craving,Lactose / Dairy,Dinner,Macroni cheese pie is suitable for a vegetarian diet and supports neutral mood.
+Vegetable chowmein,Vegan,Balanced Mood,None,Breakfast,Vegetable chowmein is suitable for a vegan diet and supports balanced mood.
+Chicken chowmein,Keto,Depressed Mood,None,Breakfast,Chicken chowmein is suitable for a keto diet and supports neutral mood.
+Cheese noodle ring,Vegetarian,Happy,Lactose / Dairy,Breakfast,Cheese noodle ring is suitable for a vegetarian diet and supports neutral mood.
+Spaghetti and cheese balls in tomato sauce,Vegetarian,Energetic & Calm,Lactose / Dairy,Breakfast,Spaghetti and cheese balls in tomato sauce is suitable for a vegetarian diet and supports neutral mood.
+Penne platter,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Penne platter is suitable for a general diet and supports neutral mood.
+Pasta hot pot,"Vegan, Vegetarian",Happy,None,Snack,Pasta hot pot is suitable for a general diet and supports neutral mood.
+Chicken lasagne,Keto,Energetic & Calm,None,Dinner,Chicken lasagne is suitable for a keto diet and supports neutral mood.
+Fettuccine with spinach sauce,"Vegan, Vegetarian",Depressed Mood,None,Snack,Fettuccine with spinach sauce is suitable for a general diet and supports neutral mood.
+Naan,"Vegan, Vegetarian",Craving,None,Lunch,Naan is suitable for a general diet and supports neutral mood.
+Bhatura,"Vegan, Vegetarian",Stressed,None,Breakfast,Bhatura is suitable for a general diet and supports neutral mood.
+Idli,"Vegan, Vegetarian",Happy,None,Breakfast,Idli is suitable for a general diet and supports neutral mood.
+Masala dosa,"Vegan, Vegetarian",Craving,None,Breakfast,Masala dosa is suitable for a general diet and supports neutral mood.
+Semolina dosa (Suji/Rava dosa),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Semolina dosa (Suji/Rava dosa) is suitable for a general diet and supports neutral mood.
+Onion tomato uttapam,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Onion tomato uttapam is suitable for a general diet and supports neutral mood.
+Paneer kaathi roll,"Keto, Vegetarian",Happy,Lactose / Dairy,Dinner,"Paneer kaathi roll is suitable for a keto, vegetarian diet and supports neutral mood."
+Makki ki roti,"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner",Makki ki roti is suitable for a general diet and supports balanced mood.
+Washed moong dal (Dhuli moong ki dal),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Washed moong dal (Dhuli moong ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Washed urad dal (Dhuli urad ki dal),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Washed urad dal (Dhuli urad ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Split bengal gram with bottle gourd (Channa dal with ghiya/lauki),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Split bengal gram with bottle gourd (Channa dal with ghiya/lauki) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Dry washed urad,"Vegan, Vegetarian",Craving,None,Breakfast,Dry washed urad is suitable for a general diet and supports neutral mood.
+Mixed dal,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Mixed dal is suitable for a vegan, vegetarian diet and supports balanced mood."
+Whole moong (Moong ki dal),"Vegan, Vegetarian, Whole30",Balanced Mood,None,"Lunch, Dinner","Whole moong (Moong ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Whole masoor (Masoor ki dal),"Vegan, Vegetarian, Whole30",Balanced Mood,None,"Lunch, Dinner","Whole masoor (Masoor ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Whole moth (Moth ki dal),"Vegan, Vegetarian, Whole30",Balanced Mood,None,"Lunch, Dinner","Whole moth (Moth ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Whole urad (Urad ki dal),"Vegan, Vegetarian, Whole30",Balanced Mood,None,"Lunch, Dinner","Whole urad (Urad ki dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Moti mahal dal (Urad rajmah mix dal),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Moti mahal dal (Urad rajmah mix dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Black channa curry/Bengal gram curry (Kale chane ki curry),"Vegan, Vegetarian",Happy,None,Dinner,Black channa curry/Bengal gram curry (Kale chane ki curry) is suitable for a general diet and supports neutral mood.
+Chickpeas curry (Safed channa curry),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Chickpeas curry (Safed channa curry) is suitable for a general diet and supports neutral mood.
+Lobia curry,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Lobia curry is suitable for a general diet and supports neutral mood.
+Soyabean curry,Vegan,Happy,Soy,Dinner,Soyabean curry is suitable for a vegan diet and supports neutral mood.
+Kidney bean curry (Rajmah curry),"Vegan, Vegetarian",Craving,None,Dinner,Kidney bean curry (Rajmah curry) is suitable for a general diet and supports neutral mood.
+Sambar,"Vegan, Vegetarian",Balanced Mood,None,Lunch,Sambar is suitable for a general diet and supports balanced mood.
+Besan kadhi with pakodies,"Vegan, Vegetarian",Craving,None,Dinner,Besan kadhi with pakodies is suitable for a general diet and supports neutral mood.
+Khatta channa,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Khatta channa is suitable for a general diet and supports neutral mood.
+Sprouted moong dal chat,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Sprouted moong dal chat is suitable for a vegan, vegetarian diet and supports balanced mood."
+Potato cauliflower (Aloo gobhi),Vegetarian,Happy,None,Breakfast,Potato cauliflower (Aloo gobhi) is suitable for a vegetarian diet and supports neutral mood.
+Potato capsicum (Shimla mirch aloo),Vegetarian,Happy,None,Breakfast,Potato capsicum (Shimla mirch aloo) is suitable for a vegetarian diet and supports neutral mood.
+Cabbage and peas (Pattagobhi aur matar),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Cabbage and peas (Pattagobhi aur matar) is suitable for a general diet and supports neutral mood.
+Carrot and fenugreek leaves (Gajar methi),"Vegan, Vegetarian",Craving,None,Dinner,Carrot and fenugreek leaves (Gajar methi) is suitable for a general diet and supports neutral mood.
+Potato fenugreek (Aloo methi),Vegetarian,Depressed Mood,None,Dinner,Potato fenugreek (Aloo methi) is suitable for a vegetarian diet and supports neutral mood.
+Brinjal bhartha (Baingan ka bhartha),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Brinjal bhartha (Baingan ka bhartha) is suitable for a general diet and supports neutral mood.
+Dry potato (Sookhe aloo),Vegetarian,Stressed,None,Breakfast,Dry potato (Sookhe aloo) is suitable for a vegetarian diet and supports neutral mood.
+Beans with coconut (Nariyal aur sem/phali; Beans thoran),"Vegan, Vegetarian",Craving,None,Dinner,Beans with coconut (Nariyal aur sem/phali; Beans thoran) is suitable for a general diet and supports neutral mood.
+Cauliflower with coconut (Nariyal ke saath phoolgobhi),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Cauliflower with coconut (Nariyal ke saath phoolgobhi) is suitable for a general diet and supports neutral mood.
+Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar) is suitable for a general diet and supports neutral mood.
+Raw turnip with coconut ,Raw Food,Craving,None,Lunch,Raw turnip with coconut  is suitable for a general diet and supports neutral mood.
+Raw papaya with coconut (Papaya thoran),Raw Food,Energetic & Calm,None,Lunch,Raw papaya with coconut (Papaya thoran) is suitable for a general diet and supports neutral mood.
+Stuffed okra (Bharwa bhindi),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Stuffed okra (Bharwa bhindi) is suitable for a general diet and supports neutral mood.
+Stuffed round gourd (Bharwa tinde),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Stuffed round gourd (Bharwa tinde) is suitable for a general diet and supports neutral mood.
+Stuffed capsicum (Bharwa shimla mirch),"Vegan, Vegetarian",Craving,None,Dinner,Stuffed capsicum (Bharwa shimla mirch) is suitable for a general diet and supports neutral mood.
+Stuffed brinjal (Bharwa baingan),"Vegan, Vegetarian",Stressed,None,Snack,Stuffed brinjal (Bharwa baingan) is suitable for a general diet and supports neutral mood.
+Stuffed tomatoes (Bharwa tamatar),"Vegan, Vegetarian",Craving,None,Lunch,Stuffed tomatoes (Bharwa tamatar) is suitable for a general diet and supports neutral mood.
+Pea potato curry (Aloo matar),Vegetarian,Craving,None,Dinner,Pea potato curry (Aloo matar) is suitable for a vegetarian diet and supports neutral mood.
+Pea paneer curry (Matar paneer),"Keto, Vegetarian",Stressed,Lactose / Dairy,Dinner,"Pea paneer curry (Matar paneer) is suitable for a keto, vegetarian diet and supports neutral mood."
+Pea mushroom curry (Matar mushroom),"Vegan, Vegetarian",Craving,None,Dinner,Pea mushroom curry (Matar mushroom) is suitable for a general diet and supports neutral mood.
+Pea curry (Matar ki sabzi),Vegan,Craving,None,"Lunch, Dinner",Pea curry (Matar ki sabzi) is suitable for a vegan diet and supports neutral mood.
+Pea vadi curry,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Pea vadi curry is suitable for a general diet and supports neutral mood.
+Paneer curry,"Keto, Vegetarian",Energetic & Calm,Lactose / Dairy,Dinner,"Paneer curry is suitable for a keto, vegetarian diet and supports neutral mood."
+Lotus stem curry (Kamal kakdi curry),"Vegan, Vegetarian",Stressed,None,Dinner,Lotus stem curry (Kamal kakdi curry) is suitable for a general diet and supports neutral mood.
+Gravy for kofta,"Vegan, Vegetarian",Happy,None,Snack,Gravy for kofta is suitable for a general diet and supports neutral mood.
+Pea kofta curry (Matar kofta curry),"Vegan, Vegetarian",Stressed,None,Dinner,Pea kofta curry (Matar kofta curry) is suitable for a general diet and supports neutral mood.
+Spinach kofta curry (Palak kofta curry),"Vegan, Vegetarian",Craving,None,Dinner,Spinach kofta curry (Palak kofta curry) is suitable for a general diet and supports neutral mood.
+Paneer kofta curry,"Keto, Vegetarian",Craving,Lactose / Dairy,Dinner,"Paneer kofta curry is suitable for a keto, vegetarian diet and supports neutral mood."
+Lotus stem kofta curry (Kamal kakdi kofta curry),"Vegan, Vegetarian",Craving,None,Dinner,Lotus stem kofta curry (Kamal kakdi kofta curry) is suitable for a general diet and supports neutral mood.
+Raw banana kofta curry (Kela kofta curry),Raw Food,Tired & Anxious,None,Dinner,Raw banana kofta curry (Kela kofta curry) is suitable for a general diet and supports tired & anxious.
+Cauliflower kofta curry (Phoolgobhi kofta curry),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Cauliflower kofta curry (Phoolgobhi kofta curry) is suitable for a general diet and supports neutral mood.
+Cabbage kofta curry (Pattagobhi kofta curry),"Vegan, Vegetarian",Stressed,None,Dinner,Cabbage kofta curry (Pattagobhi kofta curry) is suitable for a general diet and supports neutral mood.
+Ghiya/Lauki Kofta Curry,"Vegan, Vegetarian",Stressed,None,Dinner,Ghiya/Lauki Kofta Curry is suitable for a general diet and supports neutral mood.
+Spinach paneer kofta curry (Palak paneer kofta curry),"Keto, Vegetarian",Happy,Lactose / Dairy,Dinner,"Spinach paneer kofta curry (Palak paneer kofta curry) is suitable for a keto, vegetarian diet and supports neutral mood."
+Vegetarian egg kofta curry,"Keto, Vegetarian",Craving,Eggs,Dinner,Vegetarian egg kofta curry is suitable for a keto diet and supports neutral mood.
+Baked vegetables,Vegan,Balanced Mood,None,Snack,Baked vegetables is suitable for a vegan diet and supports balanced mood.
+Cauliflower musallam (Phoolgobhi musallam),"Vegan, Vegetarian",Happy,None,Breakfast,Cauliflower musallam (Phoolgobhi musallam) is suitable for a general diet and supports neutral mood.
+Baked vegetables with spinach ,Vegan,Balanced Mood,None,Dinner,Baked vegetables with spinach  is suitable for a vegan diet and supports balanced mood.
+Baked potato with skin ,"Vegan, Vegetarian",Craving,None,Snack,Baked potato with skin  is suitable for a general diet and supports neutral mood.
+Shepherd's pie (vegetarian),Vegetarian,Stressed,None,Breakfast,Shepherd's pie (vegetarian) is suitable for a general diet and supports neutral mood.
+Baked brinjal in tomato sauce,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Baked brinjal in tomato sauce is suitable for a general diet and supports neutral mood.
+Dum aloo,Vegetarian,Depressed Mood,None,Dinner,Dum aloo is suitable for a vegetarian diet and supports neutral mood.
+Spinach paneer (Palak paneer),"Keto, Vegetarian",Stressed,Lactose / Dairy,Dinner,"Spinach paneer (Palak paneer) is suitable for a keto, vegetarian diet and supports neutral mood."
+Methi chaman,"Vegan, Vegetarian",Stressed,None,Snack,Methi chaman is suitable for a general diet and supports neutral mood.
+Sarson ka saag,"Vegan, Vegetarian",Stressed,None,Snack,Sarson ka saag is suitable for a general diet and supports neutral mood.
+Jackfruit sabzi (Kathal ki sabzi),Vegan,Depressed Mood,None,"Lunch, Dinner",Jackfruit sabzi (Kathal ki sabzi) is suitable for a vegan diet and supports depressed mood.
+Avial,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Avial is suitable for a general diet and supports neutral mood.
+Al yakhani,"Vegan, Vegetarian",Happy,None,Lunch,Al yakhani is suitable for a general diet and supports neutral mood.
+Shahi paneer,"Keto, Vegetarian",Stressed,Lactose / Dairy,Breakfast,"Shahi paneer is suitable for a keto, vegetarian diet and supports neutral mood."
+Paneer in butter sauce,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Breakfast,"Paneer in butter sauce is suitable for a keto, vegetarian diet and supports neutral mood."
+Methi malai paneer,"Keto, Vegetarian",Stressed,Lactose / Dairy,Dinner,"Methi malai paneer is suitable for a keto, vegetarian diet and supports neutral mood."
+Chilli paneer,"Keto, Vegetarian",Energetic & Calm,Lactose / Dairy,Breakfast,"Chilli paneer is suitable for a keto, vegetarian diet and supports neutral mood."
+Paneer makhana korma,"Keto, Vegetarian",Happy,Lactose / Dairy,Dinner,"Paneer makhana korma is suitable for a keto, vegetarian diet and supports neutral mood."
+Kadhai Paneer,"Keto, Vegetarian",Craving,Lactose / Dairy,Dinner,"Kadhai Paneer is suitable for a keto, vegetarian diet and supports neutral mood."
+Roghan josh,"Vegan, Vegetarian",Stressed,None,Snack,Roghan josh is suitable for a general diet and supports neutral mood.
+Spinach mutton (Palak mutton),Keto,Energetic & Calm,None,Breakfast,Spinach mutton (Palak mutton) is suitable for a keto diet and supports neutral mood.
+Pea keema curry (Matar keema ki sabzi),Vegan,Happy,None,"Lunch, Dinner",Pea keema curry (Matar keema ki sabzi) is suitable for a vegan diet and supports neutral mood.
+Keema kofta curry,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Keema kofta curry is suitable for a general diet and supports neutral mood.
+Kashmiri mutton koftas (Gushtaba),Keto,Energetic & Calm,None,Breakfast,Kashmiri mutton koftas (Gushtaba) is suitable for a keto diet and supports neutral mood.
+Mutton yakhni,Keto,Happy,None,Lunch,Mutton yakhni is suitable for a keto diet and supports neutral mood.
+Chicken yakhni,Keto,Happy,None,Snack,Chicken yakhni is suitable for a keto diet and supports neutral mood.
+Mutton do piaza,Keto,Happy,None,Snack,Mutton do piaza is suitable for a keto diet and supports neutral mood.
+Mutton chops,Keto,Energetic & Calm,None,Lunch,Mutton chops is suitable for a keto diet and supports neutral mood.
+Shammi kebab,"Vegan, Vegetarian",Stressed,None,Snack,Shammi kebab is suitable for a general diet and supports neutral mood.
+Scotch egg,Keto,Energetic & Calm,Eggs,Lunch,Scotch egg is suitable for a keto diet and supports neutral mood.
+Shepherd's pie (with minced meat),Paleo,Depressed Mood,None,Dinner,Shepherd's pie (with minced meat) is suitable for a general diet and supports neutral mood.
+Chicken curry,Keto,Stressed,None,Dinner,Chicken curry is suitable for a keto diet and supports neutral mood.
+Tandoori chicken,Keto,Depressed Mood,None,Snack,Tandoori chicken is suitable for a keto diet and supports neutral mood.
+Butter chicken,Keto,Happy,Lactose / Dairy,Snack,Butter chicken is suitable for a keto diet and supports neutral mood.
+Chicken kebab,Keto,Stressed,None,Breakfast,Chicken kebab is suitable for a keto diet and supports neutral mood.
+Chilli chicken,Keto,Craving,None,Lunch,Chilli chicken is suitable for a keto diet and supports neutral mood.
+Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath),Keto,Stressed,None,Breakfast,Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath) is suitable for a keto diet and supports neutral mood.
+Fish curry (Machli curry),"Keto, Mediterranean, Pescatarian",Craving,Seafood / Shellfish,Dinner,"Fish curry (Machli curry) is suitable for a keto, pescatarian diet and supports neutral mood."
+Fried fish (Indian style) (Tali hui machli),"Keto, Mediterranean, Pescatarian",Energetic & Calm,Seafood / Shellfish,Snack,"Fried fish (Indian style) (Tali hui machli) is suitable for a keto, pescatarian diet and supports neutral mood."
+Fried fish and Chips (English Style) (Tali hui machli aur chips),"Keto, Mediterranean, Pescatarian",Craving,Seafood / Shellfish,Snack,"Fried fish and Chips (English Style) (Tali hui machli aur chips) is suitable for a keto, pescatarian diet and supports neutral mood."
+Tomato fish,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Breakfast,"Tomato fish is suitable for a keto, pescatarian diet and supports neutral mood."
+Baked fish with cheese sauce,"Keto, Mediterranean, Pescatarian, Vegetarian",Craving,"Lactose / Dairy, Seafood / Shellfish",Dinner,"Baked fish with cheese sauce is suitable for a keto, vegetarian, pescatarian diet and supports neutral mood."
+Fish tikka,"Keto, Mediterranean, Pescatarian",Energetic & Calm,Seafood / Shellfish,Breakfast,"Fish tikka is suitable for a keto, pescatarian diet and supports neutral mood."
+Tandoori fish,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Lunch,"Tandoori fish is suitable for a keto, pescatarian diet and supports neutral mood."
+"Paneer, apple and pineapple salad","Keto, Vegetarian",Energetic & Calm,Lactose / Dairy,Dinner,"Paneer, apple and pineapple salad is suitable for a keto, vegetarian diet and supports neutral mood."
+Russian salad,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Russian salad is suitable for a general diet and supports neutral mood.
+Pasta salad,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Pasta salad is suitable for a general diet and supports neutral mood.
+Deviled egg,Keto,Energetic & Calm,Eggs,Breakfast,Deviled egg is suitable for a keto diet and supports neutral mood.
+Hawain salad,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Hawain salad is suitable for a general diet and supports neutral mood.
+Mixed pulse and vegetable salad,Vegan,Balanced Mood,None,Snack,Mixed pulse and vegetable salad is suitable for a vegan diet and supports balanced mood.
+Sprouted moong salad ,"Vegan, Vegetarian",Craving,None,Snack,Sprouted moong salad  is suitable for a general diet and supports neutral mood.
+Tossed salad,"Vegan, Vegetarian",Craving,None,Breakfast,Tossed salad is suitable for a general diet and supports neutral mood.
+Mixed vegetable salad with curd sauce,"Vegan, Vegetarian","Depressed Mood, Balanced Mood",Lactose / Dairy,Lunch,"Mixed vegetable salad with curd sauce is suitable for a vegan, vegetarian diet and supports depressed mood, balanced mood."
+Potato salad (Aloo ka salaad),Vegetarian,Depressed Mood,None,Dinner,Potato salad (Aloo ka salaad) is suitable for a vegetarian diet and supports neutral mood.
+Waldroff salad,"Vegan, Vegetarian",Stressed,None,Dinner,Waldroff salad is suitable for a general diet and supports neutral mood.
+Coleslaw,"Vegan, Vegetarian",Happy,None,Dinner,Coleslaw is suitable for a general diet and supports neutral mood.
+Fruit salad (Phalon ka salaad),Vegan,Depressed Mood,None,Dinner,Fruit salad (Phalon ka salaad) is suitable for a vegan diet and supports depressed mood.
+Tomato onion raita (Tamatar aur pyaaz ka raita),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Tomato onion raita (Tamatar aur pyaaz ka raita) is suitable for a general diet and supports neutral mood.
+Peanut raita (Mungfali ka raita),"Vegan, Vegetarian",Depressed Mood,Nuts,Breakfast,Peanut raita (Mungfali ka raita) is suitable for a general diet and supports neutral mood.
+Sprouted moong raita ,"Vegan, Vegetarian",Stressed,None,Lunch,Sprouted moong raita  is suitable for a general diet and supports neutral mood.
+Bottle gourd raita (Ghiya/Lauki ka raita),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Bottle gourd raita (Ghiya/Lauki ka raita) is suitable for a general diet and supports neutral mood.
+Cucumber raita (Kheere ka raita),"Vegan, Vegetarian",Happy,None,Dinner,Cucumber raita (Kheere ka raita) is suitable for a general diet and supports happy.
+Carrot and spinach raita (Gajar aur palak ka raita),"Vegan, Vegetarian",Stressed,None,Breakfast,Carrot and spinach raita (Gajar aur palak ka raita) is suitable for a general diet and supports neutral mood.
+Mint raita (Pudinay ka raita),"Vegan, Vegetarian",Craving,None,Dinner,Mint raita (Pudinay ka raita) is suitable for a general diet and supports neutral mood.
+Potato raita (Aloo ka raita),Vegetarian,Stressed,None,Lunch,Potato raita (Aloo ka raita) is suitable for a vegetarian diet and supports neutral mood.
+Boondi raita,"Vegan, Vegetarian",Craving,None,Dinner,Boondi raita is suitable for a general diet and supports neutral mood.
+Sweet raita (Meetha raita),"Vegan, Vegetarian",Happy,None,Breakfast,Sweet raita (Meetha raita) is suitable for a general diet and supports neutral mood.
+Dahi vadas/Dahi bhalla,"Vegan, Vegetarian",Stressed,None,Lunch,Dahi vadas/Dahi bhalla is suitable for a general diet and supports neutral mood.
+Gunjia,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Gunjia is suitable for a general diet and supports neutral mood.
+Saunth/Sonth chutney with tamarind/imli,"Vegan, Vegetarian",Happy,None,Snack,Saunth/Sonth chutney with tamarind/imli is suitable for a general diet and supports neutral mood.
+Rice kheer (Chawal ki kheer),Vegan,"Happy, Balanced Mood",None,Lunch,"Rice kheer (Chawal ki kheer) is suitable for a vegan diet and supports happy, balanced mood."
+Makhana kheer,"Vegan, Vegetarian",Happy,None,Snack,Makhana kheer is suitable for a general diet and supports happy.
+Vermicelli kheer (Semiya/Seviyan ki kheer),"Vegan, Vegetarian",Happy,None,Lunch,Vermicelli kheer (Semiya/Seviyan ki kheer) is suitable for a general diet and supports happy.
+Semolina kheer (Suji/Rava kheer),"Vegan, Vegetarian",Happy,None,Lunch,Semolina kheer (Suji/Rava kheer) is suitable for a general diet and supports happy.
+Paneer kheer,"Keto, Vegetarian",Happy,Lactose / Dairy,Lunch,"Paneer kheer is suitable for a keto, vegetarian diet and supports happy."
+Cabbage kheer (Pattagobhi ki kheer),"Vegan, Vegetarian",Happy,None,Dinner,Cabbage kheer (Pattagobhi ki kheer) is suitable for a general diet and supports happy.
+Carrot kheer (Gajar ki kheer),"Vegan, Vegetarian",Happy,None,Dinner,Carrot kheer (Gajar ki kheer) is suitable for a general diet and supports happy.
+Cauliflower kheer (Phoolgobhi ki kheer),"Vegan, Vegetarian",Happy,None,Dinner,Cauliflower kheer (Phoolgobhi ki kheer) is suitable for a general diet and supports happy.
+Moong dal kheer,"Vegan, Vegetarian","Happy, Balanced Mood",None,"Lunch, Dinner","Moong dal kheer is suitable for a vegan, vegetarian diet and supports happy, balanced mood."
+Phirni,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Phirni is suitable for a general diet and supports neutral mood.
+Semolina halwa (Suji ka halwa),"Vegan, Vegetarian",Happy,None,Dinner,Semolina halwa (Suji ka halwa) is suitable for a general diet and supports happy.
+Shahi suji halwa,"Vegan, Vegetarian",Happy,None,Breakfast,Shahi suji halwa is suitable for a general diet and supports happy.
+Carrot halwa (Gajar ka halwa),"Vegan, Vegetarian",Happy,None,Lunch,Carrot halwa (Gajar ka halwa) is suitable for a general diet and supports happy.
+Egg halwa (Ande ka halwa),Keto,Happy,Eggs,Lunch,Egg halwa (Ande ka halwa) is suitable for a keto diet and supports happy.
+Potato halwa (Aloo ka halwa),Vegetarian,Happy,None,Dinner,Potato halwa (Aloo ka halwa) is suitable for a vegetarian diet and supports happy.
+Pumpkin halwa (Kaddu ka halwa),"Vegan, Vegetarian",Happy,None,Snack,Pumpkin halwa (Kaddu ka halwa) is suitable for a general diet and supports happy.
+Moong dal halwa,"Vegan, Vegetarian","Happy, Balanced Mood",None,"Lunch, Dinner","Moong dal halwa is suitable for a vegan, vegetarian diet and supports happy, balanced mood."
+Caramel custard (steamed),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Caramel custard (steamed) is suitable for a general diet and supports energetic & calm.
+Baked custard,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Baked custard is suitable for a general diet and supports neutral mood.
+Soft Custard (stirred),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Soft Custard (stirred) is suitable for a general diet and supports neutral mood.
+Chocolate ice cream,"Keto, Vegan, Vegetarian",Happy,None,Snack,Chocolate ice cream is suitable for a general diet and supports happy.
+Mango ice cream,"Keto, Vegan, Vegetarian","Happy, Depressed Mood",None,Snack,"Mango ice cream is suitable for a general diet and supports happy, depressed mood."
+Fruit Ice cream (Phalon ka Ice cream),Vegan,"Happy, Depressed Mood",None,Snack,"Fruit Ice cream (Phalon ka Ice cream) is suitable for a vegan diet and supports happy, depressed mood."
+Caramel ice cream,"Keto, Vegan, Vegetarian",Happy,None,Snack,Caramel ice cream is suitable for a general diet and supports happy.
+Lemon souffle,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Lemon souffle is suitable for a general diet and supports neutral mood.
+Orange souffle,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Orange souffle is suitable for a general diet and supports neutral mood.
+Vanilla souffle,"Vegan, Vegetarian",Depressed Mood,None,Snack,Vanilla souffle is suitable for a general diet and supports neutral mood.
+Chocolate souffle,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Chocolate souffle is suitable for a general diet and supports neutral mood.
+Pineapple souffle ,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Pineapple souffle  is suitable for a general diet and supports neutral mood.
+Apple mousse,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Apple mousse is suitable for a general diet and supports neutral mood.
+Rich chocolate mousse,"Vegan, Vegetarian",Happy,None,Snack,Rich chocolate mousse is suitable for a general diet and supports neutral mood.
+Mango mousse,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Mango mousse is suitable for a general diet and supports depressed mood.
+Orange and pineapple cream,"Keto, Vegan, Vegetarian",Happy,None,Dinner,Orange and pineapple cream is suitable for a general diet and supports neutral mood.
+Charlotte rousse,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Charlotte rousse is suitable for a general diet and supports neutral mood.
+Triffle pudding,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Triffle pudding is suitable for a general diet and supports neutral mood.
+Snow flakes pudding,"Vegan, Vegetarian",Craving,None,Dinner,Snow flakes pudding is suitable for a general diet and supports neutral mood.
+Kulfi,"Vegan, Vegetarian",Happy,None,Snack,Kulfi is suitable for a general diet and supports neutral mood.
+Steamed orange pudding,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Steamed orange pudding is suitable for a general diet and supports energetic & calm.
+Meringue and rice pudding,Vegan,Balanced Mood,None,Lunch,Meringue and rice pudding is suitable for a vegan diet and supports balanced mood.
+Cheese pudding,Vegetarian,Happy,Lactose / Dairy,Dinner,Cheese pudding is suitable for a vegetarian diet and supports neutral mood.
+Chocolate pudding,"Vegan, Vegetarian",Stressed,None,Snack,Chocolate pudding is suitable for a general diet and supports neutral mood.
+Bread and butter pudding ,Keto,Craving,"Gluten, Lactose / Dairy",Snack,Bread and butter pudding  is suitable for a keto diet and supports neutral mood.
+Queen of pudding,"Vegan, Vegetarian",Happy,None,Dinner,Queen of pudding is suitable for a general diet and supports neutral mood.
+Pineapple upside down pudding,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Pineapple upside down pudding is suitable for a general diet and supports neutral mood.
+Date and nut pie,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Date and nut pie is suitable for a general diet and supports neutral mood.
+Stewed apple with custard,"Vegan, Vegetarian",Craving,None,Lunch,Stewed apple with custard is suitable for a general diet and supports neutral mood.
+Apple snowballs,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Apple snowballs is suitable for a general diet and supports neutral mood.
+Hot orange souffle,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Hot orange souffle is suitable for a general diet and supports neutral mood.
+Hot chocolate souffle,"Vegan, Vegetarian",Stressed,None,Snack,Hot chocolate souffle is suitable for a general diet and supports neutral mood.
+Hot vanilla souffle,"Vegan, Vegetarian",Stressed,None,Snack,Hot vanilla souffle is suitable for a general diet and supports neutral mood.
+Plain burfi (Burfi),"Vegan, Vegetarian",Craving,None,Breakfast,Plain burfi (Burfi) is suitable for a general diet and supports neutral mood.
+Coconut burfi (Nariyal ki burfi),"Vegan, Vegetarian",Craving,None,Dinner,Coconut burfi (Nariyal ki burfi) is suitable for a general diet and supports neutral mood.
+Bottle gourd burfi (Ghiya/Lauki burfi),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Bottle gourd burfi (Ghiya/Lauki burfi) is suitable for a general diet and supports neutral mood.
+Chocolate burfi,"Vegan, Vegetarian",Stressed,None,Lunch,Chocolate burfi is suitable for a general diet and supports neutral mood.
+Cashewnut burfi (Kaju burfi/Kaju katli),"Vegan, Vegetarian",Happy,Nuts,Dinner,Cashewnut burfi (Kaju burfi/Kaju katli) is suitable for a general diet and supports neutral mood.
+Gram flour burfi (Besan burfi),"Vegan, Vegetarian",Happy,None,Snack,Gram flour burfi (Besan burfi) is suitable for a general diet and supports neutral mood.
+Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo ),"Vegan, Vegetarian",Happy,Nuts,Snack,Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo ) is suitable for a general diet and supports happy.
+Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo ),"Vegan, Vegetarian",Happy,Nuts,Snack,Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo ) is suitable for a general diet and supports happy.
+Gram flour ladoo (Besan ladoo),"Vegan, Vegetarian",Happy,Nuts,Snack,Gram flour ladoo (Besan ladoo) is suitable for a general diet and supports happy.
+Sesame ladoo (Til ke ladoo),"Vegan, Vegetarian",Happy,Nuts,Snack,Sesame ladoo (Til ke ladoo) is suitable for a general diet and supports happy.
+Chenna murki,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Chenna murki is suitable for a general diet and supports neutral mood.
+Milk cake,Vegetarian,Craving,Lactose / Dairy,Breakfast,Milk cake is suitable for a vegetarian diet and supports neutral mood.
+Ghujia/Lavang latika,"Vegan, Vegetarian",Stressed,None,Breakfast,Ghujia/Lavang latika is suitable for a general diet and supports neutral mood.
+Gulab Jamun with khoya,"Vegan, Vegetarian",Happy,None,Snack,Gulab Jamun with khoya is suitable for a general diet and supports happy.
+Mal pua,"Vegan, Vegetarian",Depressed Mood,None,Snack,Mal pua is suitable for a general diet and supports neutral mood.
+Shahi tukre,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Shahi tukre is suitable for a general diet and supports neutral mood.
+Potato pakora/pakoda (Aloo pakoda),Vegetarian,Energetic & Calm,None,Snack,Potato pakora/pakoda (Aloo pakoda) is suitable for a vegetarian diet and supports neutral mood.
+Onion pakora/pakoda (Pyaaz ke pakode),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Onion pakora/pakoda (Pyaaz ke pakode) is suitable for a general diet and supports neutral mood.
+Cauliflower pakora/pakoda (Phoolgobhi ke pakode),"Vegan, Vegetarian",Depressed Mood,None,Snack,Cauliflower pakora/pakoda (Phoolgobhi ke pakode) is suitable for a general diet and supports neutral mood.
+Mixed vegetable pakora/pakoda,Vegan,Balanced Mood,None,Snack,Mixed vegetable pakora/pakoda is suitable for a vegan diet and supports balanced mood.
+Spinach pakora/pakoda (Palak pakoda),"Vegan, Vegetarian",Stressed,None,Snack,Spinach pakora/pakoda (Palak pakoda) is suitable for a general diet and supports neutral mood.
+Methi pakora/pakoda (Methi ke pakode),"Vegan, Vegetarian",Happy,None,Snack,Methi pakora/pakoda (Methi ke pakode) is suitable for a general diet and supports neutral mood.
+Egg pakora/pakoda (Ande ke pakode),Keto,Depressed Mood,Eggs,Snack,Egg pakora/pakoda (Ande ke pakode) is suitable for a keto diet and supports neutral mood.
+Bread pakora/pakoda,"Vegan, Vegetarian",Energetic & Calm,Gluten,Snack,Bread pakora/pakoda is suitable for a general diet and supports neutral mood.
+Paneer pakora/pakoda,"Keto, Vegetarian",Energetic & Calm,Lactose / Dairy,Snack,"Paneer pakora/pakoda is suitable for a keto, vegetarian diet and supports neutral mood."
+Potato bonda (Aloo bonda),Vegetarian,Energetic & Calm,None,Snack,Potato bonda (Aloo bonda) is suitable for a vegetarian diet and supports neutral mood.
+Potato samosa (Aloo ka samosa),Vegetarian,Happy,None,Snack,Potato samosa (Aloo ka samosa) is suitable for a vegetarian diet and supports neutral mood.
+Minced meat samosa (Keema ka samosa),Paleo,Craving,None,Snack,Minced meat samosa (Keema ka samosa) is suitable for a general diet and supports neutral mood.
+Paneer and pea samosa (Paneer matar ka samosa),"Keto, Vegetarian",Craving,Lactose / Dairy,Snack,"Paneer and pea samosa (Paneer matar ka samosa) is suitable for a keto, vegetarian diet and supports neutral mood."
+Mathri,"Vegan, Vegetarian",Craving,None,Breakfast,Mathri is suitable for a general diet and supports neutral mood.
+Khasta kachori,"Vegan, Vegetarian",Craving,None,Snack,Khasta kachori is suitable for a general diet and supports neutral mood.
+Vegetable cutlet,Vegan,Balanced Mood,None,Breakfast,Vegetable cutlet is suitable for a vegan diet and supports balanced mood.
+Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet),"Vegan, Vegetarian","Balanced Mood, Depressed Mood",None,"Breakfast, Lunch","Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet) is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Peanut cutlet (Mungfali ke cutlet),"Vegan, Vegetarian",Stressed,Nuts,Snack,Peanut cutlet (Mungfali ke cutlet) is suitable for a general diet and supports neutral mood.
+Fish cutlet (Machli ka cutlet),"Keto, Mediterranean, Pescatarian",Happy,Seafood / Shellfish,Dinner,"Fish cutlet (Machli ka cutlet) is suitable for a keto, pescatarian diet and supports neutral mood."
+Paneer potato cutlet (Paneer aloo cutlet),"Keto, Vegetarian",Energetic & Calm,Lactose / Dairy,Snack,"Paneer potato cutlet (Paneer aloo cutlet) is suitable for a keto, vegetarian diet and supports neutral mood."
+Spinach chickpeas cutlet (Palak channa dal cutlet),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Spinach chickpeas cutlet (Palak channa dal cutlet) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Cheese toast,Vegetarian,Happy,Lactose / Dairy,Dinner,Cheese toast is suitable for a vegetarian diet and supports neutral mood.
+Vegetable burger,Vegan,Balanced Mood,None,Lunch,Vegetable burger is suitable for a vegan diet and supports balanced mood.
+Cheese pizza,Vegetarian,Happy,Lactose / Dairy,Lunch,Cheese pizza is suitable for a vegetarian diet and supports neutral mood.
+Vegetable seekh kebab,Vegan,Balanced Mood,None,Dinner,Vegetable seekh kebab is suitable for a vegan diet and supports balanced mood.
+Masala vada,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Masala vada is suitable for a general diet and supports neutral mood.
+Peanut sago vada (Sabudana mungfali vada),"Vegan, Vegetarian",Depressed Mood,Nuts,Lunch,Peanut sago vada (Sabudana mungfali vada) is suitable for a general diet and supports neutral mood.
+Vegeterian scotch egg,Keto,Craving,Eggs,Breakfast,Vegeterian scotch egg is suitable for a keto diet and supports neutral mood.
+Paneer shaslik/tikka,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Breakfast,"Paneer shaslik/tikka is suitable for a keto, vegetarian diet and supports neutral mood."
+Peanut brittle (Moongfali ki chikki),"Vegan, Vegetarian",Craving,Nuts,Dinner,Peanut brittle (Moongfali ki chikki) is suitable for a general diet and supports neutral mood.
+Spring roll,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Spring roll is suitable for a general diet and supports neutral mood.
+Dry mango chutney (Sookhe aam ki chutney),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Dry mango chutney (Sookhe aam ki chutney) is suitable for a general diet and supports depressed mood.
+Peanut chutney (Mungfali ki chutney),"Vegan, Vegetarian",Stressed,Nuts,Breakfast,Peanut chutney (Mungfali ki chutney) is suitable for a general diet and supports neutral mood.
+Coconut chutney (Nariyal ki chutney),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Coconut chutney (Nariyal ki chutney) is suitable for a general diet and supports neutral mood.
+Mint and coriander chutney (Pudinay aur dhaniye ki chutney),"Vegan, Vegetarian",Happy,None,Lunch,Mint and coriander chutney (Pudinay aur dhaniye ki chutney) is suitable for a general diet and supports neutral mood.
+Custard tart,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Custard tart is suitable for a general diet and supports neutral mood.
+Lemon tart,"Vegan, Vegetarian",Happy,None,Lunch,Lemon tart is suitable for a general diet and supports neutral mood.
+Jam tart,"Vegan, Vegetarian",Stressed,None,Dinner,Jam tart is suitable for a general diet and supports neutral mood.
+Orange cream tart,"Keto, Vegan, Vegetarian",Craving,None,Lunch,Orange cream tart is suitable for a general diet and supports neutral mood.
+Pineapple tart,"Vegan, Vegetarian",Stressed,None,Lunch,Pineapple tart is suitable for a general diet and supports neutral mood.
+Cheese and mushroom tart,Vegetarian,Stressed,Lactose / Dairy,Snack,Cheese and mushroom tart is suitable for a vegetarian diet and supports neutral mood.
+Cottage cheese pie,Vegetarian,Craving,Lactose / Dairy,Snack,Cottage cheese pie is suitable for a vegetarian diet and supports neutral mood.
+Minced meat pie,Paleo,Stressed,None,Lunch,Minced meat pie is suitable for a general diet and supports neutral mood.
+Apple cinnamon pie,"Vegan, Vegetarian",Stressed,None,Dinner,Apple cinnamon pie is suitable for a general diet and supports neutral mood.
+Lemon meringue pie,"Vegan, Vegetarian",Stressed,None,Dinner,Lemon meringue pie is suitable for a general diet and supports neutral mood.
+Chocolate meringue pie,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Chocolate meringue pie is suitable for a general diet and supports neutral mood.
+Cream puffs,"Keto, Vegan, Vegetarian",Stressed,None,Snack,Cream puffs is suitable for a general diet and supports neutral mood.
+Chocolate eclairs,"Vegan, Vegetarian",Happy,None,Snack,Chocolate eclairs is suitable for a general diet and supports neutral mood.
+Cheese balls,Vegetarian,Stressed,Lactose / Dairy,Lunch,Cheese balls is suitable for a vegetarian diet and supports neutral mood.
+Minced meat patties,Paleo,Energetic & Calm,None,Dinner,Minced meat patties is suitable for a general diet and supports neutral mood.
+Cheese patties,Vegetarian,Stressed,Lactose / Dairy,Dinner,Cheese patties is suitable for a vegetarian diet and supports neutral mood.
+Hot cheese souffle,Vegetarian,Energetic & Calm,Lactose / Dairy,Breakfast,Hot cheese souffle is suitable for a vegetarian diet and supports neutral mood.
+Hot potato souffle,"Vegan, Vegetarian",Craving,None,Lunch,Hot potato souffle is suitable for a general diet and supports neutral mood.
+Hot fish souffle,"Keto, Mediterranean, Pescatarian",Happy,Seafood / Shellfish,Snack,"Hot fish souffle is suitable for a keto, pescatarian diet and supports neutral mood."
+Hot spinach souffle,"Vegan, Vegetarian",Craving,None,Breakfast,Hot spinach souffle is suitable for a general diet and supports neutral mood.
+Plain cream cake,"Keto, Vegan, Vegetarian",Energetic & Calm,None,Lunch,Plain cream cake is suitable for a general diet and supports neutral mood.
+Apple cake (Seb ka cake),"Vegan, Vegetarian",Craving,None,Dinner,Apple cake (Seb ka cake) is suitable for a general diet and supports neutral mood.
+Marble cake,"Vegan, Vegetarian",Craving,None,Dinner,Marble cake is suitable for a general diet and supports neutral mood.
+Chocolate cake,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Chocolate cake is suitable for a general diet and supports neutral mood.
+Orange cake,"Vegan, Vegetarian",Happy,None,Breakfast,Orange cake is suitable for a general diet and supports neutral mood.
+Fruit Loaf ,Vegan,Depressed Mood,None,Dinner,Fruit Loaf  is suitable for a vegan diet and supports depressed mood.
+Banana cake (Kele ka cake),"Vegan, Vegetarian",Tired & Anxious,None,Lunch,Banana cake (Kele ka cake) is suitable for a general diet and supports tired & anxious.
+Chocolate chiffon cake,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Chocolate chiffon cake is suitable for a general diet and supports neutral mood.
+Christmas cake,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Christmas cake is suitable for a general diet and supports neutral mood.
+Strawberry and vanilla cake with butter icing,"Keto, Raw Food",Energetic & Calm,Lactose / Dairy,Snack,Strawberry and vanilla cake with butter icing is suitable for a keto diet and supports neutral mood.
+Eggless cake,Keto,Craving,Eggs,Lunch,Eggless cake is suitable for a keto diet and supports neutral mood.
+Swiss roll,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Swiss roll is suitable for a general diet and supports neutral mood.
+Pineapple pastry ,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Pineapple pastry  is suitable for a general diet and supports neutral mood.
+Black forest pastry,"Vegan, Vegetarian",Stressed,None,Lunch,Black forest pastry is suitable for a general diet and supports neutral mood.
+Coconut finger,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Coconut finger is suitable for a general diet and supports neutral mood.
+Pineapple cake ,"Vegan, Vegetarian",Stressed,None,Breakfast,Pineapple cake  is suitable for a general diet and supports neutral mood.
+Chocolate walnut cookies (Chocolate aur akhrot ke cookies),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Chocolate walnut cookies (Chocolate aur akhrot ke cookies) is suitable for a general diet and supports neutral mood.
+Chocolate chip cookies,"Vegan, Vegetarian",Happy,None,Dinner,Chocolate chip cookies is suitable for a general diet and supports neutral mood.
+Sweet plain biscuit,"Vegan, Vegetarian",Craving,None,Breakfast,Sweet plain biscuit is suitable for a general diet and supports neutral mood.
+Chocolate biscuit,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Chocolate biscuit is suitable for a general diet and supports neutral mood.
+Coconut biscuit (Nariyal ke biscuit),"Vegan, Vegetarian",Stressed,None,Dinner,Coconut biscuit (Nariyal ke biscuit) is suitable for a general diet and supports neutral mood.
+Sweet and salty biscuit (Meethay aur namkeen biscuit),"Vegan, Vegetarian",Stressed,None,Lunch,Sweet and salty biscuit (Meethay aur namkeen biscuit) is suitable for a general diet and supports neutral mood.
+Peanut biscuit,"Vegan, Vegetarian",Energetic & Calm,Nuts,Lunch,Peanut biscuit is suitable for a general diet and supports neutral mood.
+Pin wheel biscuit,"Vegan, Vegetarian",Craving,None,Lunch,Pin wheel biscuit is suitable for a general diet and supports neutral mood.
+Saffron biscuit (Kesar biscuit),"Vegan, Vegetarian",Stressed,None,Lunch,Saffron biscuit (Kesar biscuit) is suitable for a general diet and supports neutral mood.
+Masala biscuit,"Vegan, Vegetarian",Happy,None,Snack,Masala biscuit is suitable for a general diet and supports neutral mood.
+Ice box cookies,"Vegan, Vegetarian",Stressed,None,Lunch,Ice box cookies is suitable for a general diet and supports neutral mood.
+Ginger bread man,Anti-Inflammatory,Depressed Mood,Gluten,Snack,Ginger bread man is suitable for a general diet and supports neutral mood.
+Danish cookies,"Vegan, Vegetarian",Stressed,None,Dinner,Danish cookies is suitable for a general diet and supports neutral mood.
+Short bread cookies,"Vegan, Vegetarian",Happy,Gluten,Breakfast,Short bread cookies is suitable for a general diet and supports neutral mood.
+Coffee biscuit,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Coffee biscuit is suitable for a general diet and supports energetic & calm.
+Melting moments,"Vegan, Vegetarian",Craving,None,Breakfast,Melting moments is suitable for a general diet and supports neutral mood.
+Ginger biscuit (Adarak ke biscuit),Anti-Inflammatory,Craving,None,Breakfast,Ginger biscuit (Adarak ke biscuit) is suitable for a general diet and supports neutral mood.
+Soyabean muthias,Vegan,Happy,Soy,Breakfast,Soyabean muthias is suitable for a vegan diet and supports neutral mood.
+Soyabean tikki,Vegan,Craving,Soy,Snack,Soyabean tikki is suitable for a vegan diet and supports neutral mood.
+Soyabean namak paras,Vegan,Craving,Soy,Breakfast,Soyabean namak paras is suitable for a vegan diet and supports neutral mood.
+Peanut burfi (Moongfali ki burfi),"Vegan, Vegetarian",Stressed,Nuts,Lunch,Peanut burfi (Moongfali ki burfi) is suitable for a general diet and supports neutral mood.
+Spinach peanut namak paras (Palak moongfali namak paras),"Vegan, Vegetarian",Craving,Nuts,Breakfast,Spinach peanut namak paras (Palak moongfali namak paras) is suitable for a general diet and supports neutral mood.
+Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela),"Vegan, Vegetarian",Stressed,None,Dinner,Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela) is suitable for a general diet and supports neutral mood.
+Rice moong dal cheela (Chawal aur moong dal ka cheela),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Rice moong dal cheela (Chawal aur moong dal ka cheela) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Split bengal gram sweet rice (Channa dal sweet rice),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Split bengal gram sweet rice (Channa dal sweet rice) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Sweet poori (Meethi poori),"Vegan, Vegetarian",Craving,None,Lunch,Sweet poori (Meethi poori) is suitable for a general diet and supports neutral mood.
+Wheat flour and moong dal burfi (Atta aur moong dal ki burfi),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Wheat flour and moong dal burfi (Atta aur moong dal ki burfi) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Spinach burfi (Palak burfi),"Vegan, Vegetarian",Stressed,None,Snack,Spinach burfi (Palak burfi) is suitable for a general diet and supports neutral mood.
+Sweet split chickpea roti (Sweet channa dal roti/Puranpoli),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Sweet split chickpea roti (Sweet channa dal roti/Puranpoli) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Sprouted moong daliya ,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Sprouted moong daliya  is suitable for a vegan, vegetarian diet and supports balanced mood."
+Sprouted moong poha ,Vegetarian,Craving,None,Breakfast,Sprouted moong poha  is suitable for a vegetarian diet and supports neutral mood.
+Pearl millet ladoo (Bajra ladoo),"Vegan, Vegetarian",Happy,Nuts,Snack,Pearl millet ladoo (Bajra ladoo) is suitable for a general diet and supports happy.
+Paushtik ladoo,"Vegan, Vegetarian",Happy,Nuts,Snack,Paushtik ladoo is suitable for a general diet and supports happy.
+Paushtik roti,"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner",Paushtik roti is suitable for a general diet and supports balanced mood.
+Semolina carrot vada (Suji gajar vada),"Vegan, Vegetarian",Stressed,None,Dinner,Semolina carrot vada (Suji gajar vada) is suitable for a general diet and supports neutral mood.
+Dhokla,"Vegan, Vegetarian",Stressed,None,Lunch,Dhokla is suitable for a general diet and supports neutral mood.
+Kashmiri tea (Kehwa),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Kashmiri tea (Kehwa) is suitable for a general diet and supports energetic & calm.
+Steeped hot coffee,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Steeped hot coffee is suitable for a general diet and supports energetic & calm.
+Hot chocolate,"Vegan, Vegetarian",Craving,None,Lunch,Hot chocolate is suitable for a general diet and supports neutral mood.
+Cold coffee (with cream),"Keto, Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Cold coffee (with cream) is suitable for a general diet and supports energetic & calm.
+Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath),Vegetarian,"Happy, Tired & Anxious",Lactose / Dairy,Snack,"Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath) is suitable for a vegetarian diet and supports happy, tired & anxious."
+Flavoured milkshake,Vegetarian,Tired & Anxious,Lactose / Dairy,Snack,Flavoured milkshake is suitable for a vegetarian diet and supports tired & anxious.
+Jal jeera,"Vegan, Vegetarian",Stressed,None,Dinner,Jal jeera is suitable for a general diet and supports neutral mood.
+Gingo,"Vegan, Vegetarian",Craving,None,Lunch,Gingo is suitable for a general diet and supports neutral mood.
+Mintade,"Vegan, Vegetarian",Happy,None,Dinner,Mintade is suitable for a general diet and supports neutral mood.
+Canjee,"Vegan, Vegetarian",Happy,None,Lunch,Canjee is suitable for a general diet and supports neutral mood.
+Cauliflower canjee (Phoolgobhi ki canjee),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Cauliflower canjee (Phoolgobhi ki canjee) is suitable for a general diet and supports neutral mood.
+Potato canjee (Aloo canjee),Vegetarian,Depressed Mood,None,Snack,Potato canjee (Aloo canjee) is suitable for a vegetarian diet and supports neutral mood.
+Vermicelli porridge (Semiya/Seviyan porridge),"Vegan, Vegetarian",Stressed,None,Snack,Vermicelli porridge (Semiya/Seviyan porridge) is suitable for a general diet and supports neutral mood.
+Semolina upma (Suji/Rava upma),Vegetarian,Energetic & Calm,None,Breakfast,Semolina upma (Suji/Rava upma) is suitable for a vegetarian diet and supports neutral mood.
+Vermicelli upma (Semiya/Seviyan upma),Vegetarian,Happy,None,Breakfast,Vermicelli upma (Semiya/Seviyan upma) is suitable for a vegetarian diet and supports neutral mood.
+Rice upma,"Vegan, Vegetarian","Balanced Mood, Depressed Mood",None,"Breakfast, Lunch","Rice upma is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Bread upma,Vegetarian,Energetic & Calm,Gluten,Breakfast,Bread upma is suitable for a vegetarian diet and supports neutral mood.
+Vegetable upma,"Vegan, Vegetarian","Balanced Mood, Craving",None,Breakfast,"Vegetable upma is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Poha,Vegetarian,Stressed,None,Breakfast,Poha is suitable for a vegetarian diet and supports neutral mood.
+Vegetable poha,"Vegan, Vegetarian","Balanced Mood, Energetic & Calm",None,Breakfast,"Vegetable poha is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Paneer stuffed cheela/chilla,"Keto, Vegetarian",Happy,Lactose / Dairy,Breakfast,"Paneer stuffed cheela/chilla is suitable for a keto, vegetarian diet and supports neutral mood."
+Indian style egg bhujia (Anda bhujia (Indian style)),Keto,Happy,Eggs,Breakfast,Indian style egg bhujia (Anda bhujia (Indian style)) is suitable for a keto diet and supports neutral mood.
+French omelette/omlet,"Vegan, Vegetarian",Depressed Mood,None,Dinner,French omelette/omlet is suitable for a general diet and supports neutral mood.
+Puffy omelette/omlet,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Puffy omelette/omlet is suitable for a general diet and supports neutral mood.
+Orange omelette/omlet,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Orange omelette/omlet is suitable for a general diet and supports neutral mood.
+Cheese and mushroom omelette/omlet,Vegetarian,Energetic & Calm,Lactose / Dairy,Dinner,Cheese and mushroom omelette/omlet is suitable for a vegetarian diet and supports neutral mood.
+Spanish omelette/omlet,"Vegan, Vegetarian",Happy,None,Snack,Spanish omelette/omlet is suitable for a general diet and supports neutral mood.
+Mixed stock,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Mixed stock is suitable for a general diet and supports neutral mood.
+Meat stock,Paleo,Craving,None,Dinner,Meat stock is suitable for a general diet and supports neutral mood.
+White stock,"Vegan, Vegetarian",Energetic & Calm,None,Snack,White stock is suitable for a general diet and supports neutral mood.
+Meat consomme (with mutton),Keto,Depressed Mood,None,Snack,Meat consomme (with mutton) is suitable for a keto diet and supports neutral mood.
+Consomme au julienne,"Vegan, Vegetarian",Craving,None,Snack,Consomme au julienne is suitable for a general diet and supports neutral mood.
+Consomme au vermicelli,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Consomme au vermicelli is suitable for a general diet and supports neutral mood.
+Green pea soup (Matar ka soup),"Vegan, Vegetarian",Happy,None,Snack,Green pea soup (Matar ka soup) is suitable for a general diet and supports neutral mood.
+Spinach soup (Palak ka soup),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Spinach soup (Palak ka soup) is suitable for a general diet and supports neutral mood.
+Mixed vegetable soup,Vegan,Balanced Mood,None,Snack,Mixed vegetable soup is suitable for a vegan diet and supports balanced mood.
+Cheese soup,Vegetarian,Stressed,Lactose / Dairy,Dinner,Cheese soup is suitable for a vegetarian diet and supports neutral mood.
+Mulligatawny soup,"Vegan, Vegetarian",Happy,None,Lunch,Mulligatawny soup is suitable for a general diet and supports neutral mood.
+Cream of carrot soup,"Keto, Vegan, Vegetarian",Depressed Mood,None,Snack,Cream of carrot soup is suitable for a general diet and supports neutral mood.
+Cream of broccoli soup,"Keto, Vegan, Vegetarian",Energetic & Calm,None,Lunch,Cream of broccoli soup is suitable for a general diet and supports neutral mood.
+Cream of potato soup,"Keto, Vegan, Vegetarian",Energetic & Calm,None,Dinner,Cream of potato soup is suitable for a general diet and supports neutral mood.
+Almond soup (Badam ka soup),Keto,Tired & Anxious,Nuts,Dinner,Almond soup (Badam ka soup) is suitable for a keto diet and supports tired & anxious.
+Cold cucumber cream soup ,"Keto, Vegan, Vegetarian",Depressed Mood,None,Dinner,Cold cucumber cream soup  is suitable for a general diet and supports neutral mood.
+Cold tomato soup,"Vegan, Vegetarian",Happy,None,Snack,Cold tomato soup is suitable for a general diet and supports neutral mood.
+Chicken stew,Keto,Craving,None,Snack,Chicken stew is suitable for a keto diet and supports neutral mood.
+Veg paneer stew,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Breakfast,"Veg paneer stew is suitable for a keto, vegetarian diet and supports neutral mood."
+Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha),"Vegan, Vegetarian",Depressed Mood,Gluten,Breakfast,Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha) is suitable for a general diet and supports neutral mood.
+Methi parantha/paratha,"Vegan, Vegetarian",Happy,Gluten,Breakfast,Methi parantha/paratha is suitable for a general diet and supports neutral mood.
+Bathua poori,"Vegan, Vegetarian",Craving,None,Snack,Bathua poori is suitable for a general diet and supports neutral mood.
+Gram flour poori (Besan poori),"Vegan, Vegetarian",Craving,None,Lunch,Gram flour poori (Besan poori) is suitable for a general diet and supports neutral mood.
+Beetroot poori (Chukandar ki poori),"Vegan, Vegetarian",Stressed,None,Lunch,Beetroot poori (Chukandar ki poori) is suitable for a general diet and supports neutral mood.
+Peas poori (Matar ki poori),"Vegan, Vegetarian",Stressed,None,Dinner,Peas poori (Matar ki poori) is suitable for a general diet and supports neutral mood.
+Peas kachori (Matar kachori),"Vegan, Vegetarian",Depressed Mood,None,Snack,Peas kachori (Matar kachori) is suitable for a general diet and supports neutral mood.
+Pizza,"Vegan, Vegetarian",Stressed,None,Lunch,Pizza is suitable for a general diet and supports neutral mood.
+Bacon and mushroom pancake,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Bacon and mushroom pancake is suitable for a general diet and supports neutral mood.
+Cheese and tomato pancake,Vegetarian,Craving,Lactose / Dairy,Lunch,Cheese and tomato pancake is suitable for a vegetarian diet and supports neutral mood.
+Minced meat pancake (with chicken),Keto,Happy,None,Lunch,Minced meat pancake (with chicken) is suitable for a keto diet and supports neutral mood.
+Eggplant/Brinjal rice (Vangi bhat),"Keto, Vegan",Balanced Mood,Eggs,Lunch,"Eggplant/Brinjal rice (Vangi bhat) is suitable for a keto, vegan diet and supports balanced mood."
+Kashmiri 'tahar',"Vegan, Vegetarian",Happy,None,Snack,Kashmiri 'tahar' is suitable for a general diet and supports neutral mood.
+Cumin pulao (Jeera/Zeera pulao),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Cumin pulao (Jeera/Zeera pulao) is suitable for a general diet and supports neutral mood.
+Peas pulao (Matar pulao),"Vegan, Vegetarian",Stressed,None,Breakfast,Peas pulao (Matar pulao) is suitable for a general diet and supports neutral mood.
+Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Black channa pulao/ Bengal gram pulao (Kale chane ka pulao),"Vegan, Vegetarian",Happy,None,Snack,Black channa pulao/ Bengal gram pulao (Kale chane ka pulao) is suitable for a general diet and supports neutral mood.
+Mutton pulao,Keto,Energetic & Calm,None,Snack,Mutton pulao is suitable for a keto diet and supports neutral mood.
+Chicken pulao,Keto,Happy,None,Lunch,Chicken pulao is suitable for a keto diet and supports neutral mood.
+Mexican rice,Vegan,Balanced Mood,None,Lunch,Mexican rice is suitable for a vegan diet and supports balanced mood.
+Plain khitchdi (Plain khichri/khichdi),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Plain khitchdi (Plain khichri/khichdi) is suitable for a general diet and supports neutral mood.
+Instant idli (with semolina),"Vegan, Vegetarian",Craving,None,Breakfast,Instant idli (with semolina) is suitable for a general diet and supports neutral mood.
+Plain dosa,"Vegan, Vegetarian",Happy,None,Breakfast,Plain dosa is suitable for a general diet and supports neutral mood.
+Masala dosa mixed vegetable fillings,Vegan,"Balanced Mood, Happy",None,Breakfast,"Masala dosa mixed vegetable fillings is suitable for a vegan diet and supports balanced mood, neutral mood."
+Masala dosa paneer fillings,"Keto, Vegetarian",Happy,Lactose / Dairy,Breakfast,"Masala dosa paneer fillings is suitable for a keto, vegetarian diet and supports neutral mood."
+Uttapam,"Vegan, Vegetarian",Happy,None,Dinner,Uttapam is suitable for a general diet and supports neutral mood.
+Appam,"Vegan, Vegetarian",Depressed Mood,None,Snack,Appam is suitable for a general diet and supports neutral mood.
+Beans and macaroni,"Vegan, Vegetarian",Stressed,None,Breakfast,Beans and macaroni is suitable for a general diet and supports neutral mood.
+Spaghetti bolognese,"Vegan, Vegetarian",Craving,None,Breakfast,Spaghetti bolognese is suitable for a general diet and supports neutral mood.
+Meat and macaroni casserole,Paleo,Depressed Mood,None,Lunch,Meat and macaroni casserole is suitable for a general diet and supports neutral mood.
+Spaghetti with meat balls and tomato sauce,Paleo,Craving,None,Snack,Spaghetti with meat balls and tomato sauce is suitable for a general diet and supports neutral mood.
+Spaghetti with paneer balls and tomato sauce,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Snack,"Spaghetti with paneer balls and tomato sauce is suitable for a keto, vegetarian diet and supports neutral mood."
+Lasagne with meat sauce,Paleo,Craving,None,Dinner,Lasagne with meat sauce is suitable for a general diet and supports neutral mood.
+Lasagne with vegetables,Vegan,Balanced Mood,None,Breakfast,Lasagne with vegetables is suitable for a vegan diet and supports balanced mood.
+Home made egg noodles,Keto,Energetic & Calm,Eggs,Lunch,Home made egg noodles is suitable for a keto diet and supports neutral mood.
+Sour lentils (Khatti dal),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Sour lentils (Khatti dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Urad special dehusked,"Vegan, Vegetarian",Happy,None,Dinner,Urad special dehusked is suitable for a general diet and supports neutral mood.
+Arhar with spinach (Arhar dal aur palak),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Arhar with spinach (Arhar dal aur palak) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Moong dal with vadi,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Moong dal with vadi is suitable for a vegan, vegetarian diet and supports balanced mood."
+Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru) is suitable for a general diet and supports neutral mood.
+Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru) is suitable for a general diet and supports energetic & calm.
+Green gram whole with baghar (Sabut moong dal with tadka),"Vegan, Vegetarian, Whole30",Balanced Mood,None,"Lunch, Dinner","Green gram whole with baghar (Sabut moong dal with tadka) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Urad sabut special,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Urad sabut special is suitable for a general diet and supports neutral mood.
+Kabuli channa curry,"Vegan, Vegetarian",Stressed,None,Dinner,Kabuli channa curry is suitable for a general diet and supports neutral mood.
+Besan gatte curry,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Besan gatte curry is suitable for a general diet and supports neutral mood.
+Dry masala chops,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Dry masala chops is suitable for a general diet and supports neutral mood.
+Mutton korma,Keto,Craving,None,Breakfast,Mutton korma is suitable for a keto diet and supports neutral mood.
+Shahi keema kofta curry,"Vegan, Vegetarian",Craving,None,Dinner,Shahi keema kofta curry is suitable for a general diet and supports neutral mood.
+Minced meat ball curry,Paleo,Happy,None,Dinner,Minced meat ball curry is suitable for a general diet and supports neutral mood.
+Boti kebab,"Vegan, Vegetarian",Craving,None,Breakfast,Boti kebab is suitable for a general diet and supports neutral mood.
+Mutton seekh kebab,Keto,Energetic & Calm,None,Breakfast,Mutton seekh kebab is suitable for a keto diet and supports neutral mood.
+Indian lamb and egg curry (Nargisi kofta),Keto,Energetic & Calm,Eggs,Dinner,Indian lamb and egg curry (Nargisi kofta) is suitable for a keto diet and supports neutral mood.
+Soya chunks sweet and sour (Nutrinugget sweet and sour),Vegan,Depressed Mood,Soy,Breakfast,Soya chunks sweet and sour (Nutrinugget sweet and sour) is suitable for a vegan diet and supports neutral mood.
+Soya chunks korma (Nutrinugget korma),Vegan,Craving,Soy,Snack,Soya chunks korma (Nutrinugget korma) is suitable for a vegan diet and supports neutral mood.
+Mushroom matar,"Vegan, Vegetarian",Stressed,None,Lunch,Mushroom matar is suitable for a general diet and supports neutral mood.
+Soya chunks and peas (Nutrinugget matar),Vegan,Happy,Soy,Snack,Soya chunks and peas (Nutrinugget matar) is suitable for a vegan diet and supports neutral mood.
+Vegetable yakhni,Vegan,Balanced Mood,None,Snack,Vegetable yakhni is suitable for a vegan diet and supports balanced mood.
+Spinach mushroom (Palak mushroom),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Spinach mushroom (Palak mushroom) is suitable for a general diet and supports neutral mood.
+Vegetarian nargisi kofta curry,Vegetarian,Depressed Mood,None,Dinner,Vegetarian nargisi kofta curry is suitable for a general diet and supports neutral mood.
+Roast chicken,Keto,Craving,None,Dinner,Roast chicken is suitable for a keto diet and supports neutral mood.
+Shahi chicken masala,Keto,Craving,None,Breakfast,Shahi chicken masala is suitable for a keto diet and supports neutral mood.
+Tomato chicken,Keto,Energetic & Calm,None,Breakfast,Tomato chicken is suitable for a keto diet and supports neutral mood.
+Creamy chicken,Keto,Happy,None,Snack,Creamy chicken is suitable for a keto diet and supports neutral mood.
+Broccoli chicken ala king,Keto,Energetic & Calm,None,Lunch,Broccoli chicken ala king is suitable for a keto diet and supports neutral mood.
+Ginger chicken,"Anti-Inflammatory, Keto",Happy,None,Lunch,Ginger chicken is suitable for a keto diet and supports neutral mood.
+Chicken sweet and sour,Keto,Energetic & Calm,None,Breakfast,Chicken sweet and sour is suitable for a keto diet and supports neutral mood.
+Chicken korma,Keto,Energetic & Calm,None,Breakfast,Chicken korma is suitable for a keto diet and supports neutral mood.
+Bengal fish curry (Bengali machli curry),"Keto, Mediterranean, Pescatarian",Happy,Seafood / Shellfish,Dinner,"Bengal fish curry (Bengali machli curry) is suitable for a keto, pescatarian diet and supports neutral mood."
+Fish finger,"Keto, Mediterranean, Pescatarian",Craving,Seafood / Shellfish,Lunch,"Fish finger is suitable for a keto, pescatarian diet and supports neutral mood."
+Fish in coconut milk (Nariyal ke doodh ke saath machli),"Keto, Mediterranean, Pescatarian, Vegetarian",Depressed Mood,"Lactose / Dairy, Seafood / Shellfish",Dinner,"Fish in coconut milk (Nariyal ke doodh ke saath machli) is suitable for a keto, vegetarian, pescatarian diet and supports neutral mood."
+Prawn curry (with coconut) (Jhinga curry),"Pescatarian, Raw Food",Stressed,Seafood / Shellfish,Dinner,Prawn curry (with coconut) (Jhinga curry) is suitable for a pescatarian diet and supports neutral mood.
+Baked stuffed fish,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Breakfast,"Baked stuffed fish is suitable for a keto, pescatarian diet and supports neutral mood."
+Fish pie,"Keto, Mediterranean, Pescatarian",Energetic & Calm,Seafood / Shellfish,Snack,"Fish pie is suitable for a keto, pescatarian diet and supports neutral mood."
+Crispy baked fish,"Keto, Mediterranean, Pescatarian",Craving,Seafood / Shellfish,Lunch,"Crispy baked fish is suitable for a keto, pescatarian diet and supports neutral mood."
+Fish souffle,"Keto, Mediterranean, Pescatarian",Depressed Mood,Seafood / Shellfish,Dinner,"Fish souffle is suitable for a keto, pescatarian diet and supports neutral mood."
+Potato curry (Aloo ki sabzi),"Vegan, Vegetarian",Energetic & Calm,None,"Lunch, Dinner","Potato curry (Aloo ki sabzi) is suitable for a vegan, vegetarian diet and supports neutral mood."
+Egg curry (Anda curry),Keto,Depressed Mood,Eggs,Dinner,Egg curry (Anda curry) is suitable for a keto diet and supports neutral mood.
+Vegetable curry with coconut ,Vegan,Balanced Mood,None,Dinner,Vegetable curry with coconut  is suitable for a vegan diet and supports balanced mood.
+Curd with potatoes (Dahi aloo),Vegetarian,Depressed Mood,Lactose / Dairy,Breakfast,Curd with potatoes (Dahi aloo) is suitable for a vegetarian diet and supports depressed mood.
+Potato kofta curry (Aloo kofta curry),Vegetarian,Energetic & Calm,None,Dinner,Potato kofta curry (Aloo kofta curry) is suitable for a vegetarian diet and supports neutral mood.
+Yam kofta curry (Zimikand/Suran kofta curry),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Yam kofta curry (Zimikand/Suran kofta curry) is suitable for a general diet and supports neutral mood.
+Jackfruit kofta curry (Kathal ka kofta curry),Vegan,Depressed Mood,None,Dinner,Jackfruit kofta curry (Kathal ka kofta curry) is suitable for a vegan diet and supports depressed mood.
+Spinach and potato (Palak aloo),Vegetarian,Stressed,None,Snack,Spinach and potato (Palak aloo) is suitable for a vegetarian diet and supports neutral mood.
+Mooli bhujia,"Vegan, Vegetarian",Stressed,None,Breakfast,Mooli bhujia is suitable for a general diet and supports neutral mood.
+Bathua bhujia,"Vegan, Vegetarian",Stressed,None,Lunch,Bathua bhujia is suitable for a general diet and supports neutral mood.
+Cabbage rolls (dry) ((Pattagobhi rolls) (dry)),"Vegan, Vegetarian",Craving,None,Dinner,Cabbage rolls (dry) ((Pattagobhi rolls) (dry)) is suitable for a general diet and supports neutral mood.
+Cabbage rolls (curry) ((Pattagobhi rolls)(curry)),"Vegan, Vegetarian",Stressed,None,Dinner,Cabbage rolls (curry) ((Pattagobhi rolls)(curry)) is suitable for a general diet and supports neutral mood.
+Dry arbi (Sookhi arbi),"Vegan, Vegetarian",Happy,None,Dinner,Dry arbi (Sookhi arbi) is suitable for a general diet and supports neutral mood.
+Masala arbi,"Vegan, Vegetarian",Craving,None,Lunch,Masala arbi is suitable for a general diet and supports neutral mood.
+Peas brinjal bhartha (Matar baingan bhartha),"Vegan, Vegetarian",Happy,None,Snack,Peas brinjal bhartha (Matar baingan bhartha) is suitable for a general diet and supports neutral mood.
+Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji),Vegan,Stressed,None,"Lunch, Dinner",Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji) is suitable for a vegan diet and supports neutral mood.
+Crispy okra/Crispy lady's fingers (Karare bhindi),"Vegan, Vegetarian",Craving,None,Snack,Crispy okra/Crispy lady's fingers (Karare bhindi) is suitable for a general diet and supports neutral mood.
+Beans foogath,"Vegan, Vegetarian",Happy,None,Breakfast,Beans foogath is suitable for a general diet and supports neutral mood.
+Stuffed bittergourd (wet) (Bharwa karele),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Stuffed bittergourd (wet) (Bharwa karele) is suitable for a general diet and supports neutral mood.
+Jackfruit/Kathal (dry),Vegan,Depressed Mood,None,Breakfast,Jackfruit/Kathal (dry) is suitable for a vegan diet and supports depressed mood.
+Yam fried (Zimikand/Suran fried),"Vegan, Vegetarian",Craving,None,Snack,Yam fried (Zimikand/Suran fried) is suitable for a general diet and supports neutral mood.
+"Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia)",Vegetarian,Craving,None,Dinner,"Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia) is suitable for a vegetarian diet and supports neutral mood."
+Vegetable jalfrezi,Vegan,Balanced Mood,None,Lunch,Vegetable jalfrezi is suitable for a vegan diet and supports balanced mood.
+Vegetables stir fry ,Vegan,Balanced Mood,None,Dinner,Vegetables stir fry  is suitable for a vegan diet and supports balanced mood.
+Broccoli delight,"Vegan, Vegetarian",Craving,None,Lunch,Broccoli delight is suitable for a general diet and supports neutral mood.
+Dhansak (vegetarian),Vegetarian,Happy,None,Lunch,Dhansak (vegetarian) is suitable for a general diet and supports neutral mood.
+Cauliflower basket,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Cauliflower basket is suitable for a general diet and supports neutral mood.
+Stuffed bottle gourd (Stuffed ghiya/lauki),"Vegan, Vegetarian",Craving,None,Lunch,Stuffed bottle gourd (Stuffed ghiya/lauki) is suitable for a general diet and supports neutral mood.
+Ducheese potato,Vegetarian,Happy,Lactose / Dairy,Breakfast,Ducheese potato is suitable for a vegetarian diet and supports neutral mood.
+Roast potatoes ,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Roast potatoes  is suitable for a general diet and supports neutral mood.
+Stuffed baked potatoes ,"Vegan, Vegetarian",Craving,None,Dinner,Stuffed baked potatoes  is suitable for a general diet and supports neutral mood.
+Potato nests,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Potato nests is suitable for a general diet and supports neutral mood.
+Parsley potato,"Vegan, Vegetarian",Stressed,None,Dinner,Parsley potato is suitable for a general diet and supports neutral mood.
+Creamed spinach and mushroom,"Keto, Vegan, Vegetarian",Depressed Mood,None,Dinner,Creamed spinach and mushroom is suitable for a general diet and supports neutral mood.
+Fricassee of Mushroom,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Fricassee of Mushroom is suitable for a general diet and supports neutral mood.
+Cauliflower au gratin,"Vegan, Vegetarian",Stressed,None,Lunch,Cauliflower au gratin is suitable for a general diet and supports neutral mood.
+Vegetable and cheese pie,"Vegan, Vegetarian",Balanced Mood,Lactose / Dairy,Snack,"Vegetable and cheese pie is suitable for a vegan, vegetarian diet and supports balanced mood."
+Spinach souffle ,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Spinach souffle  is suitable for a general diet and supports neutral mood.
+Beetroot and egg salad (Chukandar aur ande ka salad),Keto,Craving,Eggs,Lunch,Beetroot and egg salad (Chukandar aur ande ka salad) is suitable for a keto diet and supports neutral mood.
+Sour cream potato salad,"Keto, Vegan, Vegetarian",Depressed Mood,None,Dinner,Sour cream potato salad is suitable for a general diet and supports neutral mood.
+Tossed green salad,"Vegan, Vegetarian",Stressed,None,Snack,Tossed green salad is suitable for a general diet and supports neutral mood.
+Spring basket salad,"Vegan, Vegetarian",Depressed Mood,None,Snack,Spring basket salad is suitable for a general diet and supports neutral mood.
+Cucumber and yogurt salad (Kheere aur dahi ka salad),Vegetarian,"Happy, Depressed Mood",None,Breakfast,"Cucumber and yogurt salad (Kheere aur dahi ka salad) is suitable for a general diet and supports happy, depressed mood."
+Chicken and tomato towers,Keto,Depressed Mood,None,Lunch,Chicken and tomato towers is suitable for a keto diet and supports neutral mood.
+Jellied sunshine fruit salad,Vegan,Depressed Mood,None,Breakfast,Jellied sunshine fruit salad is suitable for a vegan diet and supports depressed mood.
+Tomato aspic,"Vegan, Vegetarian",Craving,None,Lunch,Tomato aspic is suitable for a general diet and supports neutral mood.
+Frozen frosty fruit salad (Phalon ka salaad),Vegan,Depressed Mood,None,Lunch,Frozen frosty fruit salad (Phalon ka salaad) is suitable for a vegan diet and supports depressed mood.
+French dressing,"Vegan, Vegetarian",Craving,None,Breakfast,French dressing is suitable for a general diet and supports neutral mood.
+Mayonnaise without eggs,Keto,Craving,Eggs,Snack,Mayonnaise without eggs is suitable for a keto diet and supports neutral mood.
+Curd dressing ,Vegetarian,Depressed Mood,Lactose / Dairy,Dinner,Curd dressing  is suitable for a vegetarian diet and supports depressed mood.
+Carrot raita (Gajar ka raita),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Carrot raita (Gajar ka raita) is suitable for a general diet and supports neutral mood.
+Pumpkin raita (Kaddu ka raita),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Pumpkin raita (Kaddu ka raita) is suitable for a general diet and supports neutral mood.
+Mint and peanut raita (Pudinay aur moongfali ka raita),"Vegan, Vegetarian",Craving,Nuts,Breakfast,Mint and peanut raita (Pudinay aur moongfali ka raita) is suitable for a general diet and supports neutral mood.
+Spinach raita (Palak ka raita),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Spinach raita (Palak ka raita) is suitable for a general diet and supports neutral mood.
+Bathua raita,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Bathua raita is suitable for a general diet and supports neutral mood.
+Pineapple raita (Ananas ka raita),"Vegan, Vegetarian",Happy,None,Dinner,Pineapple raita (Ananas ka raita) is suitable for a general diet and supports neutral mood.
+Banana raita (Kele ka raita),"Vegan, Vegetarian",Tired & Anxious,None,Breakfast,Banana raita (Kele ka raita) is suitable for a general diet and supports tired & anxious.
+Mango raita (Aam ka raita),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Mango raita (Aam ka raita) is suitable for a general diet and supports depressed mood.
+Guava raita (Amarood ka raita),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Guava raita (Amarood ka raita) is suitable for a general diet and supports neutral mood.
+Grapes raita (Angoor ka raita),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Grapes raita (Angoor ka raita) is suitable for a general diet and supports neutral mood.
+Bottle gourd kheer (Ghiya/Lauki kheer),"Vegan, Vegetarian",Happy,None,Snack,Bottle gourd kheer (Ghiya/Lauki kheer) is suitable for a general diet and supports happy.
+Pumpkin kheer (Kaddu ki kheer),"Vegan, Vegetarian",Happy,None,Lunch,Pumpkin kheer (Kaddu ki kheer) is suitable for a general diet and supports happy.
+Apple kheer (Seb ki kheer),"Vegan, Vegetarian",Happy,None,Dinner,Apple kheer (Seb ki kheer) is suitable for a general diet and supports happy.
+Caramel custard (baked),"Vegan, Vegetarian",Craving,None,Dinner,Caramel custard (baked) is suitable for a general diet and supports neutral mood.
+Vanilla ice cream without egg,Keto,Happy,Eggs,Snack,Vanilla ice cream without egg is suitable for a keto diet and supports happy.
+Vanilla ice cream with egg,Keto,Happy,Eggs,Snack,Vanilla ice cream with egg is suitable for a keto diet and supports happy.
+Strawberry ice cream,Raw Food,Happy,None,Snack,Strawberry ice cream is suitable for a general diet and supports happy.
+Chocochip ice cream,"Keto, Vegan, Vegetarian",Happy,None,Snack,Chocochip ice cream is suitable for a general diet and supports happy.
+Choconut ice cream,"Keto, Vegan, Vegetarian",Happy,None,Snack,Choconut ice cream is suitable for a general diet and supports happy.
+Pear chocholate sunday,"Vegan, Vegetarian",Happy,None,Lunch,Pear chocholate sunday is suitable for a general diet and supports neutral mood.
+Chocolate sauce,"Vegan, Vegetarian",Craving,None,Lunch,Chocolate sauce is suitable for a general diet and supports neutral mood.
+Coffee ice cream,"Keto, Vegan, Vegetarian","Happy, Energetic & Calm",None,"Breakfast, Snack","Coffee ice cream is suitable for a general diet and supports happy, energetic & calm."
+Coffee pear alaska,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Coffee pear alaska is suitable for a general diet and supports energetic & calm.
+Crunchy butterscotch,Keto,Energetic & Calm,Lactose / Dairy,Lunch,Crunchy butterscotch is suitable for a keto diet and supports neutral mood.
+Peach melba ice cream,"Keto, Vegan, Vegetarian",Happy,None,Snack,Peach melba ice cream is suitable for a general diet and supports happy.
+Vanilla ice cream with apples in hot cherry sauce,"Keto, Vegan, Vegetarian",Happy,None,Snack,Vanilla ice cream with apples in hot cherry sauce is suitable for a general diet and supports happy.
+Grape and orange whip,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Grape and orange whip is suitable for a general diet and supports neutral mood.
+Honey banana cream,"Keto, Vegan, Vegetarian",Tired & Anxious,None,Lunch,Honey banana cream is suitable for a general diet and supports tired & anxious.
+Raspberry bavarian cream,"Keto, Vegan, Vegetarian",Depressed Mood,None,Lunch,Raspberry bavarian cream is suitable for a general diet and supports neutral mood.
+Fruit delight,Vegan,Depressed Mood,None,Breakfast,Fruit delight is suitable for a vegan diet and supports depressed mood.
+Creamy chocolate mousse,"Keto, Vegan, Vegetarian",Depressed Mood,None,Breakfast,Creamy chocolate mousse is suitable for a general diet and supports neutral mood.
+Cold lemon souffle,"Vegan, Vegetarian",Happy,None,Lunch,Cold lemon souffle is suitable for a general diet and supports neutral mood.
+Cold orange souffle,"Vegan, Vegetarian",Craving,None,Snack,Cold orange souffle is suitable for a general diet and supports neutral mood.
+Cold pineapple souffle,"Vegan, Vegetarian",Happy,None,Lunch,Cold pineapple souffle is suitable for a general diet and supports neutral mood.
+Cold vanilla souffle,"Vegan, Vegetarian",Craving,None,Lunch,Cold vanilla souffle is suitable for a general diet and supports neutral mood.
+Cold chocolate souffle,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Cold chocolate souffle is suitable for a general diet and supports neutral mood.
+Stewed fruit (with pear),Vegan,Depressed Mood,None,Snack,Stewed fruit (with pear) is suitable for a vegan diet and supports depressed mood.
+Apricot fool,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Apricot fool is suitable for a general diet and supports neutral mood.
+Pavlova,"Vegan, Vegetarian",Craving,None,Dinner,Pavlova is suitable for a general diet and supports neutral mood.
+Apple crumb pudding,"Vegan, Vegetarian",Craving,None,Lunch,Apple crumb pudding is suitable for a general diet and supports neutral mood.
+Steamed cake with chocolate sauce,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Steamed cake with chocolate sauce is suitable for a general diet and supports energetic & calm.
+Hot lemon souffle,"Vegan, Vegetarian",Stressed,None,Dinner,Hot lemon souffle is suitable for a general diet and supports neutral mood.
+Gulab jamun with milk powder,Vegetarian,Happy,Lactose / Dairy,Snack,Gulab jamun with milk powder is suitable for a vegetarian diet and supports happy.
+Chum chum,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Chum chum is suitable for a general diet and supports neutral mood.
+Dil bahar,"Vegan, Vegetarian",Happy,None,Snack,Dil bahar is suitable for a general diet and supports neutral mood.
+Rasbhari,"Vegan, Vegetarian",Happy,None,Snack,Rasbhari is suitable for a general diet and supports neutral mood.
+Rajbogh,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Rajbogh is suitable for a general diet and supports neutral mood.
+Rasgulla,"Vegan, Vegetarian",Happy,None,Breakfast,Rasgulla is suitable for a general diet and supports neutral mood.
+Rasmalai,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Rasmalai is suitable for a general diet and supports neutral mood.
+Khoa coconut burfi,"Vegan, Vegetarian",Stressed,None,Dinner,Khoa coconut burfi is suitable for a general diet and supports neutral mood.
+Danedar burfi,"Vegan, Vegetarian",Stressed,None,Dinner,Danedar burfi is suitable for a general diet and supports neutral mood.
+Semolina burfi (Suji/Rava burfi),"Vegan, Vegetarian",Happy,None,Lunch,Semolina burfi (Suji/Rava burfi) is suitable for a general diet and supports neutral mood.
+Pumpkin coconut burfi (Kaddu aur nariyal ki burfi),"Vegan, Vegetarian",Stressed,None,Snack,Pumpkin coconut burfi (Kaddu aur nariyal ki burfi) is suitable for a general diet and supports neutral mood.
+Khoa ladoo,"Vegan, Vegetarian",Happy,Nuts,Snack,Khoa ladoo is suitable for a general diet and supports happy.
+Wheat and gram flour ladoo (Atta besan ladoo),"Vegan, Vegetarian",Happy,"Gluten, Nuts",Snack,Wheat and gram flour ladoo (Atta besan ladoo) is suitable for a general diet and supports happy.
+Semolina ladoo with nuts (Suji/Rava ladoo with nuts),Mediterranean,Happy,Nuts,Snack,Semolina ladoo with nuts (Suji/Rava ladoo with nuts) is suitable for a general diet and supports happy.
+Sesame chickpeas brittle (Til aur channe ki chikki),"Vegan, Vegetarian",Happy,None,Snack,Sesame chickpeas brittle (Til aur channe ki chikki) is suitable for a general diet and supports neutral mood.
+Murmura chikki,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Murmura chikki is suitable for a general diet and supports neutral mood.
+Masala onion pakora/pakoda (Pyaaz ke pakode),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Masala onion pakora/pakoda (Pyaaz ke pakode) is suitable for a general diet and supports neutral mood.
+Masala green chilli pakora/pakoda (Hari mirch kay pakode),"Vegan, Vegetarian",Depressed Mood,None,Snack,Masala green chilli pakora/pakoda (Hari mirch kay pakode) is suitable for a general diet and supports neutral mood.
+Chicken pakora/pakoda,Keto,Energetic & Calm,None,Snack,Chicken pakora/pakoda is suitable for a keto diet and supports neutral mood.
+Fish pakora/pakoda,"Keto, Mediterranean, Pescatarian",Happy,Seafood / Shellfish,Snack,"Fish pakora/pakoda is suitable for a keto, pescatarian diet and supports neutral mood."
+Paneer cutlet,"Keto, Vegetarian",Happy,Lactose / Dairy,Breakfast,"Paneer cutlet is suitable for a keto, vegetarian diet and supports neutral mood."
+Sago cutlet/vadas (Sabudana cutlet/vadas),"Vegan, Vegetarian",Stressed,None,Dinner,Sago cutlet/vadas (Sabudana cutlet/vadas) is suitable for a general diet and supports neutral mood.
+Poshtik cutlet,"Vegan, Vegetarian",Craving,None,Snack,Poshtik cutlet is suitable for a general diet and supports neutral mood.
+Egg cutlet (Anda cutlet),Keto,Depressed Mood,Eggs,Snack,Egg cutlet (Anda cutlet) is suitable for a keto diet and supports neutral mood.
+Minced meat cutlet,Paleo,Depressed Mood,None,Snack,Minced meat cutlet is suitable for a general diet and supports neutral mood.
+Vegetable samosa,Vegan,Balanced Mood,None,Snack,Vegetable samosa is suitable for a vegan diet and supports balanced mood.
+Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Masala urad dal vada,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Masala urad dal vada is suitable for a vegan, vegetarian diet and supports balanced mood."
+Khaman (dhokla),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Khaman (dhokla) is suitable for a general diet and supports neutral mood.
+Instant dhokla,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Instant dhokla is suitable for a general diet and supports neutral mood.
+Tomato ginger chutney (Tamatar adarak ki chutney),Anti-Inflammatory,Depressed Mood,None,Dinner,Tomato ginger chutney (Tamatar adarak ki chutney) is suitable for a general diet and supports neutral mood.
+Mint tomato chutney (Pudinay aur tamatar ki chutney),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Mint tomato chutney (Pudinay aur tamatar ki chutney) is suitable for a general diet and supports neutral mood.
+Coriander chutney (Hare dhaniye ki chutney),"Vegan, Vegetarian",Craving,None,Breakfast,Coriander chutney (Hare dhaniye ki chutney) is suitable for a general diet and supports neutral mood.
+Gooseberry chutney (Amla chutney),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Gooseberry chutney (Amla chutney) is suitable for a general diet and supports neutral mood.
+Walnut chutney (Akhrot ki chutney),"Vegan, Vegetarian",Stressed,None,Snack,Walnut chutney (Akhrot ki chutney) is suitable for a general diet and supports neutral mood.
+Saunth/Sonth chutney with ginger,Anti-Inflammatory,Stressed,None,Dinner,Saunth/Sonth chutney with ginger is suitable for a general diet and supports neutral mood.
+Gun powder chutney,"Vegan, Vegetarian",Stressed,None,Lunch,Gun powder chutney is suitable for a general diet and supports neutral mood.
+Dessicated coconut chutney (Sookhe kase nariyal ki chutney) ,"Vegan, Vegetarian",Craving,None,Snack,Dessicated coconut chutney (Sookhe kase nariyal ki chutney)  is suitable for a general diet and supports neutral mood.
+Curd mint dip ,Vegetarian,Depressed Mood,Lactose / Dairy,Dinner,Curd mint dip  is suitable for a vegetarian diet and supports depressed mood.
+Curd vegetable dip,"Vegan, Vegetarian","Depressed Mood, Balanced Mood",Lactose / Dairy,Breakfast,"Curd vegetable dip is suitable for a vegan, vegetarian diet and supports depressed mood, balanced mood."
+Mayonnaise vegetable dip,Vegan,Balanced Mood,None,Breakfast,Mayonnaise vegetable dip is suitable for a vegan diet and supports balanced mood.
+Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich),"Vegan, Vegetarian",Happy,None,Dinner,Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich) is suitable for a general diet and supports happy.
+Tomato sandwich (grilled),"Mediterranean, Vegan, Vegetarian",Craving,None,Lunch,Tomato sandwich (grilled) is suitable for a general diet and supports neutral mood.
+French sandwich (toasted),"Vegan, Vegetarian",Craving,None,Dinner,French sandwich (toasted) is suitable for a general diet and supports neutral mood.
+Peanut butter cucumber sandwich,Keto,Depressed Mood,"Lactose / Dairy, Nuts",Breakfast,Peanut butter cucumber sandwich is suitable for a keto diet and supports neutral mood.
+Mint and peanut sandwich,"Vegan, Vegetarian",Stressed,Nuts,Dinner,Mint and peanut sandwich is suitable for a general diet and supports neutral mood.
+Spicy chutney sandwich,"Vegan, Vegetarian",Happy,None,Breakfast,Spicy chutney sandwich is suitable for a general diet and supports neutral mood.
+Chicken walnut sandwich (Chicken aur akhrot ke sandwich),Keto,Depressed Mood,None,Dinner,Chicken walnut sandwich (Chicken aur akhrot ke sandwich) is suitable for a keto diet and supports neutral mood.
+Rolled sandwich,"Vegan, Vegetarian",Depressed Mood,None,Snack,Rolled sandwich is suitable for a general diet and supports neutral mood.
+Ribbon sandwich,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Ribbon sandwich is suitable for a general diet and supports neutral mood.
+Checker board sandwich,"Vegan, Vegetarian",Happy,None,Breakfast,Checker board sandwich is suitable for a general diet and supports neutral mood.
+Submarine sandwich,"Vegan, Vegetarian",Craving,None,Breakfast,Submarine sandwich is suitable for a general diet and supports neutral mood.
+Cheese open sandwich,Vegetarian,Stressed,Lactose / Dairy,Breakfast,Cheese open sandwich is suitable for a vegetarian diet and supports neutral mood.
+Sunset and sunrise open sandwich,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Sunset and sunrise open sandwich is suitable for a general diet and supports neutral mood.
+Danish luncheon sandwich,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Danish luncheon sandwich is suitable for a general diet and supports neutral mood.
+Chicken and corn open sandwich,Keto,Craving,None,Lunch,Chicken and corn open sandwich is suitable for a keto diet and supports neutral mood.
+Chocolate sponge cake,"Vegan, Vegetarian",Happy,None,Lunch,Chocolate sponge cake is suitable for a general diet and supports neutral mood.
+Chocolate swiss roll,"Vegan, Vegetarian",Craving,None,Lunch,Chocolate swiss roll is suitable for a general diet and supports neutral mood.
+Lemon curd filling,Vegetarian,Depressed Mood,Lactose / Dairy,Breakfast,Lemon curd filling is suitable for a vegetarian diet and supports depressed mood.
+Jam filling,"Vegan, Vegetarian",Happy,None,Lunch,Jam filling is suitable for a general diet and supports neutral mood.
+Chocolate pastry,"Vegan, Vegetarian",Stressed,None,Breakfast,Chocolate pastry is suitable for a general diet and supports neutral mood.
+Assorted pastry,"Vegan, Vegetarian",Stressed,None,Snack,Assorted pastry is suitable for a general diet and supports neutral mood.
+Orange gateau,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Orange gateau is suitable for a general diet and supports energetic & calm.
+Black forest gateau,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Black forest gateau is suitable for a general diet and supports energetic & calm.
+Lemon cake,"Vegan, Vegetarian",Craving,None,Breakfast,Lemon cake is suitable for a general diet and supports neutral mood.
+Dundee cake,"Vegan, Vegetarian",Happy,None,Snack,Dundee cake is suitable for a general diet and supports neutral mood.
+Victorian sandwich cake,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Victorian sandwich cake is suitable for a general diet and supports neutral mood.
+Chocolate eggless cake,Keto,Craving,Eggs,Breakfast,Chocolate eggless cake is suitable for a keto diet and supports neutral mood.
+Orange eggless cake,Keto,Craving,Eggs,Lunch,Orange eggless cake is suitable for a keto diet and supports neutral mood.
+Chocolate glace icing,"Vegan, Vegetarian",Happy,None,Dinner,Chocolate glace icing is suitable for a general diet and supports neutral mood.
+Butter icing,Keto,Happy,Lactose / Dairy,Breakfast,Butter icing is suitable for a keto diet and supports neutral mood.
+Chocolate butter icing,Keto,Craving,Lactose / Dairy,Lunch,Chocolate butter icing is suitable for a keto diet and supports neutral mood.
+Almond biscuit (Badam ke biscuit),Keto,Tired & Anxious,Nuts,Dinner,Almond biscuit (Badam ke biscuit) is suitable for a keto diet and supports tired & anxious.
+Orange biscuit,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Orange biscuit is suitable for a general diet and supports neutral mood.
+Gingerman biscuit,Anti-Inflammatory,Stressed,None,Lunch,Gingerman biscuit is suitable for a general diet and supports neutral mood.
+Coffee drops,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Coffee drops is suitable for a general diet and supports energetic & calm.
+Christmas biscuit,"Vegan, Vegetarian",Stressed,None,Dinner,Christmas biscuit is suitable for a general diet and supports neutral mood.
+Christmas wreath biscuit,"Vegan, Vegetarian",Happy,None,Dinner,Christmas wreath biscuit is suitable for a general diet and supports neutral mood.
+Christmas bell biscuit,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Christmas bell biscuit is suitable for a general diet and supports neutral mood.
+Christmas star biscuit,"Vegan, Vegetarian",Craving,None,Snack,Christmas star biscuit is suitable for a general diet and supports neutral mood.
+Christmas tree biscuit,"Vegan, Vegetarian",Happy,None,Dinner,Christmas tree biscuit is suitable for a general diet and supports neutral mood.
+Chocolate cream shells,"Keto, Vegan, Vegetarian",Energetic & Calm,None,Snack,Chocolate cream shells is suitable for a general diet and supports neutral mood.
+Jelly biscuit,"Vegan, Vegetarian",Stressed,None,Lunch,Jelly biscuit is suitable for a general diet and supports neutral mood.
+Cherry and walnut cookies,"Vegan, Vegetarian",Craving,None,Dinner,Cherry and walnut cookies is suitable for a general diet and supports neutral mood.
+Cheese straws,"Raw Food, Vegetarian",Craving,Lactose / Dairy,Dinner,Cheese straws is suitable for a vegetarian diet and supports neutral mood.
+Butterfly biscuit,Keto,Stressed,Lactose / Dairy,Breakfast,Butterfly biscuit is suitable for a keto diet and supports neutral mood.
+Flan pastry,"Vegan, Vegetarian",Craving,None,Dinner,Flan pastry is suitable for a general diet and supports neutral mood.
+Fruit flan,Vegan,Depressed Mood,None,Snack,Fruit flan is suitable for a vegan diet and supports depressed mood.
+Orange cream flan,"Keto, Vegan, Vegetarian",Energetic & Calm,None,Snack,Orange cream flan is suitable for a general diet and supports neutral mood.
+Fruit puree tart,Vegan,Depressed Mood,None,Lunch,Fruit puree tart is suitable for a vegan diet and supports depressed mood.
+Apple banana pie,"Vegan, Vegetarian",Tired & Anxious,None,Snack,Apple banana pie is suitable for a general diet and supports tired & anxious.
+Lemon chiffon pie,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Lemon chiffon pie is suitable for a general diet and supports neutral mood.
+Orange chiffon pie,"Vegan, Vegetarian",Happy,None,Breakfast,Orange chiffon pie is suitable for a general diet and supports neutral mood.
+Cream buns,"Keto, Vegan, Vegetarian",Stressed,None,Snack,Cream buns is suitable for a general diet and supports neutral mood.
+Savoury puffs,"Vegan, Vegetarian",Stressed,None,Dinner,Savoury puffs is suitable for a general diet and supports neutral mood.
+Choux swans,"Vegan, Vegetarian",Craving,None,Snack,Choux swans is suitable for a general diet and supports neutral mood.
+Potato aigrettes,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Potato aigrettes is suitable for a general diet and supports neutral mood.
+Cream horns,"Keto, Vegan, Vegetarian",Depressed Mood,None,Lunch,Cream horns is suitable for a general diet and supports neutral mood.
+Savoury cheese horns,Vegetarian,Happy,Lactose / Dairy,Snack,Savoury cheese horns is suitable for a vegetarian diet and supports neutral mood.
+Paneer patties,"Keto, Vegetarian",Stressed,Lactose / Dairy,Lunch,"Paneer patties is suitable for a keto, vegetarian diet and supports neutral mood."
+Vegetable patties ,Vegan,Balanced Mood,None,Breakfast,Vegetable patties  is suitable for a vegan diet and supports balanced mood.
+Pearl millet infant food (Bajra shishu aahaar),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Pearl millet infant food (Bajra shishu aahaar) is suitable for a general diet and supports neutral mood.
+Sajina,"Vegan, Vegetarian",Craving,None,Snack,Sajina is suitable for a general diet and supports neutral mood.
+Cereal mix ,"Vegan, Vegetarian",Craving,None,Breakfast,Cereal mix  is suitable for a general diet and supports neutral mood.
+Pulse mix,"Vegan, Vegetarian",Craving,None,Dinner,Pulse mix is suitable for a general diet and supports neutral mood.
+Shishu ahar,"Vegan, Vegetarian",Happy,None,Dinner,Shishu ahar is suitable for a general diet and supports neutral mood.
+Cereal pulse mix with amylase rice flour,Vegan,Balanced Mood,None,Lunch,Cereal pulse mix with amylase rice flour is suitable for a vegan diet and supports balanced mood.
+Banana groundnut paste/puree,"Vegan, Vegetarian",Tired & Anxious,None,Dinner,Banana groundnut paste/puree is suitable for a general diet and supports tired & anxious.
+Rice dal porridge (Chawal dal ki khichdi/khichri),"Vegan, Vegetarian","Balanced Mood, Energetic & Calm",None,"Lunch, Dinner","Rice dal porridge (Chawal dal ki khichdi/khichri) is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Lentils and semolina porridge (Dal suji porridge/daliya),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Lentils and semolina porridge (Dal suji porridge/daliya) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Spinach khichri (Palak khichri/khichdi),"Vegan, Vegetarian",Stressed,None,Lunch,Spinach khichri (Palak khichri/khichdi) is suitable for a general diet and supports neutral mood.
+Vegetable mix,Vegan,Balanced Mood,None,Snack,Vegetable mix is suitable for a vegan diet and supports balanced mood.
+Lentils and wheat porridge (Dal wheat porridge/daliya ),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Lentils and wheat porridge (Dal wheat porridge/daliya ) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Maize porridge,"Vegan, Vegetarian",Craving,None,Snack,Maize porridge is suitable for a general diet and supports neutral mood.
+Spinach peanut burfi (Palak aur mungfali ki burfi),"Vegan, Vegetarian",Happy,Nuts,Dinner,Spinach peanut burfi (Palak aur mungfali ki burfi) is suitable for a general diet and supports neutral mood.
+Split bengal gram burfi/fudge (Channa dal burfi),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Split bengal gram burfi/fudge (Channa dal burfi) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Chickpea flour cookies (Sweet besan rounds/cookies),"Vegan, Vegetarian",Happy,None,Breakfast,Chickpea flour cookies (Sweet besan rounds/cookies) is suitable for a general diet and supports neutral mood.
+Pearl millet mathri (Bajra mathri),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Pearl millet mathri (Bajra mathri) is suitable for a general diet and supports neutral mood.
+Sesame biscuit (Til ke biscuit),"Vegan, Vegetarian",Stressed,None,Breakfast,Sesame biscuit (Til ke biscuit) is suitable for a general diet and supports neutral mood.
+Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Poshtik namak paras,"Vegan, Vegetarian",Happy,None,Snack,Poshtik namak paras is suitable for a general diet and supports neutral mood.
+Soya chikki,Vegan,Depressed Mood,Soy,Lunch,Soya chikki is suitable for a vegan diet and supports neutral mood.
+Besan bathua chilla/cheela,"Vegan, Vegetarian",Craving,None,Lunch,Besan bathua chilla/cheela is suitable for a general diet and supports neutral mood.
+Wheat flour and nuts ladoos (Atta nuts ladoos),Mediterranean,Happy,"Gluten, Nuts",Snack,Wheat flour and nuts ladoos (Atta nuts ladoos) is suitable for a general diet and supports happy.
+Gram flour and semolina dhokla (Besan suji dhokla),"Vegan, Vegetarian",Craving,None,Lunch,Gram flour and semolina dhokla (Besan suji dhokla) is suitable for a general diet and supports neutral mood.
+Atta dal burfi ,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Atta dal burfi  is suitable for a vegan, vegetarian diet and supports balanced mood."
+Soya roti,Vegan,Balanced Mood,"Gluten, Soy","Lunch, Dinner",Soya roti is suitable for a vegan diet and supports balanced mood.
+Poshtik khichdi/khichri,"Vegan, Vegetarian",Craving,None,Breakfast,Poshtik khichdi/khichri is suitable for a general diet and supports neutral mood.
+Namkeen daliya,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Namkeen daliya is suitable for a vegan, vegetarian diet and supports balanced mood."
+Sprouts upma ,Vegetarian,Stressed,None,Breakfast,Sprouts upma  is suitable for a vegetarian diet and supports neutral mood.
+Semolina idli (Suji/Rava idli),"Vegan, Vegetarian",Happy,None,Breakfast,Semolina idli (Suji/Rava idli) is suitable for a general diet and supports neutral mood.
+Poshtik chilla/cheela,"Vegan, Vegetarian",Craving,None,Breakfast,Poshtik chilla/cheela is suitable for a general diet and supports neutral mood.
+Stuffed bittergourd (dry) (Bharwa karela),"Vegan, Vegetarian",Happy,None,Snack,Stuffed bittergourd (dry) (Bharwa karela) is suitable for a general diet and supports neutral mood.
+Cauliflower potato canjee,"Vegan, Vegetarian",Stressed,None,Snack,Cauliflower potato canjee is suitable for a general diet and supports neutral mood.
+Creamed spinach,"Keto, Vegan, Vegetarian",Craving,None,Dinner,Creamed spinach is suitable for a general diet and supports neutral mood.
+Mango milkshake with ice cream (Aam milkshake ice cream ke saath),Vegetarian,"Happy, Tired & Anxious, Depressed Mood",Lactose / Dairy,Snack,"Mango milkshake with ice cream (Aam milkshake ice cream ke saath) is suitable for a vegetarian diet and supports happy, tired & anxious, depressed mood."
+Pineapple milkshake with ice cream (Ananas milkshake ice cream ke saath),Vegetarian,"Happy, Tired & Anxious",Lactose / Dairy,Snack,"Pineapple milkshake with ice cream (Ananas milkshake ice cream ke saath) is suitable for a vegetarian diet and supports happy, tired & anxious."
+Orange milkshake with ice cream (Narangi milkshake ice cream ke saath),Vegetarian,"Happy, Tired & Anxious",Lactose / Dairy,Snack,"Orange milkshake with ice cream (Narangi milkshake ice cream ke saath) is suitable for a vegetarian diet and supports happy, tired & anxious."
+Woodapple juice (Bel ka sharbat),"Vegan, Vegetarian",Stressed,None,Lunch,Woodapple juice (Bel ka sharbat) is suitable for a general diet and supports neutral mood.
+Sattu drink,"Vegan, Vegetarian",Craving,None,Breakfast,Sattu drink is suitable for a general diet and supports neutral mood.
+Apple and honey sorbet (Seb aur shehad ka sharbat),"Vegan, Vegetarian",Happy,None,Snack,Apple and honey sorbet (Seb aur shehad ka sharbat) is suitable for a general diet and supports neutral mood.
+Thandai,"Vegan, Vegetarian",Stressed,None,Breakfast,Thandai is suitable for a general diet and supports neutral mood.
+Cucumber sharbat (Kheere ka sharbat),"Vegan, Vegetarian",Happy,None,Breakfast,Cucumber sharbat (Kheere ka sharbat) is suitable for a general diet and supports happy.
+Apple oats chia seed smoothie,"Vegan, Vegetarian",Happy,None,Breakfast,Apple oats chia seed smoothie is suitable for a general diet and supports neutral mood.
+Nannari sharbat,"Vegan, Vegetarian",Craving,None,Lunch,Nannari sharbat is suitable for a general diet and supports neutral mood.
+Semolina milk drink (Thari kanji),Vegetarian,Depressed Mood,Lactose / Dairy,Snack,Semolina milk drink (Thari kanji) is suitable for a vegetarian diet and supports neutral mood.
+Saffron milk (Kesariya doodh),Vegetarian,Energetic & Calm,Lactose / Dairy,Breakfast,Saffron milk (Kesariya doodh) is suitable for a vegetarian diet and supports neutral mood.
+Black rice kheer (Chak-hao kheer),Vegan,"Happy, Balanced Mood",None,Lunch,"Black rice kheer (Chak-hao kheer) is suitable for a vegan diet and supports happy, balanced mood."
+Coconut kheer (Nariyal ki kheer),"Vegan, Vegetarian",Happy,None,Snack,Coconut kheer (Nariyal ki kheer) is suitable for a general diet and supports happy.
+Apple sago payasam (Seb aur sabudana ki kheer),"Vegan, Vegetarian",Happy,None,Breakfast,Apple sago payasam (Seb aur sabudana ki kheer) is suitable for a general diet and supports happy.
+Kesari bath,"Vegan, Vegetarian",Happy,None,Lunch,Kesari bath is suitable for a general diet and supports neutral mood.
+Putharekulu,"Vegan, Vegetarian",Happy,None,Breakfast,Putharekulu is suitable for a general diet and supports neutral mood.
+Mango malpua,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Mango malpua is suitable for a general diet and supports depressed mood.
+Mango vanilla custard,"Vegan, Vegetarian",Depressed Mood,None,Snack,Mango vanilla custard is suitable for a general diet and supports depressed mood.
+Kiwi granola pudding,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Kiwi granola pudding is suitable for a general diet and supports neutral mood.
+Oats burfi,"Vegan, Vegetarian",Craving,None,Lunch,Oats burfi is suitable for a general diet and supports neutral mood.
+Lotus seed halwa (Kamal gattay ka halwa),"Vegan, Vegetarian",Happy,None,Breakfast,Lotus seed halwa (Kamal gattay ka halwa) is suitable for a general diet and supports happy.
+Amaranth ladoo (Rajgira ladoo),"Vegan, Vegetarian",Happy,Nuts,Snack,Amaranth ladoo (Rajgira ladoo) is suitable for a general diet and supports happy.
+Chhena poda,"Vegan, Vegetarian",Craving,None,Snack,Chhena poda is suitable for a general diet and supports neutral mood.
+Sweet couscous dessert,"Vegan, Vegetarian",Happy,None,Snack,Sweet couscous dessert is suitable for a general diet and supports happy.
+Sweetened yogurt (Shrikhand),Vegetarian,Depressed Mood,None,Lunch,Sweetened yogurt (Shrikhand) is suitable for a general diet and supports depressed mood.
+Thickened sweetened milk (Rabri),Vegetarian,Energetic & Calm,Lactose / Dairy,Breakfast,Thickened sweetened milk (Rabri) is suitable for a vegetarian diet and supports neutral mood.
+Gram flour halwa (Besan halwa),"Vegan, Vegetarian",Happy,None,Lunch,Gram flour halwa (Besan halwa) is suitable for a general diet and supports happy.
+Prawn sandwich,"Pescatarian, Raw Food",Craving,Seafood / Shellfish,Snack,Prawn sandwich is suitable for a pescatarian diet and supports neutral mood.
+Watercress sandwich,"Vegan, Vegetarian",Happy,None,Dinner,Watercress sandwich is suitable for a general diet and supports neutral mood.
+Fish sandwich ,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Snack,"Fish sandwich  is suitable for a keto, pescatarian diet and supports neutral mood."
+Kidney bean sandwich with cottage cheese,Vegetarian,Happy,Lactose / Dairy,Dinner,Kidney bean sandwich with cottage cheese is suitable for a vegetarian diet and supports neutral mood.
+Finger millet biscuit (Ragi biscuit),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Finger millet biscuit (Ragi biscuit) is suitable for a general diet and supports neutral mood.
+Buttermilk biscuit,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Dinner,"Buttermilk biscuit is suitable for a keto, vegetarian diet and supports depressed mood."
+Lemon cookies,"Vegan, Vegetarian",Stressed,None,Dinner,Lemon cookies is suitable for a general diet and supports neutral mood.
+Sweet potato biscuit (Shakarkand ke biscuit),"Vegan, Vegetarian",Depressed Mood,None,Snack,Sweet potato biscuit (Shakarkand ke biscuit) is suitable for a general diet and supports neutral mood.
+Raspberry shortbread cookies,"Vegan, Vegetarian",Depressed Mood,Gluten,Dinner,Raspberry shortbread cookies is suitable for a general diet and supports neutral mood.
+Pumpkin cookies ,"Vegan, Vegetarian",Happy,None,Dinner,Pumpkin cookies  is suitable for a general diet and supports neutral mood.
+Greenpea cookies,"Vegan, Vegetarian",Craving,None,Lunch,Greenpea cookies is suitable for a general diet and supports neutral mood.
+Sunflower cookies,"Vegan, Vegetarian",Depressed Mood,None,Snack,Sunflower cookies is suitable for a general diet and supports neutral mood.
+Cardamom cookies (Elaichi cookies),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Cardamom cookies (Elaichi cookies) is suitable for a general diet and supports neutral mood.
+Hazelnut cookies,"Vegan, Vegetarian",Happy,None,Dinner,Hazelnut cookies is suitable for a general diet and supports neutral mood.
+Milk cookies,Vegetarian,Stressed,Lactose / Dairy,Snack,Milk cookies is suitable for a vegetarian diet and supports neutral mood.
+Cranberry cookies,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Cranberry cookies is suitable for a general diet and supports neutral mood.
+Olive biscuit,"Vegan, Vegetarian",Depressed Mood,None,Snack,Olive biscuit is suitable for a general diet and supports neutral mood.
+Tutti fruitti biscuit,Vegan,Depressed Mood,None,Breakfast,Tutti fruitti biscuit is suitable for a vegan diet and supports depressed mood.
+Peach blueberry preserves,"Vegan, Vegetarian",Stressed,None,Dinner,Peach blueberry preserves is suitable for a general diet and supports neutral mood.
+Pear preserves (Naashpati ka murabba),"Vegan, Vegetarian",Craving,None,Snack,Pear preserves (Naashpati ka murabba) is suitable for a general diet and supports neutral mood.
+Starfruit preserves ,Vegan,Depressed Mood,None,Lunch,Starfruit preserves  is suitable for a vegan diet and supports depressed mood.
+Gooseberry pickle (Amla ka achaar),"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Gooseberry pickle (Amla ka achaar) is suitable for a general diet and supports neutral mood.
+Lotus stem pickle (Kamal kakdi ka achar),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Lotus stem pickle (Kamal kakdi ka achar) is suitable for a general diet and supports neutral mood.
+Date pickle (Khajoor ka achaar),"Vegan, Vegetarian",Craving,None,Dinner,Date pickle (Khajoor ka achaar) is suitable for a general diet and supports neutral mood.
+Garlic pickle (Lahasun ka achar),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Garlic pickle (Lahasun ka achar) is suitable for a general diet and supports neutral mood.
+Fermented bamboo shoot pickle (Mesu pickle),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Fermented bamboo shoot pickle (Mesu pickle) is suitable for a general diet and supports neutral mood.
+Sweet peach pickle (Aadoo ka achaar),"Vegan, Vegetarian",Stressed,None,Breakfast,Sweet peach pickle (Aadoo ka achaar) is suitable for a general diet and supports neutral mood.
+Pickled mustard greens ,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Pickled mustard greens  is suitable for a general diet and supports neutral mood.
+Small onion pickle ,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Small onion pickle  is suitable for a general diet and supports neutral mood.
+Green tomato pickle (Haray tamatar ka achaar),"Vegan, Vegetarian",Stressed,None,Lunch,Green tomato pickle (Haray tamatar ka achaar) is suitable for a general diet and supports neutral mood.
+Pickled cabbage ,"Vegan, Vegetarian",Stressed,None,Snack,Pickled cabbage  is suitable for a general diet and supports neutral mood.
+Coconut pickle (Nariyal ka aachar),"Vegan, Vegetarian",Stressed,None,Breakfast,Coconut pickle (Nariyal ka aachar) is suitable for a general diet and supports neutral mood.
+Potato pickle (Aloo ka achaar),Vegetarian,Happy,None,Breakfast,Potato pickle (Aloo ka achaar) is suitable for a vegetarian diet and supports neutral mood.
+Mango murabba candy,"Vegan, Vegetarian",Depressed Mood,None,Snack,Mango murabba candy is suitable for a general diet and supports depressed mood.
+Afghani chicken,Keto,Depressed Mood,None,Snack,Afghani chicken is suitable for a keto diet and supports neutral mood.
+Fish orly,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Breakfast,"Fish orly is suitable for a keto, pescatarian diet and supports neutral mood."
+Hariyali Fish Tikka,"Keto, Mediterranean, Pescatarian",Stressed,Seafood / Shellfish,Lunch,"Hariyali Fish Tikka is suitable for a keto, pescatarian diet and supports neutral mood."
+Chicken manchurian,Keto,Craving,None,Breakfast,Chicken manchurian is suitable for a keto diet and supports neutral mood.
+Handi chicken,Keto,Energetic & Calm,None,Breakfast,Handi chicken is suitable for a keto diet and supports neutral mood.
+Lemon chicken,Keto,Happy,None,Lunch,Lemon chicken is suitable for a keto diet and supports neutral mood.
+Lemon butter fish,"Keto, Mediterranean, Pescatarian",Craving,"Lactose / Dairy, Seafood / Shellfish",Dinner,"Lemon butter fish is suitable for a keto, pescatarian diet and supports neutral mood."
+Baked eggs in tomato sauce,Keto,Energetic & Calm,Eggs,Dinner,Baked eggs in tomato sauce is suitable for a keto diet and supports neutral mood.
+Egg in a pepper,Keto,Stressed,Eggs,Snack,Egg in a pepper is suitable for a keto diet and supports neutral mood.
+Spinach mushroom scrambled egg (Palak mushroom bhurji),Keto,Energetic & Calm,Eggs,Breakfast,Spinach mushroom scrambled egg (Palak mushroom bhurji) is suitable for a keto diet and supports neutral mood.
+Corn omelette/omlet,"Vegan, Vegetarian",Craving,None,Snack,Corn omelette/omlet is suitable for a general diet and supports neutral mood.
+Cajun chicken,Keto,Craving,None,Dinner,Cajun chicken is suitable for a keto diet and supports neutral mood.
+Paaner do pyaza,"Vegan, Vegetarian",Stressed,None,Dinner,Paaner do pyaza is suitable for a general diet and supports neutral mood.
+Cabbage manchurian (Pattagobhi manchurian),"Vegan, Vegetarian",Happy,None,Dinner,Cabbage manchurian (Pattagobhi manchurian) is suitable for a general diet and supports neutral mood.
+Gobi 65,Vegetarian,Happy,None,Dinner,Gobi 65 is suitable for a vegetarian diet and supports neutral mood.
+Paneer lababdar,"Keto, Vegetarian",Stressed,Lactose / Dairy,Snack,"Paneer lababdar is suitable for a keto, vegetarian diet and supports neutral mood."
+Roasted cauliflower steak,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Roasted cauliflower steak is suitable for a general diet and supports energetic & calm.
+Sauteed radishes with green beans,"Vegan, Vegetarian",Happy,None,Dinner,Sauteed radishes with green beans is suitable for a general diet and supports neutral mood.
+Garlic chutney/Poondu chutney (Lahasun ki chutney),"Vegan, Vegetarian",Stressed,None,Lunch,Garlic chutney/Poondu chutney (Lahasun ki chutney) is suitable for a general diet and supports neutral mood.
+Schezwan chutney,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Schezwan chutney is suitable for a general diet and supports neutral mood.
+Onion chutney (Pyaaz ki chutney/Vengaya chutney),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Onion chutney (Pyaaz ki chutney/Vengaya chutney) is suitable for a general diet and supports neutral mood.
+Dates chutney (Khajoor ki chutney),"Vegan, Vegetarian",Tired & Anxious,None,Lunch,Dates chutney (Khajoor ki chutney) is suitable for a general diet and supports tired & anxious.
+Chicken salad,Keto,Energetic & Calm,None,Snack,Chicken salad is suitable for a keto diet and supports neutral mood.
+Macaroni salad,"Vegan, Vegetarian",Stressed,None,Breakfast,Macaroni salad is suitable for a general diet and supports neutral mood.
+Cabbage raita (Pattagobhi raita),"Vegan, Vegetarian",Stressed,None,Snack,Cabbage raita (Pattagobhi raita) is suitable for a general diet and supports neutral mood.
+Pomegranate raita (Anaar ka raita),"Vegan, Vegetarian",Craving,None,Lunch,Pomegranate raita (Anaar ka raita) is suitable for a general diet and supports neutral mood.
+Onion raita (Pyaaz ka raita),"Vegan, Vegetarian",Happy,None,Dinner,Onion raita (Pyaaz ka raita) is suitable for a general diet and supports neutral mood.
+Green chilli raita (Hari mirch ka raita),"Vegan, Vegetarian",Happy,None,Lunch,Green chilli raita (Hari mirch ka raita) is suitable for a general diet and supports neutral mood.
+Kale salad,"Vegan, Vegetarian",Depressed Mood,None,Snack,Kale salad is suitable for a general diet and supports neutral mood.
+Spinach and paneer souffle ,"Keto, Vegetarian",Depressed Mood,Lactose / Dairy,Breakfast,"Spinach and paneer souffle  is suitable for a keto, vegetarian diet and supports neutral mood."
+Masala souffle ,"Vegan, Vegetarian",Stressed,None,Breakfast,Masala souffle  is suitable for a general diet and supports neutral mood.
+Chicken and cheese souffle,"Keto, Vegetarian",Craving,Lactose / Dairy,Breakfast,"Chicken and cheese souffle is suitable for a keto, vegetarian diet and supports neutral mood."
+Tamarind chutney (Chintapandu pachadi/Puli chutney),"Vegan, Vegetarian",Craving,None,Dinner,Tamarind chutney (Chintapandu pachadi/Puli chutney) is suitable for a general diet and supports neutral mood.
+Pav bhaji masala,"Vegan, Vegetarian",Craving,None,Breakfast,Pav bhaji masala is suitable for a general diet and supports neutral mood.
+Green chutney,"Vegan, Vegetarian",Stressed,None,Dinner,Green chutney is suitable for a general diet and supports neutral mood.
+Sago khitchdi/khichri (Sabudana khitchdi/khichri),"Vegan, Vegetarian",Craving,None,Snack,Sago khitchdi/khichri (Sabudana khitchdi/khichri) is suitable for a general diet and supports neutral mood.
+Gram flour chilla/cheela (Besan chilla/cheela),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Gram flour chilla/cheela (Besan chilla/cheela) is suitable for a general diet and supports neutral mood.
+Vegetable namkeen jave,Vegan,Balanced Mood,None,Snack,Vegetable namkeen jave is suitable for a vegan diet and supports balanced mood.
+Khakhra,"Vegan, Vegetarian",Craving,None,Lunch,Khakhra is suitable for a general diet and supports neutral mood.
+Moong bean dosa (Pesarattu),"Vegan, Vegetarian",Craving,None,Breakfast,Moong bean dosa (Pesarattu) is suitable for a general diet and supports neutral mood.
+Methi thepla,"Vegan, Vegetarian",Stressed,None,Lunch,Methi thepla is suitable for a general diet and supports neutral mood.
+Rice puttu (Ari puttu),Vegan,Balanced Mood,None,Lunch,Rice puttu (Ari puttu) is suitable for a vegan diet and supports balanced mood.
+Buckwheat pancake (Khura),"Vegan, Vegetarian",Energetic & Calm,Gluten,Dinner,Buckwheat pancake (Khura) is suitable for a general diet and supports neutral mood.
+Quinoa khichdi/khichri,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Quinoa khichdi/khichri is suitable for a general diet and supports neutral mood.
+Khakhra chaat,"Vegan, Vegetarian",Craving,None,Snack,Khakhra chaat is suitable for a general diet and supports neutral mood.
+Banana appam,"Vegan, Vegetarian",Tired & Anxious,None,Snack,Banana appam is suitable for a general diet and supports tired & anxious.
+Veg manchurian,"Vegan, Vegetarian",Happy,None,Snack,Veg manchurian is suitable for a general diet and supports neutral mood.
+Pav bhaji,"Vegan, Vegetarian",Craving,None,Lunch,Pav bhaji is suitable for a general diet and supports neutral mood.
+Rice murukku,Vegan,Balanced Mood,None,Lunch,Rice murukku is suitable for a vegan diet and supports balanced mood.
+Bhel puri ,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Bhel puri  is suitable for a general diet and supports neutral mood.
+Semolina dhokla (Suji/Rava dhokla),"Vegan, Vegetarian",Happy,None,Dinner,Semolina dhokla (Suji/Rava dhokla) is suitable for a general diet and supports neutral mood.
+Spicy corn chaat ,"Vegan, Vegetarian",Craving,None,Snack,Spicy corn chaat  is suitable for a general diet and supports neutral mood.
+Jackfruit fritters (Ponsa mulik/Kathal ka pakora),Vegan,Depressed Mood,None,Snack,Jackfruit fritters (Ponsa mulik/Kathal ka pakora) is suitable for a vegan diet and supports depressed mood.
+Banana chips (Kele ke chips),"Vegan, Vegetarian",Tired & Anxious,None,Dinner,Banana chips (Kele ke chips) is suitable for a general diet and supports tired & anxious.
+Wheat cake,"Vegan, Vegetarian",Energetic & Calm,Gluten,Dinner,Wheat cake is suitable for a general diet and supports neutral mood.
+Mango cheesecake,Vegetarian,Depressed Mood,Lactose / Dairy,Breakfast,Mango cheesecake is suitable for a vegetarian diet and supports depressed mood.
+Carrot cake (Gajar ka cake),"Vegan, Vegetarian",Craving,None,Breakfast,Carrot cake (Gajar ka cake) is suitable for a general diet and supports neutral mood.
+Semolina cake (Suji/Rava cake),"Vegan, Vegetarian",Depressed Mood,None,Snack,Semolina cake (Suji/Rava cake) is suitable for a general diet and supports neutral mood.
+Finger millet cake (Ragi cake),"Vegan, Vegetarian",Stressed,None,Dinner,Finger millet cake (Ragi cake) is suitable for a general diet and supports neutral mood.
+Honey cake,"Vegan, Vegetarian",Happy,None,Lunch,Honey cake is suitable for a general diet and supports neutral mood.
+Almond cardamom cake (Badam elaichi cake),Keto,Tired & Anxious,Nuts,Lunch,Almond cardamom cake (Badam elaichi cake) is suitable for a keto diet and supports tired & anxious.
+Tutti frutti cake,"Vegan, Vegetarian",Happy,None,Snack,Tutti frutti cake is suitable for a general diet and supports neutral mood.
+Ham and Bean soup,"Vegan, Vegetarian",Craving,None,Snack,Ham and Bean soup is suitable for a general diet and supports neutral mood.
+Whey soup,"Vegan, Vegetarian",Happy,None,Dinner,Whey soup is suitable for a general diet and supports neutral mood.
+Bottle gourd soup (Ghiya/Lauki soup),"Vegan, Vegetarian",Energetic & Calm,None,Snack,Bottle gourd soup (Ghiya/Lauki soup) is suitable for a general diet and supports neutral mood.
+Baked potato soup,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Baked potato soup is suitable for a general diet and supports neutral mood.
+Pumpkin soup,"Vegan, Vegetarian",Happy,None,Snack,Pumpkin soup is suitable for a general diet and supports neutral mood.
+Sweet corn soup,"Vegan, Vegetarian",Happy,None,Lunch,Sweet corn soup is suitable for a general diet and supports neutral mood.
+Paneer soup,"Keto, Vegetarian",Stressed,Lactose / Dairy,Snack,"Paneer soup is suitable for a keto, vegetarian diet and supports neutral mood."
+Curried Cauliflower soup,"Vegan, Vegetarian",Stressed,None,Breakfast,Curried Cauliflower soup is suitable for a general diet and supports neutral mood.
+Millet soup,"Vegan, Vegetarian",Happy,None,Breakfast,Millet soup is suitable for a general diet and supports neutral mood.
+Lemon coriander soup,"Vegan, Vegetarian",Happy,None,Breakfast,Lemon coriander soup is suitable for a general diet and supports neutral mood.
+Garlic soup,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Garlic soup is suitable for a general diet and supports neutral mood.
+Dal makhani,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Dal makhani is suitable for a vegan, vegetarian diet and supports balanced mood."
+Dalma,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Dalma is suitable for a vegan, vegetarian diet and supports balanced mood."
+Split bengal gram dal (Channa dal),"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Split bengal gram dal (Channa dal) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Horsegram dal (Kulthi dal) ,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Horsegram dal (Kulthi dal)  is suitable for a vegan, vegetarian diet and supports balanced mood."
+Panchmel dal,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Panchmel dal is suitable for a vegan, vegetarian diet and supports balanced mood."
+Dal dhokli,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Dal dhokli is suitable for a vegan, vegetarian diet and supports balanced mood."
+Gujarati handvo ,"Vegan, Vegetarian",Stressed,None,Dinner,Gujarati handvo  is suitable for a general diet and supports neutral mood.
+Sev (Omapodi/Karapusa),"Vegan, Vegetarian",Stressed,None,Breakfast,Sev (Omapodi/Karapusa) is suitable for a general diet and supports neutral mood.
+Papdi,"Vegan, Vegetarian",Craving,None,Dinner,Papdi is suitable for a general diet and supports neutral mood.
+Jowar dosa,"Vegan, Vegetarian",Happy,None,Breakfast,Jowar dosa is suitable for a general diet and supports neutral mood.
+Bread roll,"Vegan, Vegetarian",Happy,Gluten,Lunch,Bread roll is suitable for a general diet and supports neutral mood.
+Soya seekh kebab,Vegan,Happy,Soy,Dinner,Soya seekh kebab is suitable for a vegan diet and supports neutral mood.
+Classic seasoned black beans,"Vegan, Vegetarian",Depressed Mood,Lactose / Dairy,Lunch,Classic seasoned black beans is suitable for a general diet and supports depressed mood.
+Maa chaane ki dal,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Maa chaane ki dal is suitable for a vegan, vegetarian diet and supports balanced mood."
+Garlic chickpea soup (Lahasun aur chane ka shoraba),"Vegan, Vegetarian",Stressed,None,Lunch,Garlic chickpea soup (Lahasun aur chane ka shoraba) is suitable for a general diet and supports neutral mood.
+White sauce (thin),"Vegan, Vegetarian",Happy,None,Snack,White sauce (thin) is suitable for a general diet and supports neutral mood.
+White sauce (medium),"Vegan, Vegetarian",Happy,None,Lunch,White sauce (medium) is suitable for a general diet and supports neutral mood.
+White sauce (thick),"Vegan, Vegetarian",Craving,None,Breakfast,White sauce (thick) is suitable for a general diet and supports neutral mood.
+Cheese sauce,Vegetarian,Happy,Lactose / Dairy,Lunch,Cheese sauce is suitable for a vegetarian diet and supports neutral mood.
+Egg sauce,Keto,Stressed,Eggs,Lunch,Egg sauce is suitable for a keto diet and supports neutral mood.
+Mushroom sauce,"Vegan, Vegetarian",Stressed,None,Snack,Mushroom sauce is suitable for a general diet and supports neutral mood.
+Mustard sauce,"Vegan, Vegetarian",Depressed Mood,None,Snack,Mustard sauce is suitable for a general diet and supports neutral mood.
+Brown sauce,"Vegan, Vegetarian",Stressed,None,Lunch,Brown sauce is suitable for a general diet and supports neutral mood.
+Classic italian pasta,"Vegan, Vegetarian",Depressed Mood,Lactose / Dairy,Breakfast,Classic italian pasta is suitable for a general diet and supports depressed mood.
+Pasta spinach sauce,"Vegan, Vegetarian",Happy,None,Dinner,Pasta spinach sauce is suitable for a general diet and supports neutral mood.
+Pasta cheese sauce,Vegetarian,Happy,Lactose / Dairy,Breakfast,Pasta cheese sauce is suitable for a vegetarian diet and supports neutral mood.
+Mayonnaise,"Vegan, Vegetarian",Depressed Mood,None,Snack,Mayonnaise is suitable for a general diet and supports neutral mood.
+Low calorie quick mayonnaise,"Vegan, Vegetarian",Happy,None,Lunch,Low calorie quick mayonnaise is suitable for a general diet and supports neutral mood.
+Thousand island dressing,"Vegan, Vegetarian",Stressed,None,Dinner,Thousand island dressing is suitable for a general diet and supports neutral mood.
+Curd dip,Vegetarian,Depressed Mood,Lactose / Dairy,Snack,Curd dip is suitable for a vegetarian diet and supports depressed mood.
+Short crust pastry,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Short crust pastry is suitable for a general diet and supports neutral mood.
+Choux pastry,"Vegan, Vegetarian",Happy,None,Snack,Choux pastry is suitable for a general diet and supports neutral mood.
+Flaky pastry,"Vegan, Vegetarian",Craving,None,Dinner,Flaky pastry is suitable for a general diet and supports neutral mood.
+Sponge cake ,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Sponge cake  is suitable for a general diet and supports neutral mood.
+Glace icing,"Vegan, Vegetarian",Happy,None,Lunch,Glace icing is suitable for a general diet and supports neutral mood.
+Royal icing,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Royal icing is suitable for a general diet and supports neutral mood.
+American frosting,"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,American frosting is suitable for a general diet and supports neutral mood.
+Gum icing,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Gum icing is suitable for a general diet and supports neutral mood.
+Channa murmura premix,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Channa murmura premix is suitable for a general diet and supports neutral mood.
+Cracked wheat and green gram dal premix (Dalia moong dal premix),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Cracked wheat and green gram dal premix (Dalia moong dal premix) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Rice flakes and roasted channa ,Vegan,Balanced Mood,None,Lunch,Rice flakes and roasted channa  is suitable for a vegan diet and supports balanced mood.
+Spinach soup in milk ,Vegetarian,Craving,Lactose / Dairy,Dinner,Spinach soup in milk  is suitable for a vegetarian diet and supports neutral mood.
+Vegetable soup,Vegan,Balanced Mood,None,Lunch,Vegetable soup is suitable for a vegan diet and supports balanced mood.
+Mashed banana with milk,Vegetarian,Tired & Anxious,Lactose / Dairy,Breakfast,Mashed banana with milk is suitable for a vegetarian diet and supports tired & anxious.
+Poha with curd (Poha aur dahi),Vegetarian,"Depressed Mood, Stressed",Lactose / Dairy,Breakfast,"Poha with curd (Poha aur dahi) is suitable for a vegetarian diet and supports depressed mood, neutral mood."
+Potato with curd,Vegetarian,Depressed Mood,Lactose / Dairy,Breakfast,Potato with curd is suitable for a vegetarian diet and supports depressed mood.
+Sweet wheat porridge (Sweet dalia),"Vegan, Vegetarian",Balanced Mood,Gluten,"Lunch, Dinner","Sweet wheat porridge (Sweet dalia) is suitable for a vegan, vegetarian diet and supports balanced mood."
+Vegetable khichdi/khichri,Vegan,"Balanced Mood, Stressed",None,Lunch,"Vegetable khichdi/khichri is suitable for a vegan diet and supports balanced mood, neutral mood."
+Moong dal mixture,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Moong dal mixture is suitable for a vegan, vegetarian diet and supports balanced mood."
+Cracked wheat khichri/khichdi (Dalia khichri/khichdi),"Vegan, Vegetarian","Balanced Mood, Stressed",Gluten,"Lunch, Dinner","Cracked wheat khichri/khichdi (Dalia khichri/khichdi) is suitable for a vegan, vegetarian diet and supports balanced mood, neutral mood."
+Stewed apple,"Vegan, Vegetarian",Craving,None,Snack,Stewed apple is suitable for a general diet and supports neutral mood.
+Lemon squash (Nimbu ka squash),"Vegan, Vegetarian",Happy,None,Snack,Lemon squash (Nimbu ka squash) is suitable for a general diet and supports neutral mood.
+Orange squash (Santre ka squash),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Orange squash (Santre ka squash) is suitable for a general diet and supports neutral mood.
+Lichi squash,"Vegan, Vegetarian",Stressed,None,Dinner,Lichi squash is suitable for a general diet and supports neutral mood.
+Mango squash (Aam ka squash),"Vegan, Vegetarian",Depressed Mood,None,Snack,Mango squash (Aam ka squash) is suitable for a general diet and supports depressed mood.
+Pineapple squash (Ananas ka squash),"Vegan, Vegetarian",Depressed Mood,None,Lunch,Pineapple squash (Ananas ka squash) is suitable for a general diet and supports neutral mood.
+Lemon and ginger squash (Nimbu aur adrak ka squash),Anti-Inflammatory,Energetic & Calm,None,Breakfast,Lemon and ginger squash (Nimbu aur adrak ka squash) is suitable for a general diet and supports neutral mood.
+Apple jam (Seb ka murabba),"Vegan, Vegetarian",Craving,None,Breakfast,Apple jam (Seb ka murabba) is suitable for a general diet and supports neutral mood.
+Plum jam (Aloo bukhara jam),Vegetarian,Depressed Mood,None,Breakfast,Plum jam (Aloo bukhara jam) is suitable for a vegetarian diet and supports neutral mood.
+Pineapple jam ,"Vegan, Vegetarian",Craving,None,Dinner,Pineapple jam  is suitable for a general diet and supports neutral mood.
+Guava jelly (Amrood ki jelly),"Vegan, Vegetarian",Depressed Mood,None,Snack,Guava jelly (Amrood ki jelly) is suitable for a general diet and supports neutral mood.
+Orange marmalade (Santray ka murabba),"Vegan, Vegetarian",Stressed,None,Breakfast,Orange marmalade (Santray ka murabba) is suitable for a general diet and supports neutral mood.
+Carrot murabba (Gajar ka murabba),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Carrot murabba (Gajar ka murabba) is suitable for a general diet and supports neutral mood.
+Gooseberry marmalade (Amla murabba),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Gooseberry marmalade (Amla murabba) is suitable for a general diet and supports neutral mood.
+Ginger candy (Adrak ki candy),Anti-Inflammatory,Happy,None,Dinner,Ginger candy (Adrak ki candy) is suitable for a general diet and supports neutral mood.
+Mango pickle (Aam ka achaar),"Vegan, Vegetarian",Depressed Mood,None,Snack,Mango pickle (Aam ka achaar) is suitable for a general diet and supports depressed mood.
+Mixed vegetable pickle (Sabziyoon ka achaar),Vegan,Balanced Mood,None,"Lunch, Dinner",Mixed vegetable pickle (Sabziyoon ka achaar) is suitable for a vegan diet and supports balanced mood.
+Sweet lemon pickle (Neembu ka meetha achaar),"Vegan, Vegetarian",Craving,None,Snack,Sweet lemon pickle (Neembu ka meetha achaar) is suitable for a general diet and supports neutral mood.
+Plum chutney (Aloo bukhara ki chutney),Vegetarian,Depressed Mood,None,Snack,Plum chutney (Aloo bukhara ki chutney) is suitable for a vegetarian diet and supports neutral mood.
+Raw mango chutney (Kachhe aam/Kairi ki chutney),Raw Food,Depressed Mood,None,Breakfast,Raw mango chutney (Kachhe aam/Kairi ki chutney) is suitable for a general diet and supports depressed mood.
+Tomato sauce,"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Tomato sauce is suitable for a general diet and supports neutral mood.
+Tomato puree,"Vegan, Vegetarian",Craving,None,Snack,Tomato puree is suitable for a general diet and supports neutral mood.
+Garam masala,"Vegan, Vegetarian",Depressed Mood,None,Snack,Garam masala is suitable for a general diet and supports neutral mood.
+Chat masala,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Chat masala is suitable for a general diet and supports neutral mood.
+Kashmiri masala,"Vegan, Vegetarian",Depressed Mood,None,Dinner,Kashmiri masala is suitable for a general diet and supports neutral mood.
+Rasam powder (Rasam masala),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Rasam powder (Rasam masala) is suitable for a general diet and supports neutral mood.
+Sambar powder (Sambar masala),"Vegan, Vegetarian",Balanced Mood,None,Lunch,Sambar powder (Sambar masala) is suitable for a general diet and supports balanced mood.
+Tartare sauce,"Vegan, Vegetarian",Depressed Mood,None,Lunch,Tartare sauce is suitable for a general diet and supports neutral mood.
+Barbeque sauce,"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Barbeque sauce is suitable for a general diet and supports neutral mood.
+Bread sauce,"Vegan, Vegetarian",Energetic & Calm,Gluten,Breakfast,Bread sauce is suitable for a general diet and supports neutral mood.
+Green chilli sauce,"Vegan, Vegetarian",Energetic & Calm,None,Dinner,Green chilli sauce is suitable for a general diet and supports neutral mood.
+Home made plain noodles,"Vegan, Vegetarian",Craving,None,Dinner,Home made plain noodles is suitable for a general diet and supports neutral mood.
+Dal moong,"Vegan, Vegetarian",Balanced Mood,None,"Lunch, Dinner","Dal moong is suitable for a vegan, vegetarian diet and supports balanced mood."
+Cumin seeds baghar (Jeera baghar/tadka),"Vegan, Vegetarian",Energetic & Calm,None,Breakfast,Cumin seeds baghar (Jeera baghar/tadka) is suitable for a general diet and supports neutral mood.
+Onion tomato baghar (Pyaaz tamatar ka tadka),"Vegan, Vegetarian",Stressed,None,Breakfast,Onion tomato baghar (Pyaaz tamatar ka tadka) is suitable for a general diet and supports neutral mood.
+Mustard seeds baghar (Mustard seed tadka),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Mustard seeds baghar (Mustard seed tadka) is suitable for a general diet and supports neutral mood.
+Hot cherry sauce,"Vegan, Vegetarian",Stressed,None,Lunch,Hot cherry sauce is suitable for a general diet and supports neutral mood.
+Apple jelly (Seb ki jelly),"Vegan, Vegetarian",Happy,None,Lunch,Apple jelly (Seb ki jelly) is suitable for a general diet and supports neutral mood.
+Marmalade (Murabba),"Vegan, Vegetarian",Stressed,None,Snack,Marmalade (Murabba) is suitable for a general diet and supports neutral mood.
+Plum squash (Aloo bukhara squash),Vegetarian,Depressed Mood,None,Snack,Plum squash (Aloo bukhara squash) is suitable for a vegetarian diet and supports neutral mood.
+Lemon green chilli pickle (Nimboo aur hari mirch ka achaar),"Vegan, Vegetarian",Depressed Mood,None,Breakfast,Lemon green chilli pickle (Nimboo aur hari mirch ka achaar) is suitable for a general diet and supports neutral mood.
+Brinjal pickle (Baingan ka achaar),"Vegan, Vegetarian",Depressed Mood,None,Snack,Brinjal pickle (Baingan ka achaar) is suitable for a general diet and supports neutral mood.
+Sweet and sour tomato pickle (Khatta meetha tamatar ka achaar),"Vegan, Vegetarian",Happy,None,Breakfast,Sweet and sour tomato pickle (Khatta meetha tamatar ka achaar) is suitable for a general diet and supports neutral mood.
+Jhatpat achar with carrot (Jhatpat achaar gajar ke saath),"Vegan, Vegetarian",Energetic & Calm,None,Lunch,Jhatpat achar with carrot (Jhatpat achaar gajar ke saath) is suitable for a general diet and supports neutral mood.
+Tomato chutney (Tamatar ki chutney),"Vegan, Vegetarian",Depressed Mood,None,Dinner,Tomato chutney (Tamatar ki chutney) is suitable for a general diet and supports neutral mood.
+Tomato ketchup,"Vegan, Vegetarian",Energetic & Calm,None,Snack,Tomato ketchup is suitable for a general diet and supports neutral mood.
+Bengal 5 Spice Blend (Panch Phoran),"Vegan, Vegetarian",Happy,None,Lunch,Bengal 5 Spice Blend (Panch Phoran) is suitable for a general diet and supports neutral mood.
