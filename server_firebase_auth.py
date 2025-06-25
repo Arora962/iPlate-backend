@@ -82,8 +82,8 @@ class FoodDetectionApp:
         self.supabase: Client = create_client(supabase_url, supabase_key)
 
         try:
-            with torch.serialization.safe_globals({'ultralytics.nn.tasks.DetectionModel': DetectionModel}):
-                self.model = YOLO(model_weights)
+            
+            self.model = YOLO(model_weights)
 
             logging.info(f"YOLO model loaded from {model_weights}")
         except Exception as e:
